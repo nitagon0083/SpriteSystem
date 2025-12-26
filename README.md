@@ -25,7 +25,7 @@ SpriteSystemは、Gemini 3.0 Pro および Flash の性能を最大限に引き�
 
 ## 📦 導入方法
 
-1. リポジトリ内の `SpriteSystem_Pro_v9.8.md` または `SpriteSystem_Flash_v9.8.md` を開きます。
+1. リポジトリ内の `SpriteSystem_Pro.md` または `SpriteSystem_Flash.md` を開きます。
 2. 内容をすべてコピーします。
 3. Gemini のシステムプロンプト欄、または新しいチャットの最初のメッセージとして貼り付けてください。
 
