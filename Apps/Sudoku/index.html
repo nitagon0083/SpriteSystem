@@ -263,13 +263,13 @@
 <header>
   <button id="btn-help" class="header-btn">❓使い方</button>
   <h1 id="title-label">ナンプレ</h1>
-  <button id="btn-install" class="header-btn">⬇️ 保存</button>
+  <button id="btn-install" class="header-btn">⬇️ アプリ化</button>
   <button id="btn-new" class="header-btn">🆕新規</button>
 </header>
 
 <div id="game-container">
   <div id="func-buttons">
-    <button id="btn-ls-install" class="func-btn landscape-only" style="display:none; color:var(--gold-color);"><span class="icon">⬇️</span>保存</button>
+    <button id="btn-ls-install" class="func-btn landscape-only" style="display:none; color:var(--gold-color);"><span class="icon">⬇️</span>アプリ化</button>
     <button id="btn-ls-help" class="func-btn landscape-only"><span class="icon">❓</span>使い方</button>
     <button id="btn-ls-new" class="func-btn landscape-only"><span class="icon">🆕</span>新規</button>
     
@@ -752,7 +752,7 @@ const App = {
     }
   },
   showHelp() {
-    UI.showDialog("【使い方】\n1. マスを選んで数字を入力。\n2. 間違いはすぐに赤字になります。\n\n・[⬇️保存] ホーム画面に追加\n・[✏️メモ] メモ入力モード\n・[✅判定] 全体の再確認", [{text: "わかりました", action: UI.closeDialog}]);
+    UI.showDialog("【使い方】\n1. マスを選んで数字を入力。\n2. 間違いはすぐに赤字になります。\n\n・[⬇️アプリ化] ホーム画面に追加\n・[✏️メモ] メモ入力モード\n・[✅判定] 全体の再確認", [{text: "わかりました", action: UI.closeDialog}]);
   }
 };
 App.init();
