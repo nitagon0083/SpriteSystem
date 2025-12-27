@@ -6,13 +6,13 @@
 ## 🛠 開発プロセス：Hybrid & Iterative Workflow
 単なるAI生成ではなく、モデルの特性を使い分けた高度なプロセスを経て完成しました。
 
-### 1. Phase 1: Architecture (Flash)
+### 1️⃣ Phase 1: Architecture (Flash)
 軽量・高速な **SpriteSystem_Flash** を使用。アプリの基本概念とデータ構造のプロトタイプ（仕様書）を迅速に構築しました。
 
-### 2. Phase 2: High-Quality Output (Pro)
+### 2️⃣ Phase 2: High-Quality Output (Pro)
 構築された仕様書を **SpriteSystem_Pro** に投入。複雑な論理演算（数独生成アルゴリズム）と、堅牢なエラーハンドリングを備えたメインコードを出力。
 
-### 3. Phase 3: Human Refinement (Manual)
+### 3️⃣ Phase 3: Human Refinement (Manual)
 生成されたコードに対し、実機テストに基づいたアクセシビリティの微調整を敢行。家族への感謝を込めた**イースターエッグ（特定日のお祝い機能）**を直接統合し、少しずつ修正を重ねて最終的な品質を担保しました。
 
 ---
@@ -34,9 +34,13 @@
 ---
 
 ## 📂 ファイル構成
-- `index.html` ： アプリケーション本体
-- `spec.md` ： SpriteSystem Flashで作成した設計仕様書
+- `index.html` ： アプリケーション本体（HTML/CSS/JS統合版）
+- `spec.md` ： SpriteSystem Flashで作成した設計仕様書（設計図）
 - `README.md` ： 本ドキュメント（プロジェクト解説）
+
+## 🔧 動作環境・ライセンス
+- **環境**: Chrome / Safari / Edge / Firefox 等のモダンブラウザ（PC・スマホ対応）
+- **ライセンス**: MIT License（個人利用・改変自由）
 
 ---
 
