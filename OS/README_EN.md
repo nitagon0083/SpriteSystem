@@ -1,4 +1,4 @@
-# SpriteSystem OS v10.3 [Flash Edition] | Logic Core Spec
+# SpriteSystem OS v10.3 | Logic Core Spec
 
 This directory contains the core system prompt files for SpriteSystem OS.
 
