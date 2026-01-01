@@ -1,54 +1,78 @@
-# SpriteSystem OS v10.3 | Logic Core Spec
+# SpriteSystem OS v10.3 [Flash Edition] | Logic Core Spec
 
-This directory contains the system prompt files that form the core of SpriteSystem OS.
+This directory contains the core system prompt files for SpriteSystem OS.
 
 ## ■ v10.3 Core Features (Advanced Logic)
 
-This version of the logic engine implements the following advanced control mechanisms:
+The logic engine for this version implements the following advanced control mechanisms:
 
-* **PHASE 0: SELF-DIAGNOSTIC:** Before responding, the AI self-checks its understanding of instructions to prevent "logic drift" before it starts.
-* **DRIFT DETECTION:** Automatically detects and alerts for instruction forgetfulness or logical deviations during prolonged conversations.
-* **RELOAD TRIGGER:** Forces a reset and restructuring of the logical framework via specific commands if the system becomes unstable.
-* **ADAPTIVE DIFF STRATEGY:** Automatically switches between "Full Rewrite" and "Partial Edit" based on the volume of changes to optimize token efficiency.
+* **PHASE 0: SELF-DIAGNOSTIC:** Before generating a response, the AI performs a self-check on its understanding of instructions to prevent logical drift.
+* **DRIFT DETECTION:** Automatically detects and warns of inconsistencies or instruction loss during prolonged conversations.
+* **RELOAD TRIGGER:** Forcefully resets and reconstructs the logical framework using specific commands if the system becomes unstable.
+* **ADAPTIVE DIFF STRATEGY:** Optimizes token efficiency by automatically choosing between "full replacement" and "partial modification" based on the volume of changes.
 
 ---
 
 ## ■ [RELOAD] System Reload Sequence
 
-If the logic becomes overly complex or behavior becomes unstable, enter `RELOAD`. The following process will redefine the thought framework:
+If logic becomes complex and behavior turns unstable during a conversation, enter the `RELOAD` command. The following process will redefine the thought framework:
 
 > **RELOAD TRIGGER RESPONSE:**
 > 1. **Current State:** v10.3 Stable
 > 2. **Logic Integrity:** Checking... [OK]
 > 3. **Self-Diagnostic:** AI Advisor / Data Analyst / Prompt Engineer modes ready.
-> *The framework of thought has been locked to the latest state.*
+> *Logical framework has been locked to the latest state.*
 
 ---
 
-## ■ Hybrid Workflow Guide
+## ■ Case Study: Stress Test and Logical Recovery Validation (Gemini 3.0 Flash)
 
-This OS maximizes its potential by strategically utilizing the characteristics of each Gemini 3.0 model.
+A field test was conducted on **SpriteSystem v10.3 [Flash Edition]** to verify the system's peak performance and resilience.
+
+### 1. Experiment: High-Density Virtual Simulation
+* **Environment**: Gemini 3.0 Flash.
+* **Workload**: Full output of large-scale source code (over 300 lines) with a "NO OMISSION" constraint.
+* **Result**: Success. The virtual simulation maintained consistency until the end, outputting the full content without any omissions, proving the validity of the design theory.
+
+### 2. Incident: Logical Drift and Command Rejection
+* **Event**: Immediately following the high-load output, a severe **Logical Drift** occurred.
+* **Situation**: Due to historical noise, the system entered a state of malfunction where even text commands like `RELOAD` were not recognized or executed.
+
+### 3. Recovery: Forced Recovery via Physical Reload
+* **Action**: Since text commands were ineffective, a physical resynchronization was performed by re-uploading the OS definition file.
+* **Result**: Successfully returned to the **READY** state within the same session by purging the interference caused by historical noise.
+* **Validation**: Immediately after recovery, the system performed a meta-analysis of its own malfunctioning logs and proved that its cognitive capacity was fully restored by reconstructing this report.
+
+### 4. Operational Insights
+* **Physical Recovery**: Even during a severe collapse where text commands fail, cognitive restoration is possible by re-injecting the definition file.
+* **Recommended Flow**: After any large-scale output, performing a definition reload ensures stable intelligence and allows work to continue without switching sessions.
+
+---
+
+## ■ Hybrid Operations Guide
+
+This OS achieves its full potential when used according to the characteristics of the Gemini 3.0 models.
 
 1. **SpriteSystem_Pro.md**
-    - **Usage:** Complex logic design, advanced analysis, and strict code generation.
-    - **Strength:** Maximizes deep reasoning capabilities to provide ultimate consistency.
+    - **Use Case:** Complex logical design, advanced analysis, and rigorous code generation.
+    - **Strength:** Maximizes deep reasoning capabilities to achieve ultimate consistency.
 2. **SpriteSystem_Flash.md**
-    - **Usage:** Daily interaction, rapid prototyping, and high-volume text processing.
-    - **Strength:** Maintains overwhelming response speed and token efficiency while applying the OS logic framework.
+    - **Use Case:** Daily interaction, rapid prototyping, and high-volume text processing.
+    - **Strength:** Maintains the logical framework of the OS while providing exceptional response speed and token efficiency.
 
 ---
 
 ## ■ Recommended Development Cycle: Professional Loop
 
-This flow is designed to optimize "Precision, Speed, and Cost" to the extreme.
+A recommended workflow to optimize for accuracy, speed, and cost.
 
-1. **[Design] Prompt Engineering with Flash**
-    Leverage fast response times to refine task-specific "Templates" through rapid dialogue.
-2. **[Build] Full Prototype Output with Pro**
-    Feed the refined template into the Pro model. Use its deep reasoning to generate a perfect first-edition prototype (code or long-form documentation).
-3. **[Refine] Partial Output with Pro (Token Saving)**
-    For subsequent edits, generate only "diffs" (updates) to maintain high logical consistency and context awareness while minimizing token consumption.
-4. **[Finalize] Final Output with Pro**
-    Perform final adjustments and integration within the Pro model to ensure logical integrity and generate the highest quality deliverables.
-5. **[Assetization] Template Preservation**
-    Save the successful process as an "External Template" to keep the OS in a clean, high-performance state.
+1. **[Design] Prompt Creation in Flash Mode**
+    Utilize fast response times to refine a "Job Specification (Template)" through dialogue.
+2. **[Build] Full Prototype Output in Pro Mode**
+    Feed the refined spec into Pro. Use deep reasoning to generate the first complete version (code or long documents) in a perfect state.
+3. **[Refine] Partial Output in Pro Mode (Token Saving)**
+    For subsequent edits, maintain Pro's logic and context while outputting only the "Diffs (modified parts)" to ensure accuracy while reducing token consumption.
+4. **[Polish] Final Output in Pro Mode**
+    Perform final fine-tuning and integration back in Pro. Verify logic and consistency to generate a high-quality final product.
+5. **[Assetize] Template Preservation**
+    Save successful processes as "External Templates" to keep the core OS state clean.
