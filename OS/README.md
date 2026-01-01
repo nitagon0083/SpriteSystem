@@ -1,4 +1,4 @@
-# SpriteSystem OS v10.3 [Flash Edition] | Logic Core Spec
+# SpriteSystem OS v10.3 | Logic Core Spec
 
 本ディレクトリには、SpriteSystem OS の核となるシステムプロンプト・ファイルが格納されています。
 
