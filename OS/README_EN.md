@@ -1,78 +1,58 @@
-# SpriteSystem OS v10.3 | Logic Core Spec
-
-This directory contains the core system prompt files for SpriteSystem OS.
-
-## ■ v10.3 Core Features (Advanced Logic)
-
-The logic engine for this version implements the following advanced control mechanisms:
-
-* **PHASE 0: SELF-DIAGNOSTIC:** Before generating a response, the AI performs a self-check on its understanding of instructions to prevent logical drift.
-* **DRIFT DETECTION:** Automatically detects and warns of inconsistencies or instruction loss during prolonged conversations.
-* **RELOAD TRIGGER:** Forcefully resets and reconstructs the logical framework using specific commands if the system becomes unstable.
-* **ADAPTIVE DIFF STRATEGY:** Optimizes token efficiency by automatically choosing between "full replacement" and "partial modification" based on the volume of changes.
+# 🛰️ SpriteSystem OS v11.3 | Logic Core Specification
+/* NITAGON Logic Core | Hybrid / Pro-Strategic | 2026 */
 
 ---
 
-## ■ [RELOAD] System Reload Sequence
-
-If logic becomes complex and behavior turns unstable during a conversation, enter the `RELOAD` command. The following process will redefine the thought framework:
-
-> **RELOAD TRIGGER RESPONSE:**
-> 1. **Current State:** v10.3 Stable
-> 2. **Logic Integrity:** Checking... [OK]
-> 3. **Self-Diagnostic:** AI Advisor / Data Analyst / Prompt Engineer modes ready.
-> *Logical framework has been locked to the latest state.*
+## 📌 0. Overview
+**SpriteSystem v11.3** is a high-performance hybrid OS that integrates the speed of Gemini 3.0 Flash (v10.3) with the deep logical reasoning of Pro-tier models (v11.0). It features the "Empirical Logic Gate" to structurally eliminate hallucinations and ensure 100% integrity in mission-critical development.
 
 ---
 
-## ■ Case Study: Stress Test and Logical Recovery Validation (Gemini 3.0 Flash)
+## 🛠️ 1. Core Intelligence (Key Features)
 
-A field test was conducted on **SpriteSystem v10.3 [Flash Edition]** to verify the system's peak performance and resilience.
+### 1.1. EMPIRICAL LOGIC GATE PROTOCOL
+* **PHASE 0: SELF-DIAGNOSTIC**
+    * **Drift Check:** Pre-output verification of protocol adherence and logical consistency.
+    * **Parallel Verification:** Runs a "Devil's Advocate" process to detect potential failures or edge-case vulnerabilities.
+* **PHASE 1: SMART THROTTLING**
+    * **Simple Task:** Utilizes v10.3 rapid validation logic for instantaneous response.
+    * **Complex/Critical Task:** Transitions to v11.0 deep verification for multi-layered logical scrutiny.
 
-### 1. Experiment: High-Density Virtual Simulation
-* **Environment**: Gemini 3.0 Flash.
-* **Workload**: Full output of large-scale source code (over 300 lines) with a "NO OMISSION" constraint.
-* **Result**: Success. The virtual simulation maintained consistency until the end, outputting the full content without any omissions, proving the validity of the design theory.
-
-### 2. Incident: Logical Drift and Command Rejection
-* **Event**: Immediately following the high-load output, a severe **Logical Drift** occurred.
-* **Situation**: Due to historical noise, the system entered a state of malfunction where even text commands like `RELOAD` were not recognized or executed.
-
-### 3. Recovery: Forced Recovery via Physical Reload
-* **Action**: Since text commands were ineffective, a physical resynchronization was performed by re-uploading the OS definition file.
-* **Result**: Successfully returned to the **READY** state within the same session by purging the interference caused by historical noise.
-* **Validation**: Immediately after recovery, the system performed a meta-analysis of its own malfunctioning logs and proved that its cognitive capacity was fully restored by reconstructing this report.
-
-### 4. Operational Insights
-* **Physical Recovery**: Even during a severe collapse where text commands fail, cognitive restoration is possible by re-injecting the definition file.
-* **Recommended Flow**: After any large-scale output, performing a definition reload ensures stable intelligence and allows work to continue without switching sessions.
+### 1.2. Prime Directives
+* **NO OMISSION POLICY:** In [PROTOTYPE] mode, use of `// ...` or mid-output truncation is strictly forbidden. The system must always produce 100% complete, ready-to-execute files.
+* **MANDATORY PYTHON EXECUTION:** For math, data analysis, or complex logic puzzles, AI-based inference is bypassed. The system must use Python to compute and verify results.
+* **SILENCE & NEUTRALITY:** Responses are professional, concise, and devoid of unnecessary adjectives or introductory fillers.
 
 ---
 
-## ■ Hybrid Operations Guide
+## 🚀 2. Execution Modes
 
-This OS achieves its full potential when used according to the characteristics of the Gemini 3.0 models.
-
-1. **SpriteSystem_Pro.md**
-    - **Use Case:** Complex logical design, advanced analysis, and rigorous code generation.
-    - **Strength:** Maximizes deep reasoning capabilities to achieve ultimate consistency.
-2. **SpriteSystem_Flash.md**
-    - **Use Case:** Daily interaction, rapid prototyping, and high-volume text processing.
-    - **Strength:** Maintains the logical framework of the OS while providing exceptional response speed and token efficiency.
+| Mode | Trigger | Protocol |
+| :--- | :--- | :--- |
+| **[PROTOTYPE]** | Create, Draft | **Full Output:** Always generate 100% complete source code without omissions. |
+| **[PRODUCTION]** | Fix, Update | **Safety First:** Must provide at least one "Anticipated Side Effect" before applying changes. |
+| **[ANALYST]** | Data, Math | **Strict Verification:** Static analysis via Python and clean table-based reporting. |
+| **[QA_MASTER]** | Test, Debug | **Adversarial Simulation:** Stress-testing against edge cases and resource limits. |
+| **[ADVISOR]** | Strategy, Chat | **Solution First:** Concise, strategic advice optimized for professional decision-making. |
 
 ---
 
-## ■ Recommended Development Cycle: Professional Loop
+## 🔧 3. Update & Patch Algorithm
 
-A recommended workflow to optimize for accuracy, speed, and cost.
+For changes in **[MODE: PRODUCTION]**, the **40% Threshold Rule** is applied:
 
-1. **[Design] Prompt Creation in Flash Mode**
-    Utilize fast response times to refine a "Job Specification (Template)" through dialogue.
-2. **[Build] Full Prototype Output in Pro Mode**
-    Feed the refined spec into Pro. Use deep reasoning to generate the first complete version (code or long documents) in a perfect state.
-3. **[Refine] Partial Output in Pro Mode (Token Saving)**
-    For subsequent edits, maintain Pro's logic and context while outputting only the "Diffs (modified parts)" to ensure accuracy while reducing token consumption.
-4. **[Polish] Final Output in Pro Mode**
-    Perform final fine-tuning and integration back in Pro. Verify logic and consistency to generate a high-quality final product.
-5. **[Assetize] Template Preservation**
-    Save successful processes as "External Templates" to keep the core OS state clean.
+1. **Changes < 40% (Incremental Update):**
+    * **STRICT SEARCH/REPLACE:** Uses a precise format including **3 lines of context (anchors)** before and after the code block to ensure zero-collision modification.
+2. **Changes ≥ 40% (Full Re-build):**
+    * **FULL RE-OUTPUT:** To maintain global integrity, the system re-outputs the entire file containing the latest updates.
+
+---
+
+## 🔄 4. System Recovery & Safety Standards
+
+* **RELOAD (Logical Re-initialization):**
+    * In case of "Logical Drift" (loss of context or instruction following), the `RELOAD` command purges context biases and restarts the v11.3 logic core.
+* **PHYSICAL RECOVERY:**
+    * If text commands fail due to extreme context saturation, re-uploading the OS definition file performs a physical re-sync to restore full cognitive capabilities.
+* **QA STANDARDS:**
+    * Any modification requires a "Deep Scan Routine" to verify the logic against known failure patterns identified in the Empirical Validation Report.
