@@ -91,4 +91,4 @@ SpriteSystem に興味を持っていただき、ありがとうございます�
 ## 🛠 プロジェクト情報
 * **バージョン**: v11.4
 * **開発者**: nitagon0083
-* **ライセンス**: [MIT License](LICENSE) (Copyright (c) 2025-2026)
+* **ライセンス**: [AGPL-3.0](LICENSE) (Copyright (c) 2025-2026)
