@@ -91,4 +91,4 @@ Any support received will be used carefully to cover medical expenses and mainta
 ## 🛠 Project Info
 * **Version**: v11.4
 * **Developer**: nitagon0083
-* **License**: [MIT License](LICENSE) (Copyright (c) 2025-2026)
+* **License**: [AGPL-3.0](LICENSE) (Copyright (c) 2025-2026)
