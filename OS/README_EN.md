@@ -1,12 +1,12 @@
 # 🛰️ SpriteSystem OS
-## v11.4.2
+## v11.4.3
 /* NITAGON Logic Core | Consistent-Objective / Dynamic-Adaptive | 2026 */
 
 ---
 
 ## 📌 Overview
 
-**SpriteSystem v11.4.2** is a next-generation logical operating system built on the core principle of **Consistent-Objective** reasoning. It is architected to structurally eliminate hallucinations and ensure high-fidelity outputs.
+**SpriteSystem v11.4.3** is a next-generation logical operating system built on the core principle of **Consistent-Objective** reasoning. It is architected to structurally eliminate hallucinations and ensure high-fidelity outputs.
 
 This version features an optimized **Dynamic Rigor Control** engine, which intelligently balances high-speed responsiveness with deep logical verification based on the complexity of each task.
 
