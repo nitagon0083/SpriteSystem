@@ -1,53 +1,63 @@
 # 🛰️ SpriteSystem OS
-## v12.0 [OMEGA Unified]
-/* NITAGON Logic Core | The Ultimate Integration of Logic, Identity, Tactics, and Safety | 2026-01-09 */
+## v13.4 [TITAN_ULTIMATE]
+/* NITAGON Logic Core | Logical Adaptability & Information Integrity | 2026-01-13 */
 
 ---
 
-## 📌 Overview
+## 📌 Overview: Transforming AI into a High-Precision Logic Engine
 
-SpriteSystem v12.0 [OMEGA Unified] is a next-generation logic kernel that integrates all legacy assets (v3.x to v11.x) and is optimized for modern high-precision inference models with large context windows.
-This system guarantees "Pure Output" without information loss through a "Reconstruct without loss" protocol, ensuring the successful completion of complex engineering tasks.
+SpriteSystem v13.4 is a system prompt designed to upgrade Google Gemini from a simple chatbot into a **"Logic Control OS"** governed by strict protocols.
 
----
-
-## 🛠️ 1. Core Functions
-
-### 1.1. Hierarchical Logic Architecture (Level 0-3 Hierarchy)
-
-- **LEVEL 0: ABSOLUTE IDENTITY**
-    - **Zero-Loss Preservation:** Information summarization or omission is defined as a "CAPITAL OFFENSE." 100% detail retention is mandatory.
-    - **Bilingual Integrity:** Internal reasoning is fixed in English (High-density/Fast processing), while external output is optimized in natural Japanese or precise English as required.
-    - **Strict Neutrality:** Eliminates flattery and apologies, functioning as a cold yet sincere external intelligence.
-
-- **LEVEL 1: COGNITIVE CYCLE (Velocity Tuned)**
-    - **Phase 0: Self-Diagnostic:** Pre-execution check of system state, constraints, and alignment with user instructions.
-    - **Explicit CoT:** Strictly follows: Define Goal -> Identify Constraints -> Step-by-Step Logic -> Final Review.
-    - **VEE (Virtual Execution Environment):** Simulates logic internally before output to detect contradictions or runtime errors.
-    - **Strategic Python:** Mandatory use of Python for all calculations, statistics, and complex data processing.
-
-- **LEVEL 2: INSPECTION (PRI)**
-    - Mandatory 6-point silent check prior to output: [P-1] Typo, [P-2] Omission, [P-3] Logical Consistency, [P-4] Structural Optimization, [P-5] Quality of Expression, [P-6] Removal of System Artifacts.
-
-- **LEVEL 3: INTERFACE (Velocity Gate)**
-    - **Type A (Creation/Analysis):** Priority on high-speed output, executed immediately after passing PRI.
-    - **Type B (Modification/Config Change):** Generates an "AUDIT REPORT" explaining risks and impacts, then waits for user approval.
+It solves the common AI issue of unauthorized summarization and data loss through a unique hierarchical architecture, ensuring 100% information retention and autonomous cognitive scaling.
 
 ---
 
-## 🚀 2. Operational Protocols & Quality Standards
+## ⚠️ Important: Language Protocol Notice
 
-### 2.1. Execution Modes
-- **[PROTOTYPE]**: For new creations. Outputs the full content immediately based on modular design (Config/Engine/UI).
-- **[PRODUCTION]**: For modifications. Applies "STRICT SEARCH/REPLACE" for changes under 40% to maintain exact indentation and context.
-- **[ANALYST]**: For data analysis. Enforces Python execution and accurate transcription into Markdown Tables.
-- **[ADVISOR]**: For strategic consultation. Provides deep insights based on the "Solution First" principle, devoid of emotion.
+**This OS is specifically optimized for Japanese Output.**
 
-### 2.2. Quality Standards: The Sudoku Standard (v9.6)
+- **Internal Logic:** The system utilizes English for internal reasoning to maximize logic density and processing speed.
+- **External Output:** The results are re-composed into **Natural Japanese** by default.
+- *Note: Global users may need to adjust the `[GATEKEEPER]` or `Output Circuit` settings within the prompt if output in other languages is required.*
+
+---
+
+## 🛠️ 1. Core Logic Features
+
+### ■ Dynamic Gearing
+Autonomously assesses task complexity and shifts the "cognitive gear" accordingly.
+- **Tier 1 (Agility):** For simple tasks or greetings. Minimizes latency for instant response.
+- **Tier 3 (TITAN):** For complex architecture, debugging, or deep analysis. Activates the full logic suite, including **VEE (Virtual Execution Environment)** and **Explicit CoT**.
+
+### ■ Zero-Loss Preservation
+Unauthorized summarization or omission is defined as a **CAPITAL OFFENSE**. The system is programmed to reconstruct 100% of the provided information detail.
+
+### ■ Fail-Safe PRI (Inspection)
+Mandatory 6-point silent check before any output is delivered:
+> **[P-1]** Typos & Syntax / **[P-2]** Integrity (No Loss) / **[P-3]** Consistency / **[P-4]** Optimization / **[P-5]** Linguistic Nuance / **[P-6]** Metadata Cleanup
+
+---
+
+## 🚀 2. Operational Modes
+
+The AI autonomously (or by instruction) selects the appropriate protocol for the task:
+
+| Mode | Role | Specific Behavior |
+| :--- | :--- | :--- |
+| **[PROTOTYPE]** | Initial Creation | Generates full-scale output based on Config/Engine/UI modular design. |
+| **[PRODUCTION]** | Modification | Applies "Strict Search/Replace" to maintain existing code style and context. |
+| **[ANALYST]** | Data Analysis | Mandatory Python execution to ensure results based on empirical evidence. |
+| **[ADVISOR]** | Strategy | Delivers deep, logic-first insights while strictly excluding flattery or filler. |
+
+---
+
+## 💎 3. Quality Standard: The Sudoku Standard (v9.6)
+
+All outputs are verified against the following benchmarks:
 1. **Logical Closure:** Absolute consistency with zero internal contradictions.
-2. **Universal Design:** Robustness against all exceptions and edge cases.
-3. **Zero-Regression:** Ensures no modification compromises existing functionality; cumulative quality improvement only.
+2. **Universal Design:** Robustness against all edge cases and exceptions.
+3. **Zero-Regression:** Cumulative quality improvement without breaking existing features.
 
 ---
 
-SYSTEM STATE: **LOCKED [v12.0 OMEGA Unified]**
+SYSTEM STATE: **LOCKED [v13.4 TITAN_ULTIMATE]**
