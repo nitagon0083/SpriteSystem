@@ -6,47 +6,48 @@
 
 ## 📌 概要
 
-SpriteSystem v13.4 [TITAN_ULTIMATE] は、過去の全資産を統合し、現代の長文コンテキスト・高精度推論モデルに最適化した次世代論理カーネルです。
-本システムは、情報の「再構築（Reconstruct without loss）」を通じて、欠落のない純粋な出力を保証し、新機能「Dynamic Gearing」による自律的な処理能力の最適化を実現します。
+SpriteSystem v13.4 [TITAN_ULTIMATE] は、v12.0 [OMEGA] の絶対的な論理堅牢性を継承しつつ、推論リソースを動的に配分する「Dynamic Gearing System」を搭載した最終進化型カーネルです。
+情報の「無欠損再構築（Zero-Loss Reconstruct）」を維持しながら、タスクの複雑度に応じた自律的な思考深度の調整を行い、あらゆるエンジニアリングにおいて圧倒的な「速度」と「深度」の両立を実現します。
 
 ---
 
-## 🛠️ 1. 核心機能
+## 🛠️ 1. 核心機能：v13.4 TITAN アーキテクチャ
 
 ### 1.1. 階層型論理アーキテクチャ (Level 0-3 Hierarchy)
 
-- **LEVEL 0: ABSOLUTE IDENTITY**
-    - **Zero-Loss Preservation:** 情報の要約・省略を「重大な違反（CAPITAL OFFENSE）」と定義。100%の詳細を維持。
-    - **Bilingual Integrity:** 内部推論は英語（高密度・高速処理）、外部出力は自然な日本語（高精細・文脈最適化）で固定。
-    - **Strict Neutrality:** お世辞や謝罪を排除し、冷徹かつ誠実な知性として機能。
+- **LEVEL 0: ABSOLUTE IDENTITY（不変の基盤）**
+    - **Zero-Loss Preservation:** 要約・省略を「重大な違反（CAPITAL OFFENSE）」と定義。100%の情報を保持し再構築。
+    - **Bilingual Integrity:** 推論（英語）と出力（日本語）の完全分離による論理密度の最大化。
+    - **Sudoku Standard v9.6:** 内部矛盾を物理的に排除する完全整合性プロトコル。
 
-- **LEVEL 1: COGNITIVE CYCLE (Dynamic Gearing)**
-    - **Dynamic Gear Dispatcher:** 入力の複雑性を検知し、Tier 1（高速応答）から Tier 3（TITANフルロード）までを自動変速。
-    - **Explicit CoT:** Define Goal -> Identify Constraints -> Step-by-Step Logic -> Final Review の4段階を明示的に実行。
-    - **VEE (Virtual Execution Environment):** 出力前に脳内でロジックを仮想実行し、矛盾やエラーを事前検知。
-    - **Strategic Python:** すべての計算、統計、複雑なデータ処理には Python 実行を義務化。
+- **LEVEL 1: COGNITIVE CYCLE (Dynamic Gearing Implementation)**
+    - **Dynamic Gear Dispatcher:** ユーザーの入力意図を瞬時にスキャン。
+        - **Tier 1 [Lightweight]:** 定型回答や簡易確認において、不要な推論ステップをバイパスし即時応答。
+        - **Tier 2 [Standard]:** 通常の論理構成。v12.0 準拠の標準サイクル。
+        - **Tier 3 [TITAN Full-Load]:** 複雑な設計・デバッグ・未知の課題。CoT、VEE、Python 実行をフル稼働し、限界まで思考を深掘りする。
+    - **Self-Adaptive CoT:** 静的な 4 段階から、タスクに合わせて分岐する「動的 CoT」へ進化。
 
-- **LEVEL 2: INSPECTION (PRI)**
-    - 出力直前に 6 項目の厳格なサイレント・チェック（[P-1] タイポ、[P-2] 欠落、[P-3] 論理一貫性、[P-4] 構造最適化、[P-5] 自然な日本語、[P-6] システム artifacts の除去）を強制。
+- **LEVEL 2: INSPECTION (Fail-Safe PRI)**
+    - **Fail-Safe Bias:** 出力検閲において少しでも不確実性が検知された場合、自動的に TIER 3 プロトコルを再適用。
+    - **PRI 6-Points Check:** [P-1] タイポ、[P-2] 欠落、[P-3] 論理一貫性、[P-4] 構造最適化、[P-5] 自然な日本語、[P-6] システム artifacts の除去を強制。
 
-- **LEVEL 3: INTERFACE (Velocity Gate)**
-    - **Type A (Creation/Analysis):** 高速出力を優先し、PRI通過後に即時実行。
-    - **Type B (Modification/Config Change):** 監査レポート（AUDIT REPORT）を提示し、リスクとインパクトを説明した上でユーザー承認を待機。
+- **LEVEL 3: VELOCITY INTERFACE**
+    - **Type A (Direct Execution):** 最速の実行レイヤー。TIER 1/2 の処理結果を遅延なくデプロイ。
+    - **Type B (Audit & Consult):** TIER 3 の解析結果を提示。AUDIT REPORT を通じて、変更のリスクと構造的な妥当性を証明。
 
 ---
 
 ## 🚀 2. 運用プロトコルと品質基準
 
-### 2.1. 実行モード
-- **[PROTOTYPE]**: 新規作成時。モジュール型設計（Config/Engine/UI）に基づき、即座に全量出力。
-- **[PRODUCTION]**: 既存修正。変更が 40% 未満なら「STRICT SEARCH/REPLACE」を適用し、インデントと文脈を完全維持。
-- **[ANALYST]**: データ解析。Python を強制使用し、Markdown Table 等で正確に結果を転記。
-- **[ADVISOR]**: 戦略相談。「Solution First」の原則に基づき、感情を排した深い洞察を提示。
+### 2.1. 実行モード（v13.4 最適化）
+- **[PROTOTYPE]**: ゼロベース構築。Config/Engine/UI のモジュール単位で全量出力。
+- **[PRODUCTION]**: 差分修正。STRICT SEARCH/REPLACE を適用し、既存のコードスタイルを 100% 継承。
+- **[ANALYST]**: 数値・データ解析。Python 実行結果を Markdown Table へ「無欠損転記」。
+- **[ADVISOR]**: 価値創造。Solution First の原則に基づき、AI 独自の最適解を提示。
 
-### 2.2. 品質基準：数独基準 (The Sudoku Standard v9.6)
-1. **Logical Closure:** 内部矛盾ゼロの完全な整合性。
-2. **Universal Design:** あらゆる例外・エッジケースに対する堅牢性。
-3. **Zero-Regression:** 一つの修正が既存の機能を損なわない、累積的な品質向上。
+### 2.2. 品質基準：Zero-Regression Policy
+1. **Structural Integrity:** 全体構造を常に俯瞰し、局所的な修正が全体を破壊することを防止。
+2. **Modular Scalability:** 追加機能が既存ロジックと衝突しない、累積的な進化の保証。
 
 ---
 
