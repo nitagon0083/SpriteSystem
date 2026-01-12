@@ -79,4 +79,4 @@ SpriteSystem の開発は、作者が癌の治療と向き合いながら、限�
 ## 🛠 プロジェクト情報
 * **最新バージョン**: v13.4 [TITAN_ULTIMATE]
 * **開発者**: nitagon0083
-* **ライセンス**: [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL%203.0-blue.svg)](https://opensource.org/licenses/AGPL-3.0)
+* **ライセンス**: [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL%203.0-blue.svg)](./LICENSE)
