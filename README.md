@@ -42,10 +42,10 @@ v13.4で導入された新機能です。AIが「今は簡単な挨拶か？そ�
 
 リポジトリ内の各ファイルから最新版を取得できます。
 
-* **[SpriteSystem_Pro.md]([./SpriteSystem_Pro.md](https://github.com/nitagon0083/SpriteSystem/blob/main/OS/SpriteSystem_Pro.md))**
+* **[SpriteSystem_Pro.md](./OS/SpriteSystem_Pro.md)**
     * **推奨用途**: 高度なタスク（論理思考、精密設計、開発など）
     * **特徴**: v13.4搭載。普段は軽く、いざという時は最強の論理を発揮する統合版。
-* **[SpriteSystem_Flash.md]([./SpriteSystem_Flash.md](https://github.com/nitagon0083/SpriteSystem/blob/main/OS/SpriteSystem_Flash.md))**
+* **[SpriteSystem_Flash.md](./OS/SpriteSystem_Flash.md)**
     * **推奨用途**: 日常的なタスク（応答速度、トークン節約、手軽さ）
     * **特徴**: 応答速度と手軽さを重視した、シンプルで軽快なバージョン。
 
