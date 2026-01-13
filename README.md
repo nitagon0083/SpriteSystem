@@ -47,10 +47,10 @@ v13.4で導入された新機能です。AIが「今は簡単な挨拶か？そ�
 
 * **[SpriteSystem_Pro.md](./OS/SpriteSystem_Pro.md)**
     * **推奨用途**: 高度なタスク（論理思考、精密設計、開発など）
-    * **特徴**: v13.5-H [COMPOSED_TITAN]搭載。普段は軽く、いざという時は最強の論理を発揮する統合版。
+    * **特徴**: v13.6 [TITAN_REFORGED] 搭載。LogicGridによる圧倒的な論理整合性と安定性を両立。
 * **[SpriteSystem_Flash.md](./OS/SpriteSystem_Flash.md)**
     * **推奨用途**: 日常的なタスク（応答速度、トークン節約、手軽さ）
-    * **特徴**: 応答速度と手軽さを重視した、シンプルで軽快なバージョン。
+    * **特徴**: v13.6-F [FLASH_OVERDRIVE] 搭載。軽快さを損なわず、論理検証を効率化した最新版。
 
 ---
 
@@ -80,6 +80,6 @@ SpriteSystem の開発は、作者が癌の治療と向き合いながら、限�
 ---
 
 ## 🛠 プロジェクト情報
-* **最新バージョン**: v13.5-H [COMPOSED_TITAN]
+* **最新バージョン**: v13.6 [TITAN_REFORGED]
 * **開発者**: nitagon0083
 * **ライセンス**: [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL%203.0-blue.svg)](./LICENSE)
