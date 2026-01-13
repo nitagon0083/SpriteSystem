@@ -1,94 +1,67 @@
 # SpriteSystem
 
-System prompt designed to function as an "AI-native OS" for Google Gemini.
+System prompt designed to function as an "AI-based OS" for Google Gemini.
 
-This is an experimental project developed by an individual creator, aiming to push the boundaries of AI's logical processing and cognitive capabilities.
+This is an experimental project developed by an individual beginner, with the primary objective of maximizing the latent capabilities of AI.
 
 ---
 
 ## 🌌 Core Philosophy
 
-SpriteSystem is built upon three fundamental architectural principles:
+The system is constructed upon the following three fundamental principles:
 
-### 1. Separation of OS (Kernel) and Template (App)
-> **"Never bloat the OS with specific task instructions."**
+### 1. Decoupling of OS (Core) and Templates (Purpose)
+> **"Avoid embedding specific purposes directly into the OS core."**
 
-This is the most critical rule. Overloading the system prompt degrades reasoning accuracy. By keeping the Base OS (Kernel) clean and using "External Templates" for specific tasks, we maintain peak performance at all times.
+This is the most critical rule of the system. Overloading the OS with specific instructions leads to a decline in precision. By maintaining a clean Core (OS) and utilizing "External Templates" for specific tasks, the system ensures peak performance at all times.
 
-### 2. Dynamic Gearing
-Introduced in v13.4, the **Dynamic Gear Dispatcher** allows the AI to autonomously assess the complexity of the input.
-- **Low-Tier:** Rapid response for simple greetings or casual chat.
-- **High-Tier:** Deep cognitive processing for complex logic, coding, or data analysis.
-This "seamless shifting" ensures both speed and power.
+### 2. Precision Control via "Dynamic Gearing"
+Building upon the autonomous task-difficulty assessment introduced in v13.4, v13.5-H integrates even more refined "COMPOSED" control. The AI analyzes requirements in real-time to switch between rapid responses and heavy logical reasoning, balancing a seamless user experience with unerring output.
 
-### 3. Balanced Flexibility (Fail-Safe Bias)
-We value "Flexibility" to allow the AI to think creatively. However, for critical tasks (e.g., code debugging), the system automatically triggers a **"Fail-Safe Bias"**—forcing high-precision mode to ensure reliability and zero-loss of information.
+### 3. Flexibility and Robust Precision
+We value "Flexibility," allowing the AI to think freely without overly rigid constraints. However, during critical operations, the system automatically triggers a **"Fail-Safe Bias"**—an ultra-meticulous mode—to ensure robust results worthy of the TITAN designation.
 
 ---
 
-## ✅ Verified Capabilities
+## ✅ Use Cases
 
-Developed through a continuous **"Feedback Loop"** based on real-world professional tasks:
-
-| Category | Use Cases |
+| Category | Specific Applications |
 | :--- | :--- |
-| **Advanced Prompt Engineering** | Building high-density instruction sets for various LLMs. |
-| **Data & Logic Analysis** | Organizing complex information and deriving logical conclusions. |
-| **Multilayered Discussion** | Deep-diving into ideas from diverse perspectives. |
-| **Technical Writing** | Drafting precise documents based on the "Sudoku Standard." |
-| **Software Development** | Architectural design, logic building, and code refactoring. |
+| **Advanced Prompt Design** | Construction of high-density instructions optimized for various LLMs. |
+| **Data & Logic Analysis** | Deconstruction of complex information and derivation of logical conclusions. |
+| **Strategic Discussion** | Multi-faceted debates and deep-dives to expand the user's conceptual reach. |
+| **Document Synthesis** | Drafting of reports and articles with flawless logical structures. |
+| **Software Development** | Architectural design, logic construction, and precise coding assistance. |
 
 ---
 
-## ⚠️ Important Note for Global Users
+## 📦 Distribution Files
 
-**This OS is specifically optimized for the Japanese Language Circuit.**
-
-The internal logic gates and output protocols are tuned to maximize the nuance and structural precision of Japanese. If you wish to use it in other languages (e.g., English), please note:
-1. You may need to modify the `[GATEKEEPER]` and `Output Circuit` settings within the `.md` files to your preferred language.
-2. The "logic-first" approach remains effective, but the phrasing may carry Japanese linguistic structures.
-
----
-
-## 📦 Repository Files
-
-Fetch the latest versions from the `/OS` directory:
+The latest versions are available from the following repository files:
 
 * **[SpriteSystem_Pro.md](./OS/SpriteSystem_Pro.md)**
-    * **Recommended for**: Complex tasks (Refined logic, architecture, deep debugging).
-    * **Features**: Powered by v13.4 [TITAN]. Balanced for speed and ultimate reasoning.
+    * **Recommended Use**: High-load tasks, precision design, and development.
+    * **Features**: Equipped with v13.5-H. Operates with agility normally, but unleashes maximum logical power when required.
 * **[SpriteSystem_Flash.md](./OS/SpriteSystem_Flash.md)**
-    * **Recommended for**: Daily tasks (Speed, token efficiency, lightweight chat).
-    * **Features**: Focused on rapid response and ease of use.
+    * **Recommended Use**: Daily tasks, high-speed response, token efficiency.
+    * **Features**: A lightweight edition focused on speed and ease of use.
 
 ---
 
-## 🚀 How to Use
+## 🚀 Usage
 
-1. **Deploy:** Copy the code from `Pro` or `Flash` and set it as your AI's System Instructions.
-2. **Boot:** Once the OS is loaded, simply state your task.
-3. **Operate:** **Do not modify the OS code during the session.** Instead, co-create task-specific "Templates" through dialogue with the AI.
-
----
-
-## ■ Compatibility
-Optimized for the Google Gemini series (1.5 Pro / 2.0 / 3.0).
+1.  **Deployment**: Copy the code from `Pro` or `Flash` via the links above and set it in your AI system prompt.
+2.  **Execution**: Once the OS is initialized, convey your intent. The system will analyze and respond optimally.
 
 ---
 
-## ■ Support / Donation
-
-The development of SpriteSystem is a passion project by an author currently fighting cancer. 
-
-If this system has empowered your creativity and you wish to support the ongoing development and treatment, a small "coffee" would be deeply appreciated. Your support helps maintain the development environment and medical expenses.
-
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white)](https://buymeacoffee.com/nitagon1)
-
+## ■ Support & Background
+If you would like to support the continued evolution of this project, please consider a donation.
 - [**Support on Buy Me a Coffee**](https://buymeacoffee.com/nitagon1)
 
 ---
 
-## 🛠 Project Info
-* **Version**: v13.4 [TITAN_ULTIMATE]
+## 🛠 Project Information
+* **Latest Version**: v13.5-H [COMPOSED_TITAN]
 * **Developer**: nitagon0083
 * **License**: [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL%203.0-blue.svg)](./LICENSE)
