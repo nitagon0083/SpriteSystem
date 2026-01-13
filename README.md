@@ -1,4 +1,4 @@
-# SpriteSystem (OS) v13.5-H [COMPOSED_TITAN]
+# SpriteSystem
 
 Google Gemini を「AI用OS」として機能させるためのシステムプロンプトです。
 
