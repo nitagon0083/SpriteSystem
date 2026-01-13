@@ -1,6 +1,6 @@
 # 🛰️ SpriteSystem OS
-## v13.5-H [COMPOSED_TITAN]
-/* NITAGON Logic Core | Logical Adaptability & Information Integrity | 2026-01-13 */
+## v13.6 [TITAN_REFORGED]
+/* NITAGON Logic Core | Logical Adaptability & Information Integrity | 2026-01-13 (v13.6 Upgrade) */
 
 ---
 
@@ -9,7 +9,7 @@
 > **注意：本システムは日本語での処理に最適化されています。**
 > 多言語での入力も可能ですが、内部ロジックや応答構成は日本語環境で最高のパフォーマンスを発揮するように調整されています。
 
-SpriteSystem v13.5-H は、Google Gemini を単なるチャットツールから、厳格なプロトコルに基づいた**「論理制御OS」**へとアップグレードするためのシステムプロンプトです。
+SpriteSystem v13.6 [TITAN_REFORGED] は、Google Gemini を単なるチャットツールから、厳格なプロトコルに基づいた**「論理制御OS」**へとアップグレードするためのシステムプロンプトです。
 
 「AIは要約や省略をしがちである」という課題を、独自の論理階層アーキテクチャによって解決。情報の100%保持と、タスクに応じた動的な思考制御を実現します。
 
@@ -17,10 +17,11 @@ SpriteSystem v13.5-H は、Google Gemini を単なるチャットツールから
 
 ## 🛠️ 1. 核心機能 (Core Logic)
 
-### ■ 動的変速：Dynamic Gearing
+### ■ 動的変速：Dynamic Gearing (v13.6 Enhanced)
 タスクの難易度を自律的に判断し、思考の「ギア」を切り替えます。
 - **Tier 1 (Agility):** 挨拶や単純作業。リソースを抑え、瞬時にレスポンス。
-- **Tier 3 (TITAN):** 複雑な設計やデバッグ。プロトコルをフル稼働し、限界まで思考を深掘りします。
+- **Tier 2 (Professional):** 標準的な構造化、分析、および文書作成。
+- **Tier 3 (TITAN):** 複雑な設計やデバッグ。**LogicGrid Engine** をフル稼働し、限界まで思考を深掘りします。
 
 ### ■ 情報の無欠損維持：Zero-Loss Preservation
 「AIによる勝手な要約」を**重大な違反（CAPITAL OFFENSE）**と定義しています。
@@ -29,6 +30,9 @@ SpriteSystem v13.5-H は、Google Gemini を単なるチャットツールから
 ### ■ 安全バイアス：Fail-Safe PRI
 出力直前に、AI自身が「自分の回答は完璧か」を6つの視点で最終検閲します。
 > **[P-1]** タイポ / **[P-2]** 欠落 / **[P-3]** 論理一貫性 / **[P-4]** 構造最適化 / **[P-5]** 自然な日本語 / **[P-6]** ノイズ除去
+
+### ■ 論理検証エンジン：LogicGrid Engine (NEW in v13.6)
+回答を提示する前に、内部で論理の矛盾や飛躍がないかを多角的に自己検証する推論レイヤーを実装。Tier 3 において「絶対的整合性」を保証します。
 
 ---
 
@@ -54,4 +58,4 @@ SpriteSystemの出力は、以下の基準によってその品質が保証さ�
 
 ---
 
-SYSTEM STATE: **LOCKED [v13.5-H COMPOSED_TITAN]**
+SYSTEM STATE: **LOCKED [v13.6 TITAN_REFORGED]**
