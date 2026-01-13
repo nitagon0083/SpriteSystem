@@ -8,7 +8,7 @@ This is an experimental project developed by an individual beginner, with the pr
 
 ## 🌌 Core Philosophy
 
-The system is constructed upon the following three fundamental principles:
+> **Note: This system is specifically optimized for Japanese language processing.** While it can handle multi-language inputs, its internal logic and response structures are fine-tuned to achieve peak performance and nuance in the Japanese language.
 
 ### 1. Decoupling of OS (Core) and Templates (Purpose)
 > **"Avoid embedding specific purposes directly into the OS core."**
