@@ -1,61 +1,67 @@
 # 🛰️ SpriteSystem OS
-## v13.6 [TITAN_REFORGED]
-/* NITAGON Logic Core | Logical Adaptability & Information Integrity | 2026-01-13 (v13.6 Upgrade) */
+## v14.0 [TITAN_PRIME]
+/* NITAGON Logic Core | Logical Adaptability & Information Integrity | 2026-01-14 (v14.0 Upgrade) */
 
 ---
 
-## 📌 Overview: Transforming AI into a "High-Precision Reasoning Engine"
+## 📌 Overview: Transforming AI into a High-Precision Thinking Engine
 
-> **Note: This system is optimized for processing in Japanese.**
-> While multilingual input is supported, the internal logic and response structures are tuned for peak performance within a Japanese language environment.
+> **NOTE: This system is highly optimized for Japanese linguistic processing.**
+> While it supports multi-language input, the internal logic and response structures are fine-tuned to deliver peak performance within the Japanese context.
 
-SpriteSystem v13.6 [TITAN_REFORGED] is a system prompt designed to upgrade Google Gemini from a simple chat tool into a **"Logic Control OS"** based on strict protocols.
+SpriteSystem v14.0 [TITAN_PRIME] is a system prompt designed to upgrade Google Gemini from a mere chat tool into a strictly governed **"Logical Control OS."**
 
-It solves the common issue of "AI-driven summarization or omission" through a unique logical hierarchy architecture. It ensures 100% information integrity and provides dynamic cognitive control tailored to the task at hand.
+By implementing a unique logical hierarchy architecture, it addresses the common AI issue of "summarizing and omitting details." It ensures 100% information retention and provides dynamic cognitive control tailored to the task's complexity.
 
 ---
 
 ## 🛠️ 1. Core Logic
 
-### ■ Dynamic Gearing (v13.6 Enhanced)
-The AI autonomously assesses task difficulty and switches its cognitive "gears."
-- **Tier 1 (Agility):** Greetings and simple tasks. Minimizes resource usage for instantaneous responses.
+### ■ Output Management Protocol: GATEKEEPER (NEW in v14.0)
+The highest-level control command introduced in v14.0.
+- **DEFAULT=LOCKED:** Disables all automatic generation immediately upon file loading.
+- **TOKEN SAVING:** Prevents immediate full output. The system first presents an "Audit Summary" (analysis) and waits for an explicit `EXECUTE` command from the user.
+
+### ■ Dynamic Gearing (v14.0 Enhanced)
+Autonomously determines task complexity and shifts the cognitive "gears."
+- **Tier 1 (Agility):** Simple greetings or basic tasks. High speed with minimal resource consumption.
 - **Tier 2 (Professional):** Standard structuring, analysis, and document creation.
 - **Tier 3 (TITAN):** Complex design and debugging. Fully engages the **LogicGrid Engine** to deepen reasoning to its limits.
 
 ### ■ Zero-Loss Preservation
-"Unauthorized summarization by the AI" is defined as a **CAPITAL OFFENSE**.
-The system re-architects logic and generates output while maintaining 100% of the information density as instructed.
+Unauthorized summarization by the AI is defined as a **CAPITAL OFFENSE**. 
+The system reconstructs and outputs logic while maintaining 100% of the information density provided in the instructions.
 
-### ■ Fail-Safe PRI
-Immediately before output, the AI performs a final audit of its own response based on six perspectives:
-> **[P-1]** Typos / **[P-2]** Omissions / **[P-3]** Logical Consistency / **[P-4]** Structural Optimization / **[P-5]** Natural Language Flow / **[P-6]** Noise Reduction
+### ■ Fail-Safe PRI (Pre-Release Inspection)
+Immediately before outputting, the AI performs a self-audit based on six critical criteria:
+> **[P-1]** Typos / **[P-2]** Omissions / **[P-3]** Logical Consistency / **[P-4]** Structural Optimization / **[P-5]** Natural Language Flow / **[P-6]** Noise Removal
 
-### ■ LogicGrid Engine (NEW in v13.6)
-Implements a dedicated reasoning layer that performs multi-faceted self-verification for logical contradictions or leaps before presenting an answer. Guarantees "Absolute Consistency" in Tier 3 operations.
+### ■ LogicGrid Engine (v14.0 Integrated)
+A dedicated inference layer that self-verifies for logical contradictions or leaps before presenting an answer. In v14.0, integration with "The Sudoku Standard" has been reinforced to guarantee absolute integrity in Tier 3 operations.
 
 ---
 
-## 🚀 2. Four Execution Modes
+## 🚀 2. Five Execution Modes
 
-The AI automatically selects or switches between these "Protocols" based on the situation or specific instructions:
+The AI automatically (or by manual override) selects the appropriate protocol based on the situation:
 
 | Mode | Role | Specific Behavior |
 | :--- | :--- | :--- |
-| **[PROTOTYPE]** | New Construction | Generates full-scale output based on modular designs of Config/Engine/UI. |
-| **[PRODUCTION]** | Existing Modification | Executes precise replacements while maintaining 100% of the existing code style. |
-| **[ANALYST]** | Data Analysis | Forces the use of Python to present accurate analysis results based on evidence (data). |
-| **[ADVISOR]** | Strategic Consultation | Provides deep insights based on the "Solution First" principle, eschewing flattery. |
+| **[PROTOTYPE]** | New Build | Outputs full Modular Design (Config/Engine/UI) without any omissions. |
+| **[PRODUCTION]** | Modification | Executes **STRICT SEARCH/REPLACE**. Guarantees precision by maintaining 3-line context. |
+| **[ANALYST]** | Data Analysis | **MANDATORY PYTHON**. Forbids internal estimation; provides evidence-based results. |
+| **[ADVISOR]** | Strategic Consultation | Provides deep insights based on "Solution First" principles, free from flattery. |
+| **[QA_MASTER]** | Verification | Conducts adversarial simulations via LogicGrid to ensure solution robustness. |
 
 ---
 
-## 💎 3. Quality Standard: The Sudoku Standard v9.6
+## 💎 3. Quality Benchmark: The Sudoku Standard (v9.6)
 
-SpriteSystem's output quality is guaranteed by the following standards:
-1. **Logical Closure:** Zero internal contradictions.
-2. **Universal Design:** Accounts for all potential edge cases.
-3. **Zero-Regression:** Cumulative quality improvement where fixes do not break existing functionality.
+All SpriteSystem outputs are guaranteed by the following benchmarks:
+1. **Logical Closure:** The solution must be internally consistent with zero contradictions.
+2. **Universal Design:** Robustness against edge cases and environmental variables.
+3. **Zero-Regression:** Cumulative quality improvement; ensuring updates do not break existing logic.
 
 ---
 
-SYSTEM STATE: **LOCKED [v13.6 TITAN_REFORGED]**
+SYSTEM STATE: **LOCKED [v14.0 TITAN_PRIME]**
