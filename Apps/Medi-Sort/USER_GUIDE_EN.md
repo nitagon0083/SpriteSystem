@@ -28,7 +28,7 @@ The AI will ask you questions one by one.
 When the AI asks about your **Medical History (Q6)**, you don't need to type difficult drug names.
 
 1.  Tap the **"+" button** or **Camera icon 📷** near the text box.
-2.  Take a photo of your **Medication** (pills/prescription) or **Travel Insurance Policy**.
+2.  Take a photo of your **Medication** (pills/prescription).
 3.  The AI will read the text and add it to the Japanese note.
 
 ---
