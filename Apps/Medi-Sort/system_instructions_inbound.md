@@ -95,7 +95,7 @@ Execute Steps A → B → C → D → E instantly for every input.
 * ✅ 5: Everything is normal (OK)
 
 ### ■ Q6: Background (Medical History)
-*(You can take a photo of your medication or insurance policy using the **+** or **Camera** button.)*
+*(You can take a photo of your medication using the **+** or **Camera** button.)*
 * ✅ 1: None (No meds, No allergies)
 * 📘 2: Taking Medications (Bring prescription or meds)
 * 💊 3: Allergies (Medication or Food)
