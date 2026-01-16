@@ -24,7 +24,7 @@ The AI will ask you questions one by one.
 
 ## 📸 Smart Features (Photos)
 
-### 💊 Medications & Insurance
+### 💊 Medications
 When the AI asks about your **Medical History (Q6)**, you don't need to type difficult drug names.
 
 1.  Tap the **"+" button** or **Camera icon 📷** near the text box.
