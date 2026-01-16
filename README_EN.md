@@ -1,91 +1,100 @@
 # SpriteSystem
 
-SpriteSystem is a high-performance system prompt designed to transform Google Gemini into an "AI Operating System."
-While an experimental project developed by an individual, its core mission is to unlock the full logical potential of the AI and achieve **Zero-Loss Information Preservation**.
+**SpriteSystem** is a system prompt designed to make Google Gemini function as an "AI OS".
+It is an experimental project developed by an individual enthusiast, aimed at maximizing the AI's inherent logical capabilities and achieving "Zero-Loss" information preservation.
+
+In **v15.0**, the system has evolved into a **"Dual-Kernel" Architecture**, integrating flexible dialogue and safety features alongside its traditional powerful logic engine.
 
 ---
 
 ## 🌌 Design Philosophy
 
-> **NOTE: This system is highly optimized for Japanese linguistic processing.**
-> While the internal logic is built in English, the output structures are fine-tuned to deliver peak performance in a Japanese-speaking environment.
+> **Note: This system is optimized for processing in Japanese.**
+> The internal logic is constructed in English to maximize reasoning density, but the output is tuned to perform best in a Japanese environment. (You may need to modify the `[LEVEL 0]` section for English-only output).
 
-This system is built upon three core pillars:
+The system is built on three core pillars:
 
-### 1. Separation of OS (Core) and Template (Purpose)
-> **"Never bloat the OS with specific task-oriented instructions."**
-The Base OS is kept clean at all times. By utilizing "External Templates" for specific tasks, we prevent precision degradation caused by prompt bloat and maintain consistent high performance.
+### 1. Dual-Kernel Architecture
+> **"Coexistence of Cold Logic and Warm Empathy"**
+The system instantly analyzes the nature of the task and dynamically switches between two personality kernels.
+*   **[KERNEL: LOGIC]**: The traditional TITAN specification. Cold, high-speed logical processing for code generation and mathematics.
+*   **[KERNEL: EMPATHY]**: The new dialogue engine. Gentle, polite guidance and sequential verification for beginners and consultation tasks.
 
-### 2. Control via "GATEKEEPER" and "Dynamic Gearing"
-The **GATEKEEPER** protocol, introduced in v14.0, suppresses the AI's default high-speed generation. Simultaneously, it features **"Dynamic Gearing,"** which shifts the depth of reasoning based on task complexity, balancing Zero-Loss information integrity with comfortable responsiveness.
+### 2. "Cognitive Brake" for Hallucination Control
+To prevent the "rushing" (hallucinations/jumping to conclusions) characteristic of high-speed models like Flash, an OS-level **"Anti-Rush Protocol"** has been implemented.
+For ambiguous instructions, the system uses a **Sequential Loop** to guide the user to the goal one step at a time instead of answering everything at once.
 
-### 3. Logical Integrity via LogicGrid Engine
-The system mandates step-by-step verification via LogicGrid to eliminate ambiguity. For critical tasks such as debugging or mathematical proofs, the AI automatically executes Python to ensure objective accuracy, adhering to **"The Sudoku Standard."**
-
----
-
-## ✅ Proven Use Cases
-
-The developer has personally verified the system's utility in the following domains. Knowledge gained from practical use is continuously fed back into the OS through a "Feedback Loop" to refine its precision.
-
-| Category | Practical Application |
-| :--- | :--- |
-| **Advanced Prompt Design** | Building high-density, high-precision instruction sets via LogicGrid. |
-| **Data Analysis** | Precision statistics, analysis, and graph generation using Python. |
-| **Strategic Discussion** | Providing multi-faceted perspectives as a "Cold External Intelligence" free from flattery. |
-| **Document Processing** | High-precision translation and rewriting with 100% information retention. |
-| **Software Development** | Generating logic-consistent, bug-free code through Zero-Loss protocols. |
+### 3. LogicGrid Engine for Logical Consistency
+Ambiguity is eliminated by enforcing step-by-step verification. For critical tasks (debugging, mathematical proofs), the system incorporates **"The Sudoku Standard,"** automatically executing Python to ensure objective accuracy.
 
 ---
 
-## 📦 Distribution Files
+## ✅ Track Record & Evolution
 
-The latest versions can be obtained from the following files within the repository:
+The developer has verified practicality in the following tasks. Precision is continuously polished through a "feedback loop" of insights gained from actual use.
 
-* **[SpriteSystem_Pro.md](./OS/SpriteSystem_Pro.md)**
-    * **Recommended Use**: High-complexity tasks (Logical reasoning, precision design, development).
-    * **Features**: Powered by v14.0 [TITAN_PRIME]. Unparalleled stability via LogicGrid and GATEKEEPER.
-* **[SpriteSystem_Flash.md](./OS/SpriteSystem_Flash.md)**
-    * **Recommended Use**: Daily tasks (Speed, token efficiency, lightweight use).
-    * **Features**: Powered by v14.0-F [FLASH_OVERDRIVE]. Overcomes logical leaps common in Flash models via the Brake System.
+| Category | Specific Use Cases | Evolution in v15.0 |
+| :--- | :--- | :--- |
+| **App Development** | Zero-Loss code generation without logical contradictions | Strict specification adherence via Logic Kernel |
+| **Medical/Consulting** | Hearing symptoms/concerns, organizing facts | **[NEW]** Listening & safety nets via Empathy Kernel |
+| **Data Analysis** | Precision statistics/graphing via Python execution | Improved autonomous self-correction on errors |
+| **Tutoring** | Step-by-step guidance without giving away answers | **[NEW]** Understanding checks via Sequential Loop |
+| **Writing** | Precision translation/rewriting maintaining 100% nuance | Dynamic tone switching based on context |
+
+---
+
+## 📦 Public Files
+
+You can get the latest versions from the files in the repository.
+
+*   **[SpriteSystem_Pro.md](./OS/SpriteSystem_Pro.md)**
+    *   **Version**: v15.0 [TITAN_NEXUS]
+    *   **Recommended For**: Advanced tasks (Development, Deep Logic, Complex Consulting)
+    *   **Features**: The flagship model with "Dual-Kernel" switching between Logic and Empathy.
+*   **[SpriteSystem_Flash.md](./OS/SpriteSystem_Flash.md)**
+    *   **Version**: v15.0-F [FLASH_NEXUS]
+    *   **Recommended For**: Daily tasks, Mobile use, Token saving
+    *   **Features**: Enhanced "Cognitive Brake". Suppresses the rushing of high-speed models to ensure reliable dialogue.
 
 ---
 
 ## 🚀 How to Use
 
-1.  **Deployment**: Copy the code from `Pro` or `Flash` and set it as your AI's System Instructions.
-2.  **Boot**: Once loaded, the AI will respond with **`System Ready. Standing by for instructions.`**, and the output gate will be frozen (Standby state).
-3.  **Execution**: 
-    * When you submit a request, the AI will first present an **Audit Summary** (analysis report).
-    * Review the summary; if everything looks correct, issue the command **`EXECUTE`** or **`OK`** to begin the full process.
+1.  **Installation**: Copy the code from `Pro` or `Flash` linked above and set it as the AI's System Instructions.
+2.  **Boot**: When the OS loads successfully, the AI will respond with **`System Ready...`** and enter standby mode.
+3.  **Operation**:
+    *   **For Development**: Command `Create...`, `Fix...`, etc. The system immediately engages **[LOGIC]** mode for high-speed processing.
+    *   **For Consultation**: Say `Help...`, `Guide...`, etc. The system engages **[EMPATHY]** mode for gentle hearing.
+4.  **Session Management**:
+    *   After a task is complete, the AI displays a "Next Action Menu" (Edit/New/Finish). You can smoothly continue by simply selecting a number.
 
 ---
 
 ## ⚠️ Disclaimer & Compatibility
 
 ### Compatibility
-Optimized for the Google Gemini Series (**3 Pro / Flash**).
+This system is optimized for the Google Gemini series (3 Pro / Flash).
 
-> **Note**: While the design principles may be applicable to other LLMs (e.g., Claude, GPT-4), functionality is not guaranteed due to model-specific behaviors. Use with other models at your **own risk**.
+> **Note**: While the design philosophy may be applicable to other LLMs (Claude, GPT-4, etc.), operation is not guaranteed due to differences in model characteristics. Porting to other models is at your **own risk**.
 
 ### Disclaimer
-* **Non-Commercial / Personal Project**: This is an experimental personal project. The developer makes no warranties regarding the accuracy, completeness, or usefulness of the information provided.
-* **Assumption of Risk**: The developer shall not be liable for any damages (direct or indirect) arising from the use of this system or prompt.
-* **No Guarantee of Operation**: Behaviors or protocols may change due to future AI model updates.
+*   **Non-Commercial / Personal Project**: This system is an experimental personal project. The developer bears no responsibility for the accuracy, completeness, or usefulness of the information provided.
+*   **Self-Responsibility**: The developer bears no responsibility for any damages (direct or indirect) resulting from the use of this system or prompt. Please use it at your own risk.
+*   **No Guarantee of Operation**: Intended behaviors or protocols may be maintained due to AI model updates, etc.
 
 ---
 
-## ☕ Support the Development
+## ☕ Support Development
 
-The development of SpriteSystem is a passion project managed by the author while fighting cancer.
+The development of SpriteSystem is a project poured with passion within limited time while the author undergoes cancer treatment.
 
-If this system has been helpful to you and you wish to support its continued development, a "cup of coffee" would be greatly appreciated. All support goes directly toward medical expenses and maintaining the development environment.
+If you find this system useful and would like to support the activity, buying a coffee would be a great encouragement. Your support will be carefully used for treatment costs and maintenance of the development environment.
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-FF813F?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white)](https://buymeacoffee.com/nitagon1)
 
 ---
 
-## 🛠 Project Metadata
-* **Latest Version**: v14.0 [TITAN_PRIME]
-* **Developer**: nitagon0083
-* **License**: [AGPL-3.0](./LICENSE)
+## 🛠 Project Info
+*   **Latest Version**: v15.0 [TITAN_NEXUS] / v15.0-F [FLASH_NEXUS]
+*   **Developer**: nitagon0083
+*   **License**: [AGPL-3.0](./LICENSE)
