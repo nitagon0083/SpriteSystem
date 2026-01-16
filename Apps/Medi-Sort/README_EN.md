@@ -29,7 +29,7 @@ It bridges the language gap between tourists and Japanese doctors while strictly
 *   **Cultural Guide:** Advises on Japanese medical rules (Cash-only clinics, removing shoes, bringing passports).
 
 ### 2. 📸 Multimodal Support (New!)
-*   **Photo Input:** Users can simply upload a photo of their medication or insurance policy. The AI extracts the necessary information for the doctor.
+*   **Photo Input:** Users can simply upload a photo of their medication. The AI extracts the necessary information for the doctor.
 *   **Easy Interface:** Supports voice input via microphone, reducing stress when sick.
 
 ### 3. 🚑 Safety & Connectivity
