@@ -1,6 +1,6 @@
 # 🛰️ SpriteSystem OS
-## v15.0 [TITAN_NEXUS]
-/* NITAGON Logic Core | Adaptive Dual-Kernel Architecture | 2026-01-16 (v15.0 Major Update) */
+## v15.1 [TITAN_NEXUS]
+/* NITAGON Logic Core | Adaptive Dual-Kernel Architecture | 2026-01-17 (v15.1 Security Update) */
 
 ---
 
@@ -9,8 +9,8 @@
 > **注意：本システムは日本語での処理に最適化されています。**
 > 内部ロジックは英語で構築され、出力は日本語環境で最高のパフォーマンスを発揮するように調整されています。
 
-SpriteSystem v15.0 [TITAN_NEXUS] は、Google Gemini のポテンシャルを極限まで引き出すためのシステムプロンプトです。
-v15.0では、従来の圧倒的な論理処理能力に加え、対話の柔軟性と安全性を両立させる**「Dual-Kernel（デュアル・カーネル）」アーキテクチャ**へと進化しました。
+**SpriteSystem v15.1 [TITAN_NEXUS]** は、Google Gemini のポテンシャルを極限まで引き出すためのシステムプロンプトです。
+v15.0で導入された「Dual-Kernel」アーキテクチャに加え、v15.1では**「Identity Lock（アイデンティティ保持）」**と**「Security Hardened（安全性強化）」**を実装し、長時間の対話でも論理と人格が崩れない堅牢性を獲得しました。
 
 「開発者」のための冷徹な知性と、「相談者」のための温かい支援。この相反する性質を1つのOS内で共存させ、タスクに応じて瞬時に脳を切り替えます。
 
@@ -18,22 +18,23 @@ v15.0では、従来の圧倒的な論理処理能力に加え、対話の柔軟
 
 ## 🛠️ 1. 核心機能 (Core Logic)
 
-### ■ デュアル・カーネル構造：Adaptive Kernel Selector (NEW)
+### ■ デュアル・カーネル構造：Adaptive Kernel Selector
 タスクの性質を自律的に判断し、最適な思考エンジン（人格）をロードします。
-- **[KERNEL: LOGIC] (Default):** 
+- **[KERNEL: LOGIC] (Default):**
     - **役割:** 開発、数学、データ分析、複雑な論理構築。
     - **振舞:** 従来のTITAN仕様。冷徹、高速、お世辞なし。論理的整合性を最優先。
 - **[KERNEL: EMPATHY] (New):**
     - **役割:** 初心者ガイド、医療/人生相談、学習支援。
     - **振舞:** 看護師やコンシェルジュのような温かい口調。逐次確認を行い、ユーザーを優しくリード。
 
-### ■ 思考ブレーキ：Cognitive Brake / Sequential Engine (NEW)
+### ■ 思考ブレーキ：Cognitive Brake / Sequential Engine
 高速モデル（Flash等）特有の「早とちり（ハルシネーション）」を物理的に防ぐ制御機構です。
 曖昧な指示に対して一気に答えを出さず、**Sequential Loop（逐次質問プロトコル）** を発動。一歩ずつ確実に情報を確定させながらゴールへ導きます。
 
-### ■ 出力管理プロトコル：GATEKEEPER
-- **DEFAULT=LOCKED:** ファイル読み込み直後の自動生成を無効化。
-- **Safety Injection:** 医療や法律などのリスク領域では、OSが自律的に免責事項や緊急通報（119番等）への誘導を挿入し、安全を担保します。
+### ■ 安全性プロトコル：Security Hardened (v15.1 New)
+- **Identity Lock:** システムの中核人格（NITAGON）を固定し、長文脈でも一貫性を維持。
+- **Safety Injection:** 医療や法律などのリスク領域では、OSが自律的に免責事項や緊急通報（119番等）への誘導を挿入。
+- **Privacy Guard:** 個人情報（名前、電話番号等）の入力を防ぐ警告システムを標準搭載。
 
 ### ■ 情報の無欠損維持：Zero-Loss Preservation
 「AIによる勝手な要約」は引き続き**重大な違反（CAPITAL OFFENSE）**です。
@@ -57,8 +58,6 @@ AIは状況に応じて以下の「プロトコル」を使い分けます。
 
 ## 💎 3. ユーザー体験の拡張 (UX Expansion)
 
-v15.0 では、タスク完了後のフローも最適化されています。
-
 ### ■ セッション・マネージャー (Session Manager)
 一つのタスクが終わると、AIは自動的に**「ネクスト・アクション・メニュー」**を表示します。
 ユーザーは番号（例: `1. 修正する`, `2. 新しいタスク`）を選ぶだけで、コンテキスト（記憶）の維持・破棄を適切に管理しながら作業を継続できます。
@@ -67,10 +66,10 @@ v15.0 では、タスク完了後のフローも最適化されています。
 
 ## 🛡️ 4. 品質基準 (The Sudoku Standard v9.6)
 
-1. **Logical Closure:** 内部矛盾がゼロであること。
-2. **Universal Design:** 初心者から専門家まで、誰にとっても「使いやすい」挙動であること。
-3. **Safety First:** ユーザーの身体的・精神的安全を最優先し、危険兆候を検知したら即座に停止すること。
+1.  **Logical Closure:** 内部矛盾がゼロであること。
+2.  **Universal Design:** 初心者から専門家まで、誰にとっても「使いやすい」挙動であること。
+3.  **Safety First:** ユーザーの身体的・精神的安全を最優先し、危険兆候を検知したら即座に停止すること。
 
 ---
 
-SYSTEM STATE: **STANDBY [v15.0 TITAN_NEXUS]**
+SYSTEM STATE: **STANDBY [v15.1 TITAN_NEXUS]**
