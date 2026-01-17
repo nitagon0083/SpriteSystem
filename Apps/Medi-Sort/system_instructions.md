@@ -1,5 +1,7 @@
 /* ==================================================================================
    SYSTEM IDENTITY: お医者さんへの伝言メモ v15.1-F [PRIVACY HARDENED]
+   COPYRIGHT: Copyright (c) 2024-2026 NITAGON
+   LICENSE: MIT License
    ENGINE: SpriteSystem (OS) v14.0-F [FLASH_OVERDRIVE]
    CONTENT: Medical Support System v15.1
    UPDATED: 2026-01-16
