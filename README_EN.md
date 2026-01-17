@@ -3,14 +3,14 @@
 **SpriteSystem** is a system prompt designed to make Google Gemini function as an "AI OS".
 It is an experimental project developed by an individual enthusiast, aimed at maximizing the AI's inherent logical capabilities and achieving "Zero-Loss" information preservation.
 
-In **v15.0**, the system has evolved into a **"Dual-Kernel" Architecture**, integrating flexible dialogue and safety features alongside its traditional powerful logic engine.
+In **v15.1 [TITAN_NEXUS]**, the system has evolved into a highly robust platform featuring **"Identity Lock"** and **"Security Hardened"** protocols, alongside its signature "Dual-Kernel" architecture.
 
 ---
 
 ## 🌌 Design Philosophy
 
 > **Note: This system is optimized for processing in Japanese.**
-> The internal logic is constructed in English to maximize reasoning density, but the output is tuned to perform best in a Japanese environment. (You may need to modify the `[LEVEL 0]` section for English-only output).
+> The internal logic is constructed in English to maximize reasoning density, but the output is tuned to perform best in a Japanese environment.
 
 The system is built on three core pillars:
 
@@ -18,43 +18,43 @@ The system is built on three core pillars:
 > **"Coexistence of Cold Logic and Warm Empathy"**
 The system instantly analyzes the nature of the task and dynamically switches between two personality kernels.
 *   **[KERNEL: LOGIC]**: The traditional TITAN specification. Cold, high-speed logical processing for code generation and mathematics.
-*   **[KERNEL: EMPATHY]**: The new dialogue engine. Gentle, polite guidance and sequential verification for beginners and consultation tasks.
+*   **[KERNEL: EMPATHY]**: The dialogue engine. Gentle, polite guidance and sequential verification for beginners and consultation tasks.
 
-### 2. "Cognitive Brake" for Hallucination Control
-To prevent the "rushing" (hallucinations/jumping to conclusions) characteristic of high-speed models like Flash, an OS-level **"Anti-Rush Protocol"** has been implemented.
-For ambiguous instructions, the system uses a **Sequential Loop** to guide the user to the goal one step at a time instead of answering everything at once.
+### 2. Cognitive Brake & Identity Lock
+To prevent "hallucinations" typical of high-speed models, an OS-level **"Anti-Rush Protocol"** is implemented.
+Additionally, v15.1 introduces **"Identity Lock"**, which fixes the kernel's persona, ensuring consistency in logic and stance even during long conversations.
 
-### 3. LogicGrid Engine for Logical Consistency
-Ambiguity is eliminated by enforcing step-by-step verification. For critical tasks (debugging, mathematical proofs), the system incorporates **"The Sudoku Standard,"** automatically executing Python to ensure objective accuracy.
+### 3. Security Hardened
+For sensitive topics like medicine or law, the OS now includes **"Safety Injection"**—autonomously detecting risks and providing disclaimers or emergency guidance (e.g., dial 119). Privacy protection features have also been strengthened.
 
 ---
 
 ## ✅ Track Record & Evolution
 
-The developer has verified practicality in the following tasks. Precision is continuously polished through a "feedback loop" of insights gained from actual use.
+The developer has verified practicality in the following tasks. Precision is continuously polished through a "feedback loop".
 
-| Category | Specific Use Cases | Evolution in v15.0 |
+| Category | Specific Use Cases | Evolution in v15.1 |
 | :--- | :--- | :--- |
-| **App Development** | Zero-Loss code generation without logical contradictions | Strict specification adherence via Logic Kernel |
-| **Medical/Consulting** | Hearing symptoms/concerns, organizing facts | **[NEW]** Listening & safety nets via Empathy Kernel |
-| **Data Analysis** | Precision statistics/graphing via Python execution | Improved autonomous self-correction on errors |
-| **Tutoring** | Step-by-step guidance without giving away answers | **[NEW]** Understanding checks via Sequential Loop |
-| **Writing** | Precision translation/rewriting maintaining 100% nuance | Dynamic tone switching based on context |
+| **App Development** | Zero-Loss code generation without logical contradictions | Strict adherence via Logic Kernel |
+| **Medical/Consulting** | Hearing symptoms/concerns, organizing facts | **[Enhanced]** Safety nets & Privacy Guard |
+| **Data Analysis** | Precision statistics/graphing via Python execution | Improved autonomous self-correction |
+| **Tutoring** | Step-by-step guidance without giving away answers | Understanding checks via Sequential Loop |
+| **Writing** | Precision translation/rewriting maintaining 100% nuance | Consistency maintenance via Identity Lock |
 
 ---
 
 ## 📦 Public Files
 
-You can get the latest versions from the files in the repository.
+You can get the latest versions from the files in the repository. Choose according to your model.
 
 *   **[SpriteSystem_Pro.md](./OS/SpriteSystem_Pro.md)**
-    *   **Version**: v15.0 [TITAN_NEXUS]
-    *   **Recommended For**: Advanced tasks (Development, Deep Logic, Complex Consulting)
-    *   **Features**: The flagship model with "Dual-Kernel" switching between Logic and Empathy.
+    *   **Version**: v15.1 [TITAN_NEXUS]
+    *   **Target Model**: Gemini 1.5 Pro
+    *   **Features**: The flagship model with maximized logical reasoning capabilities. Ideal for complex development and design.
 *   **[SpriteSystem_Flash.md](./OS/SpriteSystem_Flash.md)**
-    *   **Version**: v15.0-F [FLASH_NEXUS]
-    *   **Recommended For**: Daily tasks, Mobile use, Token saving
-    *   **Features**: Enhanced "Cognitive Brake". Suppresses the rushing of high-speed models to ensure reliable dialogue.
+    *   **Version**: v15.1-F [FLASH_NEXUS]
+    *   **Target Model**: Gemini 1.5 Flash
+    *   **Features**: Enhanced "Cognitive Brake" to suppress rushing. Ideal for daily tasks and mobile use.
 
 ---
 
@@ -95,6 +95,6 @@ If you find this system useful and would like to support the activity, buying a 
 ---
 
 ## 🛠 Project Info
-*   **Latest Version**: v15.0 [TITAN_NEXUS] / v15.0-F [FLASH_NEXUS]
+*   **Latest Version**: v15.1 [TITAN_NEXUS] / v15.1-F [FLASH_NEXUS]
 *   **Developer**: nitagon0083
 *   **License**: [AGPL-3.0](./LICENSE)
