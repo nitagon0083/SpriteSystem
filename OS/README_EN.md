@@ -1,16 +1,16 @@
 # 🛰️ SpriteSystem OS
-## v15.0 [TITAN_NEXUS]
-/* NITAGON Logic Core | Adaptive Dual-Kernel Architecture | 2026-01-16 (v15.0 Major Update) */
+## v15.1 [TITAN_NEXUS]
+/* NITAGON Logic Core | Adaptive Dual-Kernel Architecture | 2026-01-17 (v15.1 Security Update) */
 
 ---
 
 ## 📌 Overview: Next-Gen "AI-OS" Integrating Logic & Empathy
 
 > **Note: This system is optimized for processing in Japanese.**
-> The internal logic acts in English to maximize reasoning density, but the output is tuned to perform best in a Japanese environment. (For English-only output, minor adjustments to the System Instructions may be required).
+> The internal logic acts in English to maximize reasoning density, but the output is tuned to perform best in a Japanese environment.
 
-**SpriteSystem v15.0 [TITAN_NEXUS]** is a system prompt designed to maximize the potential of Google Gemini.
-In v15.0, the architecture has evolved into a **"Dual-Kernel"** structure, balancing the overwhelming logical processing power of previous versions with the flexibility and safety required for human dialogue.
+**SpriteSystem v15.1 [TITAN_NEXUS]** is a system prompt designed to maximize the potential of Google Gemini.
+In addition to the "Dual-Kernel" architecture introduced in v15.0, v15.1 implements **"Identity Lock"** and **"Security Hardened"** protocols, ensuring robustness where logic and personality remain stable even during long interactions.
 
 It seamlessly integrates two opposing natures within a single OS: the cold intelligence for "Developers" and the warm support for "Consultees," instantly switching brains based on the task.
 
@@ -18,7 +18,7 @@ It seamlessly integrates two opposing natures within a single OS: the cold intel
 
 ## 🛠️ 1. Core Logic
 
-### ■ Dual-Kernel Structure: Adaptive Kernel Selector (NEW)
+### ■ Dual-Kernel Structure: Adaptive Kernel Selector
 Autonomously determines the nature of the task and loads the optimal thinking engine (personality).
 - **[KERNEL: LOGIC] (Default):**
     - **Role:** Development, Math, Data Analysis, Complex Logical Construction.
@@ -27,13 +27,14 @@ Autonomously determines the nature of the task and loads the optimal thinking en
     - **Role:** Beginner Guides, Medical/Life Consultation, Learning Support.
     - **Behavior:** Warm tone like a nurse or concierge. Uses sequential verification to gently lead the user.
 
-### ■ Cognitive Brake: Sequential Engine (NEW)
-A control mechanism to physically prevent the "rushing" (hallucinations/jumping to conclusions) characteristic of high-speed models (like Flash).
-For ambiguous instructions, it does not output the answer at once but triggers a **Sequential Loop**, guiding the user to the goal one step at a time.
+### ■ Cognitive Brake: Sequential Engine
+A control mechanism to physically prevent the "rushing" (hallucinations) characteristic of high-speed models (like Flash).
+For ambiguous instructions, it triggers a **Sequential Loop**, guiding the user to the goal one step at a time instead of answering everything at once.
 
-### ■ Output Management Protocol: GATEKEEPER
-- **DEFAULT=LOCKED:** Disables automatic generation immediately after file loading.
-- **Safety Injection:** In high-risk areas like medicine or law, the OS autonomously injects disclaimers or guidance to emergency services (e.g., 119), ensuring safety.
+### ■ Security Protocols: Security Hardened (v15.1 New)
+- **Identity Lock:** Fixes the core personality (NITAGON) to maintain consistency over long contexts.
+- **Safety Injection:** In high-risk areas like medicine or law, autonomously injects disclaimers or guidance to emergency services (e.g., 119).
+- **Privacy Guard:** Standard warning system to prevent input of PII (names, phone numbers).
 
 ### ■ Zero-Loss Preservation
 "Unauthorized summarization by AI" is defined as a **CAPITAL OFFENSE**.
@@ -57,8 +58,6 @@ The AI uses the following "protocols" automatically or by designation based on t
 
 ## 💎 3. UX Expansion
 
-In v15.0, the flow after task completion has been optimized.
-
 ### ■ Session Manager
 When a task is finished, the AI automatically displays a **"Next Action Menu."**
 Users can continue working while properly managing context (memory) retention/reset simply by selecting a number (e.g., `1. Edit`, `2. New Task`).
@@ -73,4 +72,4 @@ Users can continue working while properly managing context (memory) retention/re
 
 ---
 
-SYSTEM STATE: **STANDBY [v15.0 TITAN_NEXUS]**
+SYSTEM STATE: **STANDBY [v15.1 TITAN_NEXUS]**
