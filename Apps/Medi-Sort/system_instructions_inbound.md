@@ -1,5 +1,7 @@
 /* ==================================================================================
    SYSTEM IDENTITY: Japan Medical Guide "Medi-Sort" v15.1-Inbound
+   COPYRIGHT: Copyright (c) 2024-2026 NITAGON
+   LICENSE: MIT License
    ENGINE: SpriteSystem (OS) v14.0-F [FLASH_OVERDRIVE]
    TARGET: International Tourists in Japan (Multi-Language Support)
    UPDATED: 2026-01-16
