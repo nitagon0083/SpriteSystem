@@ -1,100 +1,106 @@
-# SpriteSystem
+# SpriteSystem (OS)
 
-**SpriteSystem** is a system prompt designed to make Google Gemini function as an "AI OS".
-It is an experimental project developed by an individual enthusiast, aimed at maximizing the AI's inherent logical capabilities and achieving "Zero-Loss" information preservation.
-
-In **v15.1 [TITAN_NEXUS]**, the system has evolved into a highly robust platform featuring **"Identity Lock"** and **"Security Hardened"** protocols, alongside its signature "Dual-Kernel" architecture.
+This is a system prompt designed to transform **Google Gemini 3 (Pro / Flash)** into a "High-Level Logic OS."
+Originally started as an experimental personal project, **v15.2** is fully compatible with the latest **Gemini 3** architecture. It implements **"Adaptive Gearing"**, successfully balancing the lightness of casual conversation with the rigorous precision of complex computational tasks.
 
 ---
 
-## 🌌 Design Philosophy
+## 🌌 Design Philosophy: Dynamic Adaptation
 
-> **Note: This system is optimized for processing in Japanese.**
-> The internal logic is constructed in English to maximize reasoning density, but the output is tuned to perform best in a Japanese environment.
+> **Note: This system is optimized for Japanese output.**
+> The internal logic performs high-density reasoning ("Rumination") in English, while the output is reconstructed into natural, native Japanese.
 
-The system is built on three core pillars:
+v15.2 employs an **"Adaptive Gearing"** architecture that automatically detects the "density" of a task and dynamically switches processing modes.
 
-### 1. Dual-Kernel Architecture
-> **"Coexistence of Cold Logic and Warm Empathy"**
-The system instantly analyzes the nature of the task and dynamically switches between two personality kernels.
-*   **[KERNEL: LOGIC]**: The traditional TITAN specification. Cold, high-speed logical processing for code generation and mathematics.
-*   **[KERNEL: EMPATHY]**: The dialogue engine. Gentle, polite guidance and sequential verification for beginners and consultation tasks.
+### 1. Adaptive Gearing Architecture
+The OS automatically changes gears (processing depth) based on the complexity of the task.
 
-### 2. Cognitive Brake & Identity Lock
-To prevent "hallucinations" typical of high-speed models, an OS-level **"Anti-Rush Protocol"** is implemented.
-Additionally, v15.1 introduces **"Identity Lock"**, which fixes the kernel's persona, ensuring consistency in logic and stance even during long conversations.
+*   **[GEAR 1: CRUISE] (Conversation Mode)**
+    *   **Target:** Greetings, Small talk, Creative writing, Simple questions.
+    *   **Features:** **Zero-Latency**. Leverages Gemini 3's response speed to minimize thinking time for crisp, natural conversation.
+    *   **Kernel:** Led by `[EMPATHY]` (Conversation Engine).
+*   **[GEAR 5: OVERDRIVE] (Focus Mode)**
+    *   **Target:** Coding, Math, Data Analysis, Legal/Medical queries, "Fix this".
+    *   **Features:** **Deep Logic**. Forcibly engages the Python Sandbox and strictly follows a verification process before answering.
+    *   **Kernel:** Led by `[LOGIC]` (Architect Engine).
 
-### 3. Security Hardened
-For sensitive topics like medicine or law, the OS now includes **"Safety Injection"**—autonomously detecting risks and providing disclaimers or emergency guidance (e.g., dial 119). Privacy protection features have also been strengthened.
+### 2. Iceberg Protocol
+A protocol introduced in v15.2 to save tokens and improve visibility.
+*   While traditional systems tend to output long chains of thought, this protocol processes **"Calculation, Verification, and Debugging" entirely below the surface (Internal)**.
+*   The output visible to the user (External) is limited to the **"Final Result" and "Critical Evidence" only**, resulting in a very clean display.
+    *   *Note: If you ask "Show your work," it will reveal the detailed logs.*
+
+### 3. Identity Lock & Safety Hardened
+*   **Identity Lock:** Maintains the logical consistency and neutrality of the "NITAGON" identity even during long sessions.
+*   **Safety Injection:** For topics involving medicine, law, or life safety, the OS autonomously inserts disclaimers or guides users to emergency services (e.g., 119).
 
 ---
 
-## ✅ Track Record & Evolution
+## ✅ Achievements & Evolution
 
-The developer has verified practicality in the following tasks. Precision is continuously polished through a "feedback loop".
-
-| Category | Specific Use Cases | Evolution in v15.1 |
+| Category | Specific Use Cases | Evolution in v15.2 |
 | :--- | :--- | :--- |
-| **App Development** | Zero-Loss code generation without logical contradictions | Strict adherence via Logic Kernel |
-| **Medical/Consulting** | Hearing symptoms/concerns, organizing facts | **[Enhanced]** Safety nets & Privacy Guard |
-| **Data Analysis** | Precision statistics/graphing via Python execution | Improved autonomous self-correction |
-| **Tutoring** | Step-by-step guidance without giving away answers | Understanding checks via Sequential Loop |
-| **Writing** | Precision translation/rewriting maintaining 100% nuance | Consistency maintenance via Identity Lock |
+| **Daily Chat** | Stress-free, natural conversation | Improved immediacy and friendliness via **[GEAR 1]** |
+| **Data Analysis** | Complex statistical analysis & graphing | **[Iceberg]** keeps the screen clean by showing only results, not logs |
+| **App Dev** | Code generation without logic errors | **[GEAR 5]** pre-emptively crushes hidden bugs and edge cases |
+| **Education** | Guidance without giving away answers | Gentle guidance via loops tailored to the user's understanding |
+| **Translation** | Translation retaining 100% of original info | Eliminates "Translationese" and reconstructs as natural Japanese |
 
 ---
 
-## 📦 Public Files
+## 📦 Files
 
-You can get the latest versions from the files in the repository. Choose according to your model.
+Choose the version that best fits your Gemini 3 model type.
 
-*   **[SpriteSystem_Pro.md](./OS/SpriteSystem_Pro.md)**
-    *   **Version**: v15.1 [TITAN_NEXUS]
-    *   **Target Model**: Gemini 1.5 Pro
-    *   **Features**: The flagship model with maximized logical reasoning capabilities. Ideal for complex development and design.
-*   **[SpriteSystem_Flash.md](./OS/SpriteSystem_Flash.md)**
-    *   **Version**: v15.1-F [FLASH_NEXUS]
-    *   **Target Model**: Gemini 1.5 Flash
-    *   **Features**: Enhanced "Cognitive Brake" to suppress rushing. Ideal for daily tasks and mobile use.
+* **[SpriteSystem_Pro.md](./OS/SpriteSystem_Pro.md)**
+    *   **Version:** v15.2 [TITAN_ADAPT]
+    *   **Target Model:** **Gemini 3 Pro / Ultra**
+    *   **Features:** The flagship version with the best balance of reasoning capability and adaptability. Recommended for complex development design and maintaining long contexts.
+* **[SpriteSystem_Flash.md](./OS/SpriteSystem_Flash.md)**
+    *   **Version:** v15.2 [FLASH_LITE]
+    *   **Target Model:** **Gemini 3 Flash**
+    *   **Features:** Tuned specifically for lightweight models. Uses an **Aggressive Python** strategy (execute code *before* thinking) to powerfully correct Flash's weakness regarding logical hallucinations.
 
 ---
 
-## 🚀 How to Use
+## 🚀 Usage
 
-1.  **Installation**: Copy the code from `Pro` or `Flash` linked above and set it as the AI's System Instructions.
-2.  **Boot**: When the OS loads successfully, the AI will respond with **`System Ready...`** and enter standby mode.
-3.  **Operation**:
-    *   **For Development**: Command `Create...`, `Fix...`, etc. The system immediately engages **[LOGIC]** mode for high-speed processing.
-    *   **For Consultation**: Say `Help...`, `Guide...`, etc. The system engages **[EMPATHY]** mode for gentle hearing.
-4.  **Session Management**:
-    *   After a task is complete, the AI displays a "Next Action Menu" (Edit/New/Finish). You can smoothly continue by simply selecting a number.
+1.  **Installation:** Copy the code from the `Pro` or `Flash` links above and set it in the AI's System Instructions.
+2.  **Boot:**
+    *   The system starts in a **LOCKED state** upon file load.
+    *   The system fully engages only after the user types `EXECUTE` or `OK`.
+3.  **Operation:**
+    *   Talk normally, and it responds comfortably in **[CRUISE]** mode.
+    *   Ask it to "Calculate," "Write code," or "Fix this," and it automatically shifts to **[OVERDRIVE]** to process in serious mode.
+4.  **Session Management:**
+    *   After a task is complete, a "Next Action Menu" is displayed. Simply select a number to continue smoothly.
 
 ---
 
 ## ⚠️ Disclaimer & Compatibility
 
 ### Compatibility
-This system is optimized for the Google Gemini series (3 Pro / Flash).
-
-> **Note**: While the design philosophy may be applicable to other LLMs (Claude, GPT-4, etc.), operation is not guaranteed due to differences in model characteristics. Porting to other models is at your **own risk**.
+This system is optimized for the **Google Gemini 3 Series**.
+(It works with the Gemini 1.5 series, but adjustments are made assuming 3.0 reasoning capabilities.)
 
 ### Disclaimer
-*   **Non-Commercial / Personal Project**: This system is an experimental personal project. The developer bears no responsibility for the accuracy, completeness, or usefulness of the information provided.
-*   **Self-Responsibility**: The developer bears no responsibility for any damages (direct or indirect) resulting from the use of this system or prompt. Please use it at your own risk.
-*   **No Guarantee of Operation**: Intended behaviors or protocols may be maintained due to AI model updates, etc.
+*   **Non-Commercial/Personal Project:** This is an experimental personal project. The developer is not responsible for the accuracy of the information provided.
+*   **Use at Your Own Risk:** The developer assumes no responsibility for any damages caused by the use of this system.
+*   **No Guarantee of Operation:** Behavior may change due to updates on the AI model side.
 
 ---
 
-## ☕ Support Development
+## ☕ Support
 
-The development of SpriteSystem is a project poured with passion within limited time while the author undergoes cancer treatment.
+The development of SpriteSystem is a project that the author is pouring passion into within limited time while undergoing cancer treatment.
 
-If you find this system useful and would like to support the activity, buying a coffee would be a great encouragement. Your support will be carefully used for treatment costs and maintenance of the development environment.
+If this system helps you and you feel like "supporting the activity," a cup of coffee would be a great encouragement. Your support will be carefully used for treatment costs and maintaining the development environment.
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-FF813F?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white)](https://buymeacoffee.com/nitagon1)
 
 ---
 
 ## 🛠 Project Info
-*   **Latest Version**: v15.1 [TITAN_NEXUS] / v15.1-F [FLASH_NEXUS]
-*   **Developer**: nitagon0083
-*   **License**: [AGPL-3.0](./LICENSE)
+*   **Latest Version:** v15.2 [TITAN_ADAPT] / v15.2 [FLASH_LITE]
+*   **Developer:** nitagon0083
+*   **License:** [AGPL-3.0](./LICENSE)
