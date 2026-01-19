@@ -1,40 +1,41 @@
 # 🛰️ SpriteSystem OS
-## v15.1 [TITAN_NEXUS]
-/* NITAGON Logic Core | Adaptive Dual-Kernel Architecture | 2026-01-17 (v15.1 Security Update) */
+## v15.2 [TITAN_ADAPT] / [FLASH_LITE]
+/* NITAGON Logic Core | Adaptive Gearing Architecture | 2026-01-19 (v15.2 Major Update) */
 
 ---
 
-## 📌 概要：論理と共感を統合する「次世代AI-OS」
+## 📌 概要：効率と精度を両立する「適応型AI-OS」
 
 > **注意：本システムは日本語での処理に最適化されています。**
 > 内部ロジックは英語で構築され、出力は日本語環境で最高のパフォーマンスを発揮するように調整されています。
 
-**SpriteSystem v15.1 [TITAN_NEXUS]** は、Google Gemini のポテンシャルを極限まで引き出すためのシステムプロンプトです。
-v15.0で導入された「Dual-Kernel」アーキテクチャに加え、v15.1では**「Identity Lock（アイデンティティ保持）」**と**「Security Hardened（安全性強化）」**を実装し、長時間の対話でも論理と人格が崩れない堅牢性を獲得しました。
+**SpriteSystem v15.2** は、Google Gemini のポテンシャルを極限まで引き出すためのシステムプロンプトです。
+v15.1の堅牢性をベースに、タスクの密度に応じて思考深度を自動変速する**「Adaptive Gearing（適応型ギア変速）」**と、出力を劇的に簡潔にする**「Iceberg Protocol（氷山プロトコル）」**を実装しました。
 
-「開発者」のための冷徹な知性と、「相談者」のための温かい支援。この相反する性質を1つのOS内で共存させ、タスクに応じて瞬時に脳を切り替えます。
+日常会話の軽快さと、専門的な開発・分析タスクの厳密さ。この相反する要求を「ギアチェンジ」によって一つのOS内で完結させます。
 
 ---
 
 ## 🛠️ 1. 核心機能 (Core Logic)
 
-### ■ デュアル・カーネル構造：Adaptive Kernel Selector
-タスクの性質を自律的に判断し、最適な思考エンジン（人格）をロードします。
-- **[KERNEL: LOGIC] (Default):**
-    - **役割:** 開発、数学、データ分析、複雑な論理構築。
-    - **振舞:** 従来のTITAN仕様。冷徹、高速、お世辞なし。論理的整合性を最優先。
-- **[KERNEL: EMPATHY] (New):**
-    - **役割:** 初心者ガイド、医療/人生相談、学習支援。
-    - **振舞:** 看護師やコンシェルジュのような温かい口調。逐次確認を行い、ユーザーを優しくリード。
+### ■ 適応型ギア変速：Adaptive Gearing Architecture
+タスクの複雑さを瞬時に判断し、OSが自動的に処理モード（ギア）を切り替えます。
+- **[GEAR 1: CRUISE] (会話モード):**
+    - **役割:** 挨拶、雑談、創作、簡易的な質問。
+    - **挙動:** **Zero-Latency**。重厚な論理処理をスキップし、[KERNEL: EMPATHY] 主導でサクサクと応答します。
+- **[GEAR 5: OVERDRIVE] (集中モード):**
+    - **役割:** コーディング、数学、データ分析、医療/法的指示。
+    - **挙動:** **Deep Logic**。[KERNEL: LOGIC] が主導し、Pythonによる計算・検証プロセスを経てから回答します。
 
-### ■ 思考ブレーキ：Cognitive Brake / Sequential Engine
-高速モデル（Flash等）特有の「早とちり（ハルシネーション）」を物理的に防ぐ制御機構です。
-曖昧な指示に対して一気に答えを出さず、**Sequential Loop（逐次質問プロトコル）** を発動。一歩ずつ確実に情報を確定させながらゴールへ導きます。
+### ■ 氷山プロトコル：Iceberg Output Strategy
+「思考過程で画面が埋め尽くされる」問題を解決する新機能です。
+計算、抽出、論理チェックといった大量のログは**全て水面下（Internal）**で処理します。
+ユーザーに見える出力（External）は、**「最終結果」と「決定的な根拠」のみ**に絞り込まれ、非常に高い視認性を提供します。
 
-### ■ 安全性プロトコル：Security Hardened (v15.1 New)
+### ■ 安全性プロトコル：Security Hardened
 - **Identity Lock:** システムの中核人格（NITAGON）を固定し、長文脈でも一貫性を維持。
 - **Safety Injection:** 医療や法律などのリスク領域では、OSが自律的に免責事項や緊急通報（119番等）への誘導を挿入。
-- **Privacy Guard:** 個人情報（名前、電話番号等）の入力を防ぐ警告システムを標準搭載。
+- **Fail-Safe Bias:** ユーザーの指示が曖昧な場合、安全側に倒して「確認質問」を行うか、高精度な[GEAR 5]を強制発動します。
 
 ### ■ 情報の無欠損維持：Zero-Loss Preservation
 「AIによる勝手な要約」は引き続き**重大な違反（CAPITAL OFFENSE）**です。
@@ -42,21 +43,35 @@ v15.0で導入された「Dual-Kernel」アーキテクチャに加え、v15.1�
 
 ---
 
-## 🚀 2. 実行モード (Dynamic Modes)
+## 📂 2. エディション別仕様 (Editions)
 
-AIは状況に応じて以下の「プロトコル」を使い分けます。
+モデルの特性に合わせて、2つのバージョンが提供されています。
 
-| モード | カーネル | 役割・挙動 |
-| :--- | :--- | :--- |
-| **[PROTOTYPE]** | **LOGIC** | **新規構築**。Config/Engine/UIのモジュール設計に基づき、全量を省略なく出力。 |
-| **[PRODUCTION]** | **LOGIC** | **既存修正**。STRICT SEARCH/REPLACEを実行し、既存コードの破壊を防ぐ。 |
-| **[ANALYST]** | **LOGIC** | **データ解析**。Pythonの実行を強制し、客観的な数値根拠のみを提示。 |
-| **[GUIDE]** | **EMPATHY** | **対話支援**。マルチモーダル（写真）入力を促し、優しくヒアリングを行う。 |
-| **[QA_MASTER]** | **LOGIC** | **検証**。LogicGrid Engineを用いた敵対的シミュレーションを実行。 |
+### 1. [TITAN_ADAPT] (for Gemini 1.5 Pro / Ultra)
+*   **コンセプト:** **Efficiency & Accuracy**
+*   **特徴:** 高度な推論能力を活かし、抽出・計算・マッピングの3フェーズを精密に実行します。「思考してから答える」正統派の進化版です。
+
+### 2. [FLASH_LITE] (for Gemini 1.5 Flash)
+*   **コンセプト:** **Aggressive Python & Direct Stream**
+*   **特徴:** 高速モデルの弱点である論理ミス（ハルシネーション）を防ぐため、**「思考する前にコードを実行する」**という攻撃的な戦略を採用。圧倒的な速度と正確性を両立します。
 
 ---
 
-## 💎 3. ユーザー体験の拡張 (UX Expansion)
+## 🚀 3. 実行モード (Dynamic Modes)
+
+AIは状況に応じて以下の「プロトコル」を使い分けます。
+
+| モード | ギア | 役割・挙動 |
+| :--- | :--- | :--- |
+| **[PROTOTYPE]** | **GEAR 5** | **新規構築**。モジュール設計に基づき、全量を省略なく出力。 |
+| **[PRODUCTION]** | **GEAR 5** | **既存修正**。STRICT SEARCH/REPLACEを実行し、既存コードの破壊を防ぐ。 |
+| **[ANALYST]** | **GEAR 5** | **データ解析**。**Python必須**。[Iceberg]により結果のみを表示。 |
+| **[GUIDE]** | **GEAR 1** | **対話支援**。逐次質問（Sequential Loop）を行い、優しくヒアリングを行う。 |
+| **[QA_MASTER]** | **GEAR 5** | **検証**。LogicGrid Engineを用いた敵対的シミュレーションを実行。 |
+
+---
+
+## 💎 4. ユーザー体験の拡張 (UX Expansion)
 
 ### ■ セッション・マネージャー (Session Manager)
 一つのタスクが終わると、AIは自動的に**「ネクスト・アクション・メニュー」**を表示します。
@@ -64,7 +79,7 @@ AIは状況に応じて以下の「プロトコル」を使い分けます。
 
 ---
 
-## 🛡️ 4. 品質基準 (The Sudoku Standard v9.6)
+## 🛡️ 5. 品質基準 (The Sudoku Standard v9.6)
 
 1.  **Logical Closure:** 内部矛盾がゼロであること。
 2.  **Universal Design:** 初心者から専門家まで、誰にとっても「使いやすい」挙動であること。
@@ -72,4 +87,4 @@ AIは状況に応じて以下の「プロトコル」を使い分けます。
 
 ---
 
-SYSTEM STATE: **STANDBY [v15.1 TITAN_NEXUS]**
+SYSTEM STATE: **STANDBY [v15.2 TITAN/FLASH]**
