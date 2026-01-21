@@ -53,7 +53,7 @@ OSがユーザーの入力言語を自動検知し、振る舞いを最適化し
 
 モデルの特性に合わせて、2つのバージョンが提供されています。
 
-#### 1. [TITAN_GLOBAL] (for Gemini 3 Pro / Ultra)
+#### 1. [TITAN_GLOBAL] (for Gemini 3 Pro)
 *   **コンセプト:** **Global Integrity & Logic**
 *   **特徴:** 高度な英語推論能力をフル活用し、複雑なロジックを解き明かしてから、ユーザー言語で丁寧に解説します。「思考してから答える」正統派の進化版です。
 
@@ -146,7 +146,7 @@ Visible output is limited to translated **"Final Results" and "Critical Evidence
 
 Two versions are provided to match model characteristics.
 
-#### 1. [TITAN_GLOBAL] (for Gemini 3 Pro / Ultra)
+#### 1. [TITAN_GLOBAL] (for Gemini 3 Pro)
 *   **Concept:** **Global Integrity & Logic**
 *   **Features:** Fully leverages advanced English reasoning to unravel complex logic, then explains carefully in the user's language. An evolution of the orthodox "Think before answering" approach.
 
