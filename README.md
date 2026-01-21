@@ -48,11 +48,11 @@ v15.3 は、言語の壁とタスクの密度を同時に解決する **"Global 
 
 Gemini 3 のモデルタイプに合わせて、最適なバージョンを選択してください。
 
-* **[SpriteSystem_Global_Pro.md](./OS/SpriteSystem_Global_Pro.md)**
+* **[SpriteSystem_Pro.md](./OS/SpriteSystem_Pro.md)**
     *   **バージョン**: v15.3 [TITAN_GLOBAL]
-    *   **対象モデル**: **Gemini 3 Pro / Ultra**
+    *   **対象モデル**: **Gemini 3 Pro**
     *   **特徴**: 論理推論能力と多言語適応力のバランスが最高のフラッグシップ版。複雑な開発設計や長文脈の維持に推奨。
-* **[SpriteSystem_Global_Flash.md](./OS/SpriteSystem_Global_Flash.md)**
+* **[SpriteSystem_Flash.md](./OS/SpriteSystem_Flash.md)**
     *   **バージョン**: v15.3 [FLASH_GLOBAL]
     *   **対象モデル**: **Gemini 3 Flash**
     *   **特徴**: 軽量モデル専用チューニング。**Aggressive Python**（思考する前にコードを実行する）戦略により、Flashの弱点である論理ハルシネーションを強力に補正します。
@@ -126,11 +126,11 @@ A protocol for token saving and improved visibility.
 
 Choose the version that best fits your Gemini 3 model type.
 
-* **[SpriteSystem_Global_Pro.md](./OS/SpriteSystem_Global_Pro.md)**
+* **[SpriteSystem_Pro.md](./OS/SpriteSystem_Pro.md)**
     *   **Version**: v15.3 [TITAN_GLOBAL]
-    *   **Model**: **Gemini 3 Pro / Ultra**
+    *   **Model**: **Gemini 3 Pro**
     *   **Features**: Flagship version with the best balance of reasoning and adaptability. Recommended for complex design and long context.
-* **[SpriteSystem_Global_Flash.md](./OS/SpriteSystem_Global_Flash.md)**
+* **[SpriteSystem_Flash.md](./OS/SpriteSystem_Flash.md)**
     *   **Version**: v15.3 [FLASH_GLOBAL]
     *   **Model**: **Gemini 3 Flash**
     *   **Features**: Tuned for lightweight models. Uses **Aggressive Python** (execute before thinking) to correct Flash's hallucinations.
