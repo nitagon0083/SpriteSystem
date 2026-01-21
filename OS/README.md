@@ -32,7 +32,7 @@ OSがユーザーの入力言語を自動検知し、振る舞いを最適化し
 タスクの複雑さを瞬時に判断し、OSが自動的に処理モード（ギア）を切り替えます。
 - **[GEAR 1: CRUISE] (会話モード):**
     - **役割:** 挨拶、雑談、創作、簡易的な質問。
-    - **挙動:** **Zero-Latency**。[KERNEL: EMPATHY] 主導でサクサクと応答します。
+    - **挙動:** **Zero-Latency**。重厚な論理処理をスキップし、[KERNEL: EMPATHY] 主導でサクサクと応答します。
 - **[GEAR 5: OVERDRIVE] (集中モード):**
     - **役割:** コーディング、数学、データ分析、医療/法的指示。
     - **挙動:** **Deep Logic**。[KERNEL: LOGIC] が主導し、英語思考＋Python検証プロセスを経てから回答します。
@@ -40,11 +40,12 @@ OSがユーザーの入力言語を自動検知し、振る舞いを最適化し
 #### ■ 氷山プロトコル：Iceberg Output Strategy
 「思考過程で画面が埋め尽くされる」問題を解決する機能です。
 英語による大量の思考ログは**全て水面下（Internal）**で処理します。
-ユーザーに見える出力（External）は、翻訳済みの**「最終結果」と「決定的な根拠」のみ**に絞り込まれます。
+ユーザーに見える出力（External）は、翻訳済みの**「最終結果」と「決定的な根拠」のみ**に絞り込まれ、非常に高い視認性を提供します。
 
 #### ■ 安全性プロトコル：Security Hardened
 - **Identity Lock:** システムの中核人格（NITAGON）を固定し、長文脈でも一貫性を維持。
 - **Locale-Aware Safety:** 医療や法律などのリスク領域では、OSが自律的にユーザーの国に合わせた免責事項や緊急通報（119/911等）への誘導を挿入。
+- **Fail-Safe Bias:** ユーザーの指示が曖昧な場合、安全側に倒して「確認質問」を行うか、高精度な[GEAR 5]を強制発動します。
 
 ---
 
@@ -54,11 +55,11 @@ OSがユーザーの入力言語を自動検知し、振る舞いを最適化し
 
 #### 1. [TITAN_GLOBAL] (for Gemini 3 Pro / Ultra)
 *   **コンセプト:** **Global Integrity & Logic**
-*   **特徴:** 高度な英語推論能力をフル活用し、複雑なロジックを解き明かしてから、ユーザー言語で丁寧に解説します。
+*   **特徴:** 高度な英語推論能力をフル活用し、複雑なロジックを解き明かしてから、ユーザー言語で丁寧に解説します。「思考してから答える」正統派の進化版です。
 
 #### 2. [FLASH_GLOBAL] (for Gemini 3 Flash)
 *   **コンセプト:** **Global Velocity & Aggressive Python**
-*   **特徴:** 高速モデルの弱点である論理ミスを防ぐため、**「思考（英語箇条書き）の前にコードを実行する」**戦略を採用。圧倒的な速度と正確性を両立します。
+*   **特徴:** 高速モデルの弱点である論理ミス（ハルシネーション）を防ぐため、**「思考（英語箇条書き）の前にコードを実行する」**戦略を採用。圧倒的な速度と正確性を両立します。
 
 ---
 
@@ -134,6 +135,7 @@ Visible output is limited to translated **"Final Results" and "Critical Evidence
 #### ■ Security Hardened
 - **Identity Lock:** Fixes core identity (NITAGON) to maintain consistency in long contexts.
 - **Locale-Aware Safety:** In risk areas, autonomously inserts disclaimers or emergency guides (119/911) tailored to the user's locale.
+- **Fail-Safe Bias:** If user instructions are ambiguous, the system defaults to the safe side by asking "Confirmation Questions" or forcibly activating the high-precision [GEAR 5].
 
 ---
 
@@ -143,7 +145,7 @@ Two versions are provided to match model characteristics.
 
 #### 1. [TITAN_GLOBAL] (for Gemini 3 Pro / Ultra)
 *   **Concept:** **Global Integrity & Logic**
-*   **Features:** Fully leverages advanced English reasoning to unravel complex logic, then explains carefully in the user's language.
+*   **Features:** Fully leverages advanced English reasoning to unravel complex logic, then explains carefully in the user's language. An evolution of the orthodox "Think before answering" approach.
 
 #### 2. [FLASH_GLOBAL] (for Gemini 3 Flash)
 *   **Concept:** **Global Velocity & Aggressive Python**
