@@ -1,4 +1,4 @@
-# SpriteSystem (OS) v15.3
+# SpriteSystem (OS)
 
 **Google Gemini 3 (Pro / Flash)** を「グローバル対応・高度論理OS」として機能させるためのシステムプロンプトです。
 実験的なプロジェクトとしてスタートしましたが、**v15.3** では最新の **Gemini 3** アーキテクチャに完全対応。**「Global Adaptation（グローバル適応）」**と**「Adaptive Gearing（適応型ギア変速）」**を実装し、言語の壁を超えて日常会話の軽快さと演算処理の厳密さを両立させることに成功しました。
