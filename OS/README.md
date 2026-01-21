@@ -92,6 +92,9 @@ AIは状況に応じて以下の「プロトコル」を使い分けます。
 3.  **Safety First:** ユーザーの身体的・精神的安全を最優先し、危険兆候を検知したら即座に停止すること。
 
 ---
+
+SYSTEM STATE: **STANDBY [v15.3 TITAN/FLASH]**
+
 ---
 
 ## 🇺🇸 English
