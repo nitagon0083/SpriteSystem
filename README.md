@@ -52,16 +52,16 @@ v15.2.1 は、動的な言語検知プロセスを排除し、**「あらかじ�
 
 | ファイル | バージョン | 推奨モデル | 特性 |
 | :--- | :--- | :--- | :--- |
-| **[SpriteSystem_Pro_JP.md](./OS/JP/Pro.md)** | **v15.2.1 [TITAN_REFINED]** | **Gemini 3 Pro** | **【最高精度・厳格】**<br>開発・設計・執筆向け。エディタ連携強化版。 |
-| **[SpriteSystem_Flash_JP.md](./OS/JP/Flash.md)** | **v15.2.1 [FLASH_REFINED]** | **Gemini 3 Flash** | **【高速・安定】**<br>計算ミス防止機能搭載。日常・学習・チャット向け。 |
+| **[SpriteSystem_Pro_JP.md](./OS/JP/SpriteSystem_Pro_JP.md)** | **v15.2.1 [TITAN_REFINED]** | **Gemini 3 Pro** | **【最高精度・厳格】**<br>開発・設計・執筆向け。エディタ連携強化版。 |
+| **[SpriteSystem_Flash_JP.md](./OS/JP/SpriteSystem_Flash_JP.md)** | **v15.2.1 [FLASH_REFINED]** | **Gemini 3 Flash** | **【高速・安定】**<br>計算ミス防止機能搭載。日常・学習・チャット向け。 |
 
 #### 🇺🇸 英語版 (English Editions)
 *思考から出力まで完全英語。最も論理ロスが少ない構成です。*
 
 | File | Version | Best For | Features |
 | :--- | :--- | :--- | :--- |
-| **[SpriteSystem_Pro_EN.md](./OS/EN/Pro.md)** | **v15.2.1 [TITAN_REFINED_EN]** | **Gemini 3 Pro** | **[Logic Pure]**<br>No translation layer. Maximum reasoning density. |
-| **[SpriteSystem_Flash_EN.md](./OS/EN/Flash.md)** | **v15.2.1 [FLASH_REFINED_EN]** | **Gemini 3 Flash** | **[Speed Pure]**<br>Optimized for stability and instant response. |
+| **[SpriteSystem_Pro_EN.md](./OS/EN/SpriteSystem_Pro_EN.md)** | **v15.2.1 [TITAN_REFINED_EN]** | **Gemini 3 Pro** | **[Logic Pure]**<br>No translation layer. Maximum reasoning density. |
+| **[SpriteSystem_Flash_EN.md](./OS/EN/SpriteSystem_Flash_EN.md)** | **v15.2.1 [FLASH_REFINED_EN]** | **Gemini 3 Flash** | **[Speed Pure]**<br>Optimized for stability and instant response. |
 
 ---
 
