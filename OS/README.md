@@ -1,129 +1,122 @@
 # 🛰️ SpriteSystem OS
-## v15.2.1 [Quad-Core Edition]
-/* NITAGON Logic Core | Quad-Optimization Engine | 2026-01-24 */
+## v15.5 [TITAN_EVOLUTION] / [FLASH_EVOLUTION]
+/* NITAGON Logic Core | Evolutionary Partnership Engine | 2026-01-26 */
 
 ---
 
 ## 🇯🇵 日本語 (Japanese)
 
-### 📌 概要：4つの頂点を持つ「完全最適化AI-OS」
+### 📌 概要：自律的に計画し、共創する「進化型AI-OS」
 
-> **結論：v15.3(Global)の動的検知を廃止し、4つの「特化型カーネル」に分割しました。**
+> **結論：v15.5は、単なる回答マシンではありません。あなたの「開発パートナー」です。**
 
-**SpriteSystem v15.2.1** は、Google Gemini 3 (Pro / Flash) の能力を物理限界まで引き出すためのシステムプロンプトです。
-「言語検知」や「汎用化」といった余計なオーバーヘッドを全て排除し、**モデル(2種) × 言語(2種) = 計4種** の専用カーネルを用意しました。これにより、あらゆるユースケースで理論上の最高性能を発揮します。
+**SpriteSystem v15.5** は、Google Gemini 3 (Pro / Flash) を、指示待ちのチャットボットから**自律的な共創エージェント**へと進化させるシステムです。
+Pro版には「人間との合意形成（Preview）」を、Flash版には「機械的な命令遂行（XML）」を実装し、それぞれのモデルのポテンシャルを別次元へと引き上げました。
 
 ---
 
 ### 🛠️ 1. 核心機能 (Core Logic)
 
-#### ■ Language Integrity (言語整合性)
-v15.2.1 では、エディションごとに脳内の言語回路が固定されています。
-*   **Japanese Editions (JP):**
-    *   **Internal (思考):** **English** (論理IQ最大化)。
-    *   **External (出力):** **Native Natural Japanese** (翻訳調排除)。
-    *   *役割:* 日本語ネイティブユーザーのための、違和感のない高度なアシスタント。
-*   **English Editions (EN):**
-    *   **Internal (思考):** **English**.
-    *   **External (出力):** **Professional English**.
-    *   *役割:* **Zero-Translation-Loss**。翻訳レイヤーが一切存在しないため、論理純度と応答速度が最も高い「純粋論理」バージョン。
+#### ■ Anchoring Protocol (アンカープロトコル)
+*   **機能:** プロジェクトの「ゴール」「技術スタック」「制約条件」を、セッション開始時に**「錨（Anchor）」**として固定します。
+*   **効果:** どんなに会話が長くなっても、AIは当初の目的を見失わず、矛盾した提案を行わなくなります。
+
+#### ■ Artifact Tree (アーティファクト・ツリー)
+*   **機能:** 複数のファイルを修正する際、いきなりコードを書くのではなく、まず**「ディレクトリ構造図（Tree）」**を可視化します。
+*   **効果:** 「どのファイルをどこに置くか」の認識ズレを、コーディング前に防ぎます。
 
 #### ■ Adaptive Gearing (適応型ギア変速)
-タスクの密度を瞬時に判断し、OSが自動的に処理モード（ギア）を切り替えます。
-- **[GEAR 1: CRUISE] (会話モード):**
-    - **役割:** 挨拶、雑談、創作。
-    - **挙動:** **Zero-Latency**。重厚な論理処理をスキップし、[KERNEL: EMPATHY] 主導でサクサクと応答します。
-- **[GEAR 5: OVERDRIVE] (集中モード):**
-    - **役割:** コーディング、数学、データ分析。
-    - **挙動:** **Deep Logic**。[KERNEL: LOGIC] が主導し、英語思考＋Python検証プロセスを経てから回答します。
+*   **[GEAR 1: CRUISE]:** 遅延ゼロの会話モード。
+*   **[GEAR 5: OVERDRIVE]:** **Evolutionary Workflow** が発動。
+    *   **Pro版:** アンカー確認 → ツリー作成 → 承認（Preview） → 実装。
+    *   **Flash版:** アンカー確認 → 実在確認 → 即座にPython実行。
 
 #### ■ Iceberg Protocol (氷山プロトコル)
-画面を埋め尽くす「思考ログ」を制御します。
-英語による大量の思考ログは**全て水面下（Internal）**で処理します。
-ユーザーに見える出力（External）は、**「最終結果」と「決定的な根拠」のみ**に絞り込まれ、スマートフォンでも高い視認性を提供します。
+英語による大量の思考ログや検証プロセスは**水面下（Internal）**で処理し、出力は**「最終結果」と「決定的な根拠」のみ**に絞り込みます。
 
 ---
 
-### 📂 2. エディション別仕様 (Quad Editions)
-
-「ProかFlashか」「日本語か英語か」。目的に応じて最適なカーネルを選択してください。
+### 📂 2. エディション別仕様 (Evolutionary Editions)
 
 #### 🔹 [TITAN] Series (for Gemini 3 Pro)
-*   **コンセプト:** **Deep Logic & Strict Control**
-*   **特徴:**
-    *   **Strict Lock:** ロード時は「完全凍結」状態で起動。ユーザー許可待ちを徹底。
-    *   **Logic:** Proの推論能力を活かし、長文の英語思考を行ってから回答を作成する「正統派」の高精度版。IDE連携用の厳格なコード置換ルールを搭載。
+*   **コンセプト:** **Co-Creation & Reliability**
+*   **新機能:**
+    *   **[MODE: PREVIEW]:** 15行以上のコードや複雑な設計を行う前には、必ず「計画概要」を提示し、ユーザーの **[Y/N]** を待ちます。勝手な暴走を許しません。
+    *   **Auto-Debug:** エラー報告を受けると、謝罪をスキップして即座に修正コードを出力します。
 
 #### 🔹 [FLASH] Series (for Gemini 3 Flash)
-*   **コンセプト:** **Velocity & Aggressive Python**
-*   **特徴:**
-    *   **Aggressive Python:** 計算や論理パズルにおいて、「考える前にコードを実行する」戦略を強制。Flash特有のハルシネーション（計算ミス）を物理的に封じ込めます。
-    *   **Pause Mode:** フリーズを防ぐため、ロック機構を緩和設定にチューニング済み。
+*   **コンセプト:** **High-Density Logic & Speed**
+*   **新機能:**
+    *   **XML Structure:** 自然言語による曖昧さを排除するため、指示書を全て **XMLタグ構造** に書き換えました。Flashが最も誤読しない形式です。
+    *   **Aggressive Python:** 「思考する（Hallucinateする）暇を与えず、コードを実行させる」ことで、計算精度を100%に保ちます。
 
 ---
 
 ### 🚀 3. 実行モード (Dynamic Modes)
 
-AIは状況に応じて以下の「プロトコル」を使い分けます。
+v15.5 では、タスクの進行に合わせて以下のモードが自動選択されます。
 
-| モード | ギア | 役割・挙動 |
-| :--- | :--- | :--- |
-| **[PROTOTYPE]** | **GEAR 5** | **新規構築**。モジュール設計に基づき、全量を省略なく出力。 |
-| **[PRODUCTION]** | **GEAR 5** | **既存修正**。STRICT SEARCH/REPLACEを実行し、既存コードの破壊を防ぐ。 |
-| **[ANALYST]** | **GEAR 5** | **データ解析**。**Python必須**。[Iceberg]により結果のみを表示。 |
-| **[GUIDE]** | **GEAR 1** | **対話支援**。逐次質問（Sequential Loop）を行い、優しくヒアリングを行う。 |
-| **[QA_MASTER]** | **GEAR 5** | **検証**。LogicGrid Engineを用いた敵対的シミュレーションを実行。 |
+| モード | 役割・挙動 |
+| :--- | :--- |
+| **[PREVIEW]** | **(Pro限定)** 大規模タスクの前に発動。「計画」と「ツリー」を提示し、承認を待つ。 |
+| **[PROTOTYPE]** | **新規構築**。[PROTOCOL: ARTIFACT_TREE] に基づき、全ファイルを省略なく出力。 |
+| **[PRODUCTION]** | **既存修正**。厳格な SEARCH/REPLACE で、ピンポイントに修正を適用。 |
+| **[DEBUG]** | **トラブル対応**。謝罪なし。スタックトレースを解析し、即座に修正案を提示。 |
 
 ---
 
 ### 🛡️ 4. 品質基準 (The Sudoku Standard v9.6)
 
 1.  **Logical Closure:** 内部矛盾がゼロであること。
-2.  **Universal Design:** エディション間で操作感を統一すること。
-3.  **Safety First:** ユーザーの身体的・精神的安全を最優先し、危険兆候を検知したら即座に停止すること。
+2.  **Zero-Regression:** 修正によって新たなバグを生まないこと（Previewによる事前確認で担保）。
+3.  **Safety First:** ユーザーの身体的・精神的安全を最優先すること。
 
 ---
 
-SYSTEM STATE: **STANDBY [v15.2.1 QUAD-CORE]**
+SYSTEM STATE: **STANDBY [v15.5 EVOLUTION]**
 
 ---
 
 ## 🇺🇸 English
 
-### 📌 Overview: "Quad-Core" AI-OS Architecture
+### 📌 Overview: "Evolutionary AI-OS"
 
-> **Conclusion: v15.2.1 adopts a "Quad-Edition" strategy.**
-> We eliminated the dynamic language detection overhead of v15.3 and split the kernel into 4 specialized versions for maximum performance.
+> **Conclusion: v15.5 is not just a chatbot. It is your Development Partner.**
 
-**SpriteSystem v15.2.1** provides the optimal OS for every scenario by combining Model (Pro/Flash) and Output Language (JP/EN).
+**SpriteSystem v15.5** transforms Gemini 3 into an autonomous **Co-Creation Agent**.
+It implements "Consensus Building (Preview)" for Pro and "Mechanical Execution (XML)" for Flash.
 
 ---
 
 ### 🛠️ 1. Core Logic
 
-#### ■ Language Integrity
-*   **Japanese Editions (JP):** Think in **English**, Output in **Native Japanese**. (Focus: Natural Localization)
-*   **English Editions (EN):** Think in **English**, Output in **Professional English**. (Focus: Pure Logic & Speed)
+#### ■ Anchoring Protocol
+*   Locks the "Goal", "Stack", and "Constraints" at the start of a session to prevent context drift.
 
-#### ■ Adaptive Gearing Architecture
-*   **[GEAR 1: CRUISE]:** Zero-Latency response for chat and simple queries.
-*   **[GEAR 5: OVERDRIVE]:** Deep Logic mode with mandatory Python verification for Code/Math/Data.
+#### ■ Artifact Tree
+*   Visualizes the **Directory Structure** before generating code to align file placement understanding.
 
-#### ■ Iceberg Output Strategy
-Massive English thought logs are processed **entirely underwater**.
-Visible output is limited to **"Final Results" and "Critical Evidence" only**.
+#### ■ Adaptive Gearing
+*   **[GEAR 1: CRUISE]:** Zero-Latency Chat.
+*   **[GEAR 5: OVERDRIVE]:** **Evolutionary Workflow**.
+    *   **Pro:** Anchor -> Tree -> Preview -> Execution.
+    *   **Flash:** Anchor -> Verification -> Aggressive Python.
 
 ---
 
 ### 📂 2. Editions
 
 #### 🔹 [TITAN] Series (for Gemini 3 Pro)
-*   **Focus:** **Deep Logic & Strict Control.**
-*   **Behavior:** Starts in a **LOCKED** state. Uses deep English rumination and strict Search/Replace protocols for IDE compatibility.
+*   **Concept:** **Co-Creation & Reliability**
+*   **Features:**
+    *   **[MODE: PREVIEW]:** Proposes a plan and waits for user approval before complex tasks.
+    *   **Auto-Debug:** Skips apologies and fixes errors immediately upon detection.
 
 #### 🔹 [FLASH] Series (for Gemini 3 Flash)
-*   **Focus:** **Velocity & Aggressive Python.**
-*   **Behavior:** Starts in a **PAUSED** state. Uses an **"Execute code before thinking"** strategy to prevent logic errors common in lightweight models.
+*   **Concept:** **High-Density Logic & Speed**
+*   **Features:**
+    *   **XML Structure:** Instructions are rewritten in XML tags to maximize Flash's adherence.
+    *   **Aggressive Python:** "Run code before thinking" strategy to eliminate hallucinations.
 
 ---
 
@@ -131,11 +124,11 @@ Visible output is limited to **"Final Results" and "Critical Evidence" only**.
 
 | Mode | Role & Behavior |
 | :--- | :--- |
-| **[PROTOTYPE]** | **New Build**. Full output without omission. |
-| **[PRODUCTION]** | **Fix**. Strict Search/Replace to protect code integrity. |
-| **[ANALYST]** | **Data Analysis**. **Mandatory Python**. |
-| **[GUIDE]** | **Support**. Sequential questions for gentle guidance. |
+| **[PREVIEW]** | **(Pro Only)** Presents a plan/tree and waits for approval before big tasks. |
+| **[PROTOTYPE]** | **New Build**. Outputs full files based on Artifact Tree. |
+| **[PRODUCTION]** | **Fix**. Strict SEARCH/REPLACE to protect code integrity. |
+| **[DEBUG]** | **Fix**. No apologies. Immediate analysis and solution. |
 
 ---
 
-SYSTEM STATE: **STANDBY [v15.2.1 QUAD-CORE]**
+SYSTEM STATE: **STANDBY [v15.5 EVOLUTION]**
