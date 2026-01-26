@@ -92,27 +92,53 @@ SpriteSystem の開発は、作者が癌の治療と向き合いながら、限�
 
 > **Conclusion: Logic purity over versatility.**
 
-SpriteSystem v15.5 [EVOLUTION] maximizes performance by using **static, specialized kernels** pre-fixed to the target language and model.
+SpriteSystem v15.5 [EVOLUTION] maximizes performance by using **static, specialized kernels** pre-fixed to the target language and model, eliminating the overhead of dynamic language detection.
 
 #### 1. Model Optimization
-* **[TITAN] (Pro):** Focuses on "Evolutionary Partnership". Features strict Anchoring and a tiered Co-creation workflow for large-scale architecture.
-* **[FLASH] (Flash):** Focuses on "High-Density Evolution". Prevents hallucinations through a linear execution flow and "Aggressive Python" strategy.
+* **[TITAN] (for Gemini 3 Pro):**
+    * **"Evolutionary Partnership Engine"**. Directs Pro's high reasoning power toward "Co-Creation". Features strict **Anchoring** (goal fixation) and a tiered workflow that requires approval for complex tasks to prevent context drift in large-scale projects.
+* **[FLASH] (for Gemini 3 Flash):**
+    * **"High-Density Evolution Engine"**. Physically compensates for Flash's weaknesses (logical hallucinations) with a pre-defined **"Linear Execution Flow"** and an **"Aggressive Python"** strategy that executes code immediately without unnecessary rumination.
 
 #### 2. Language Optimization
-* **Japanese Editions:** Think in English, output in **Native Natural Japanese**.
-* **English Editions:** Think in English, output in **Professional English**. (Zero translation overhead).
+* **Japanese Editions:** Think in English internally, then reconstruct into **Native Natural Japanese** (No translationese).
+* **English Editions:** Think and output entirely in **Professional English**. Since there is no translation layer, it offers the highest logical purity and response speed.
+
+### ⚙️ Core Architecture (Universal Features)
+
+All editions are equipped with the following powerful protocols:
+
+#### 1. Adaptive Gearing
+Automatically shifts processing modes (Gears) based on task density.
+* **[GEAR 1: CRUISE]:** Casual mode. Minimizes thought time for zero-latency responses.
+* **[GEAR 5: OVERDRIVE]:** Professional mode. Mandatory Python verification for Math, Code, and Analytics before responding.
+
+#### 2. Iceberg Protocol
+A protocol to control the "Thought Logs" that clutter the screen.
+* Only the **Final Answer** and **Decisive Evidence** are visible to the user.
+* Calculation processes and logic checks are performed as **Silent Bullet Points** under the surface (Internal).
 
 ### 📦 Select Your Edition
 
-| Edition | Version | Language | Target Model |
-| :--- | :--- | :--- | :--- |
-| **Pro JP** | v15.5 [TITAN_EVOLUTION] | Japanese | Gemini 3 Pro |
-| **Flash JP** | v15.5 [FLASH_EVOLUTION] | Japanese | Gemini 3 Flash |
-| **Pro EN** | v15.5 [TITAN_EV_EN] | English | Gemini 3 Pro |
-| **Flash EN** | v15.5 [FLASH_EV_EN] | English | Gemini 3 Flash |
+Choose the code that matches your model and preferred language.
+
+| Edition | Version | Language | Target Model | Key Features |
+| :--- | :--- | :--- | :--- | :--- |
+| **Pro JP** | v15.5 [TITAN_EV] | Japanese | Gemini 3 Pro | **[High Precision]** Co-Creation / Anchoring |
+| **Flash JP** | v15.5 [FLASH_EV] | Japanese | Gemini 3 Flash | **[High Speed]** Linear Flow / Stable Logic |
+| **Pro EN** | v15.5 [TITAN_EV_EN] | English | Gemini 3 Pro | **[Logic Pure]** Professional English focus |
+| **Flash EN** | v15.5 [FLASH_EV_EN] | English | Gemini 3 Flash | **[Speed Pure]** High-speed execution focus |
+
+---
+
+### 🚀 Quick Start
+
+1.  **Deployment**: Copy the code from the table above and paste it into the **System Instructions**.
+2.  **Activation**: The system starts in a **PAUSED** state for safety. Type `EXECUTE` or `OK` to fully unlock the system.
+3.  **Operation**: The OS stays in **[CRUISE]** for general talk and auto-shifts to **[OVERDRIVE]** for technical tasks.
 
 ### ☕ Support the Developer
 
-SpriteSystem is a passion project developed while fighting cancer. If you find this OS useful, your support is deeply appreciated.
+SpriteSystem is a passion project developed while the author is fighting cancer. If you find this OS useful and wish to support its continued development, a "Buy Me a Coffee" donation would be deeply appreciated.
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-FF813F?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white)](https://buymeacoffee.com/nitagon1)
