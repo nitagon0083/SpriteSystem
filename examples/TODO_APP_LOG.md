@@ -1,9 +1,9 @@
-🛠 STRATEGIC ENGINEERING & VALUE REPORT: THE MASTERPIECE
+🛠 STRATEGIC ENGINEERING & VALUE REPORT: ULTIMATE MASTERPIECE
 [SYSTEM_STATUS]
 
 • Logic Engine: SpriteSystem v15.5.1 [FLASH_EVOLUTION]
 
-• Enforcement: ZERO_LOSS POLICY (Preserve 100% detail & value description)
+• Enforcement: ZERO_LOSS POLICY (Preserve 100% detail in both JP/EN)
 
 ---
 
@@ -22,7 +22,7 @@
 
   • 人間は意思決定のみ。残りの設計・実装・環境構築はすべてAIが担当し、工数を劇的に削減しました。
 
-2. 開発成果物（フルスペック出力）
+2. 開発成果物（フルスペック・全コード出力）
 
 Step 1: データベース設計 (Prisma Schema)
 
@@ -60,7 +60,7 @@ model Todo {
 
   status    Status   @default(TODO)
 
-  version   Int      @default(0) // 同時編集衝突防止
+  version   Int      @default(0)
 
   userId    String
 
@@ -70,7 +70,7 @@ model Todo {
 
   updatedAt DateTime @updatedAt
 
-  @@index([userId, status]) // 高速検索インデックス
+  @@index([userId, status])
 
 }
 
@@ -218,7 +218,7 @@ jobs:
 
 3. 日本語結論
 
-本プロジェクトは、SpriteSystem の論理制御により、AIがシニアエンジニアと同等の「設計思想」と「責任感」を持ってシステムを完遂できることを証明しました。
+本プロジェクトは、SpriteSystem の論理制御により、AIがシニアエンジニアと同等の「設計思想」と「正確性」を持ってシステムを完遂できることを証明しました。
 
 ---
 
@@ -243,7 +243,29 @@ Step 1: Database Architecture (Prisma Schema)
 
 ```
 
-// Complete code repeated for English context
+datasource db {
+
+  provider = "postgresql"
+
+  url      = env("DATABASE_URL")
+
+}
+
+generator client {
+
+  provider = "prisma-client-js"
+
+}
+
+model User {
+
+  id    String @id @default(cuid())
+
+  email String @unique
+
+  todos Todo[]
+
+}
 
 model Todo {
 
@@ -267,15 +289,55 @@ model Todo {
 
 }
 
+enum Status {
+
+  TODO
+
+  IN_PROGRESS
+
+  DONE
+
+}
+
 ```
 
-Step 2: Business Logic & Integrity (TypeScript)
+Step 2: Business Logic & Integrity (TodoService.ts)
 
 ```
 
-// Complete logic repeated for English context
+import { PrismaClient } from '@prisma/client';
+
+import { z } from 'zod';
+
+const prisma = new PrismaClient();
+
+export const CreateTodoSchema = z.object({
+
+  title: z.string().min(1).max(100),
+
+  userId: z.string(),
+
+});
+
+export const UpdateTodoSchema = z.object({
+
+  title: z.string().min(1).max(100).optional(),
+
+  status: z.enum(['TODO', 'IN_PROGRESS', 'DONE']).optional(),
+
+  version: z.number(),
+
+});
 
 export class TodoService {
+
+  static async create(data: z.infer<typeof CreateTodoSchema>) {
+
+    const validated = CreateTodoSchema.parse(data);
+
+    return await prisma.todo.create({ data: validated });
+
+  }
 
   static async update(id: string, data: z.infer<typeof UpdateTodoSchema>) {
 
@@ -311,7 +373,9 @@ Step 3: Quality Assurance (Jest)
 
 ```
 
-// Complete test code repeated for English context
+import { TodoService } from './TodoService';
+
+import { prismaMock } from './singleton';
 
 describe('TodoService', () => {
 
@@ -337,9 +401,9 @@ Step 4: Continuous Integration (GitHub Actions)
 
 ```
 
-// Complete CI configuration repeated for English context
-
 name: Test Suite
+
+on: [push, pull_request]
 
 jobs:
 
@@ -351,7 +415,17 @@ jobs:
 
       - uses: actions/checkout@v4
 
+      - name: Setup Node.js
+
+        uses: actions/setup-node@v4
+
+        with:
+
+          node-version: '20'
+
       - run: npm install
+
+      - run: npx prisma generate
 
       - run: npm test
 
