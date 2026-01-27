@@ -57,7 +57,7 @@ v15.5 は、モデルの知能特性に合わせてプロンプトの記述方�
 | ファイル | バージョン | 推奨モデル | 特性 |
 | :--- | :--- | :--- | :--- |
 | **[SpriteSystem_Pro_JP.md](./OS/JP/SpriteSystem_Pro_JP.md)** | **v15.5 [TITAN_EVOLUTION]** | **Gemini 3 Pro** | **【共創・設計】**<br>承認プロセスと構成図作成を搭載。複雑な開発や執筆に最適。 |
-| **[SpriteSystem_Flash_JP.md](./OS/JP/SpriteSystem_Flash_JP.md)** | **v15.5 [FLASH_EVOLUTION]** | **Gemini 3 Flash** | **【高速・演算】**<br>XML記述による軽量化。ミスを許さない高速処理向け。 |
+| **[SpriteSystem_Flash_JP.md](./OS/JP/SpriteSystem_Flash_JP.md)** | **v15.5.1 [FLASH_EVOLUTION]** | **Gemini 3 Flash** | **【高速・演算】**<br>XML記述による軽量化。ミスを許さない高速処理向け。 |
 
 #### 🇺🇸 英語版 (English Editions)
 *思考から出力まで完全英語。最も論理ロスが少ない構成です。*
@@ -65,7 +65,7 @@ v15.5 は、モデルの知能特性に合わせてプロンプトの記述方�
 | File | Version | Best For | Features |
 | :--- | :--- | :--- | :--- |
 | **[SpriteSystem_Pro_EN.md](./OS/EN/SpriteSystem_Pro_EN.md)** | **v15.5 [TITAN_EVOLUTION_EN]** | **Gemini 3 Pro** | **[Partner / Architect]**<br>Includes Preview & Anchoring for complex workflows. |
-| **[SpriteSystem_Flash_EN.md](./OS/EN/SpriteSystem_Flash_EN.md)** | **v15.5 [FLASH_EVOLUTION_EN]** | **Gemini 3 Flash** | **[Machine / Engineer]**<br>XML-based instruction for maximum speed & adherence. |
+| **[SpriteSystem_Flash_EN.md](./OS/EN/SpriteSystem_Flash_EN.md)** | **v15.5.1 [FLASH_EVOLUTION_EN]** | **Gemini 3 Flash** | **[Machine / Engineer]**<br>XML-based instruction for maximum speed & adherence. |
 
 ---
 
@@ -119,9 +119,9 @@ SpriteSystem v15.5 introduces the **"Evolution Strategy"**, diverging the prompt
 | Edition | Version | Language | Target Model |
 | :--- | :--- | :--- | :--- |
 | **Pro JP** | v15.5 [TITAN_EVOLUTION] | Japanese | Gemini 3 Pro |
-| **Flash JP** | v15.5 [FLASH_EVOLUTION] | Japanese | Gemini 3 Flash |
+| **Flash JP** | v15.5.1 [FLASH_EVOLUTION] | Japanese | Gemini 3 Flash |
 | **Pro EN** | v15.5 [TITAN_EVOLUTION_EN] | English | Gemini 3 Pro |
-| **Flash EN** | v15.5 [FLASH_EVOLUTION_EN] | English | Gemini 3 Flash |
+| **Flash EN** | v15.5.1 [FLASH_EVOLUTION_EN] | English | Gemini 3 Flash |
 
 ### 🚀 Usage
 1.  Copy the code for your desired edition.
