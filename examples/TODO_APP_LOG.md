@@ -236,8 +236,7 @@ jobs:
 
 ```
 
-最終結論
-結論：AI自律開発の到達点
+最終結論：AI自律開発の到達点
 本ドキュメントに記録された成果物は、人間が「技術的対話」や「デバッグ指示」を一切行わず、SpriteSystem v15.5.1 の論理プロトコルを介してAIが自律的に出力したものです。
 
 本プロジェクトが証明した3つの真実：
@@ -349,7 +348,7 @@ Step 4: Continuous Integration (test.yml)
 
 ---
 
-🇺🇸 English Section: Final Conclusion
+Final Conclusion
 Conclusion: The Frontier of Autonomous Engineering
 All artifacts documented herein were generated autonomously by Gemini 3 Flash under the strict governance of SpriteSystem v15.5.1. This was achieved without a single line of code-level instruction from the user.
 
