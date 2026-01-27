@@ -32,43 +32,33 @@ v15.5 は、モデルの知能特性に合わせてプロンプトの記述方�
 
 ## 💎 実証：Flash版による「シニア級エンジニアリング」の完遂
 
-「軽量モデルであるFlashは、複雑な設計には向かない」という常識は、SpriteSystemによって覆されました。以下は、**Gemini 3 Flash (v15.5.1)** を使用し、本OSの制御下で生成された実際の成果物（Evidence）です。
+「軽量モデルであるFlashは、複雑な設計には向かない」という常識は、SpriteSystemによって覆されました。以下は、**Gemini 3 Flash** を使用し、本OSの制御下で生成された実際の成果物です。
 
 ### **【Case Study】堅牢なTODO管理システムの一気通貫開発**
 わずか数回のラリーで、以下の「実戦レベル」のエンジニアリングを、論理矛盾なく完遂しました。
 
-#### **1. Database Architecture (Prisma)**
-- **Optimistic Locking**: 複数端末からの同時更新を防ぐ `version` カラムを用いた排他制御を自発的に実装。
-- **Referential Integrity**: ユーザー削除時に紐づくデータを自動削除する `onDelete: Cascade` の設定。
-- **Performance**: 頻出クエリを予見した `@@index([userId, status])` などの複合インデックス設計。
+1.  **Database Architecture**: 複数端末からの同時更新を防ぐ「楽観的ロック」や、パフォーマンスを最大化する複合インデックスを自発的に実装。
+2.  **Service Layer & Validation**: `Prisma.$transaction` による原子性の確保と、**Zod** による厳格なバリデーション。
+3.  **Automated Testing**: 正常系だけでなく、「バージョンの不一致」や「権限侵害」といった異常系を網羅したテストコード。
+4.  **CI/CD Pipeline**: プッシュ時に自動でテストを回し、品質をゲートキーピングするGitHub Actions定義。
 
+### **🎯 驚異的なユーザー体験：意思決定（選択）だけで開発が進む**
+本システムの実力を最も象徴するのが、開発工程におけるユーザーの負担の少なさです。
 
+- **対話の簡略化**: ユーザーはAIが提示する「次の方針（Next Action Menu）」から**番号を選択するだけ**。
+- **論理の自動継続**: 一度選べば、OSが全工程の文脈を完璧に引き継ぎ、プロレベルの成果物を自動生成。
+- **スキルの民主化**: 高度な設計知識がなくても、SpriteSystemの「レール」に乗るだけで、シニア級のプロジェクトを完遂可能。
 
-#### **2. Service Layer & Validation (TypeScript)**
-- **Atomic Transactions**: `Prisma.$transaction` を用い、データの整合性を物理的に保証。
-- **Strict Validation**: **Zod** を使用し、API境界で「未来の日付チェック」や「型変換」を厳格に実行。
-
-#### **3. Automated Testing (Jest)**
-- **Edge Case Testing**: 正常系だけでなく、「バージョンの不一致」や「権限侵害」といった異常系を網羅したテストコードを生成。
-- **Mock Strategy**: `prismaMock` を活用した、高速かつ正確な論理検証。
-
-#### **4. CI/CD Pipeline (GitHub Actions)**
-- **Quality Gate**: プッシュ時に自動でテスト・ビルド・カバレッジ確認を行うワークフローを定義。
-
-
+> **「私がやったのは、提示された番号を選んで進めただけ。それだけで、プロのエンジニアが数日かけて構築する環境が、数分で、しかも完璧に整った。」**
 
 ---
 
 ### **📈 なぜ「どこの馬の骨かもわからない素人」がこれを作れたのか？**
-
 その答えは、SpriteSystemが持つ **「論理の檻（Logic Cage）」** にあります。
 
-1.  **情報の非破壊性 (ZERO_LOSS)**:
-    AIが勝手にコードを省略したり、重要な制約を忘れることをプロトコルレベルで禁止。
-2.  **思考の深度化 (INTERNAL: English)**:
-    日本語の曖昧さに逃げず、モデル内部で一度英語論理に変換して思考させることで、シニアエンジニア並みの深い洞察を引き出します。
-3.  **役割の強制 (OS Kernel)**:
-    AIを「チャットボット」ではなく「高密度演算エンジン」として初期化するため、謝罪や無駄な挨拶を排除し、100%のリソースをエンジニアリングに集中。
+1.  **情報の非破壊性 (ZERO_LOSS)**: AIが勝手にコードを省略したり、重要な制約を忘れることをプロトコルレベルで禁止。
+2.  **思考の深度化 (INTERNAL: English)**: 日本語の曖昧さに逃げず、モデル内部で英語論理に変換して思考させることで、シニア級の洞察を抽出。
+3.  **役割の強制 (OS Kernel)**: AIを「チャットボット」ではなく「高密度演算エンジン」として初期化。
 
 > **「このシステムがあれば、ジュニアエンジニアでも、無料版AIで、シニア級のアウトプットを安定して出せるようになる。」**
 > これこそが、SpriteSystemが提供する真の価値です。
@@ -163,41 +153,33 @@ SpriteSystem v15.5 introduces the **"Evolution Strategy"**, diverging the prompt
 
 ## 💎 Evidence: Achieving Senior-Level Engineering with Gemini 3 Flash
 
-The common belief that "lightweight models like Flash are unsuitable for complex design" has been debunked by SpriteSystem. Below are the actual engineering results achieved with **Gemini 3 Flash (v15.5.1)** under this OS control.
+The common belief that "lightweight models like Flash are unsuitable for complex design" has been debunked by SpriteSystem. Below are the actual engineering results achieved with **Gemini 3 Flash** under this OS control.
 
 ### **【Case Study】End-to-End Development of a Robust TODO System**
 In just a few turns, the following production-ready engineering tasks were completed with perfect logical consistency:
 
-#### **1. Database Architecture (Prisma)**
-- **Optimistic Locking**: Implemented concurrency control using a `version` column to prevent data corruption from simultaneous updates.
-- **Referential Integrity**: Configured `onDelete: Cascade` to ensure no orphaned records.
-- **Performance Optimization**: Designed composite indexes such as `@@index([userId, status])` predicting high-frequency query patterns.
+1.  **Database Architecture**: Implemented "Optimistic Locking" and composite indexes predicting high-frequency query patterns.
+2.  **Service Layer & Validation**: Utilized `Prisma.$transaction` for atomicity and **Zod** for strict API boundary checks.
+3.  **Automated Testing**: Generated comprehensive tests for edge cases, including "version mismatch" and "unauthorized access."
+4.  **CI/CD Pipeline**: Defined GitHub Actions to automate testing and quality gatekeeping upon every push.
 
+### **🎯 The "Zero-Effort" Decision Workflow**
+The core strength of SpriteSystem lies in the minimal cognitive load on the user.
 
+- **Streamlined Dialogue**: Users simply **select a number** from the "Next Action Menu" presented by the AI.
+- **Automated Continuity**: Once selected, the OS flawlessly inherits the context, generating professional-grade outputs automatically.
+- **Democratization of Skill**: Even without advanced architectural knowledge, anyone can complete senior-level projects by staying on the "rails."
 
-#### **2. Service Layer & Validation (TypeScript)**
-- **Atomic Transactions**: Utilized `Prisma.$transaction` to physically guarantee data integrity.
-- **Strict Validation**: Leveraged **Zod** to enforce strict API boundary checks, including future-date validation and type coercion.
-
-#### **3. Automated Testing (Jest)**
-- **Edge Case Coverage**: Generated comprehensive tests for failure modes, including "version mismatch" and "unauthorized access."
-- **Mocking Strategy**: Applied a sophisticated `prismaMock` approach for fast and accurate logic verification.
-
-#### **4. CI/CD Pipeline (GitHub Actions)**
-- **Quality Gatekeeping**: Defined a workflow to automate testing, building, and coverage reporting upon every push.
+> **"All I did was select the numbers. In minutes, a production-ready environment that would take a senior engineer days to build was perfectly established."**
 
 ---
 
 ### **📈 Why can an "unknown" system achieve this?**
+The secret lies in the **"Logic Cage"** architecture:
 
-The secret lies in the **"Logic Cage"** architecture of SpriteSystem:
-
-1.  **ZERO_LOSS Protocol**:
-    Prohibits the AI from omitting code or forgetting critical constraints at the protocol level.
-2.  **INTERNAL: English Inference**:
-    Bypasses the ambiguity of natural language by forcing the model to think in logical English structures, extracting senior-level insights.
-3.  **Kernel Initialization**:
-    Initializes the AI as a "High-Density Logic Engine" rather than a "Chatbot," dedicating 100% of resources to engineering by eliminating unnecessary conversational overhead.
+1.  **ZERO_LOSS Protocol**: Prohibits the AI from omitting code or forgetting critical constraints.
+2.  **INTERNAL: English Inference**: Bypasses linguistic ambiguity by forcing the model to think in logical English structures.
+3.  **Kernel Initialization**: Initializes the AI as a "High-Density Logic Engine" rather than a "Chatbot."
 
 > **"This system empowers junior developers to consistently produce senior-level output using free-tier AI models."**
 > This is the true power and mission of SpriteSystem.
