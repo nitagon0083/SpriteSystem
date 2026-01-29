@@ -74,10 +74,10 @@ The secret lies in the **"Hybrid Module"** architecture:
 
 | Edition | Version | Language | Target Model |
 | :--- | :--- | :--- | :--- |
-| **Pro JP** | v15.6 [TITAN_EVOLUTION] | Japanese | Gemini 3 Pro |
-| **Flash JP** | v15.6 [FLASH_EVOLUTION] | Japanese | Gemini 3 Flash |
-| **Pro EN** | v15.6 [TITAN_EVO_EN] | English | Gemini 3 Pro |
-| **Flash EN** | v15.6 [FLASH_EVO_EN] | English | Gemini 3 Flash |
+| **[SpriteSystem_Pro_JP.md](./OS/JP/SpriteSystem_Pro_JP.md)** | v15.6 [TITAN_EVOLUTION] | Japanese | Gemini 3 Pro |
+| **[SpriteSystem_Flash_JP.md](./OS/JP/SpriteSystem_Flash_JP.md)** | v15.6 [FLASH_EVOLUTION] | Japanese | Gemini 3 Flash |
+| **[SpriteSystem_Pro_EN.md](./OS/EN/SpriteSystem_Pro_EN.md)** | v15.6 [TITAN_EVO_EN] | English | Gemini 3 Pro |
+| **[SpriteSystem_Flash_EN.md](./OS/EN/SpriteSystem_Flash_EN.md)** | v15.6 [FLASH_EVO_EN] | English | Gemini 3 Flash |
 
 ### 🚀 Usage
 
@@ -149,10 +149,10 @@ The secret lies in the **"Hybrid Module"** architecture:
 
 | Edition | Version | Language | Target Model |
 | :--- | :--- | :--- | :--- |
-| **Pro JP** | v15.6 [TITAN_EVOLUTION] | Japanese | Gemini 3 Pro |
-| **Flash JP** | v15.6 [FLASH_EVOLUTION] | Japanese | Gemini 3 Flash |
-| **Pro EN** | v15.6 [TITAN_EVO_EN] | English | Gemini 3 Pro |
-| **Flash EN** | v15.6 [FLASH_EVO_EN] | English | Gemini 3 Flash |
+| **[SpriteSystem_Pro_JP.md](./OS/JP/SpriteSystem_Pro_JP.md)** | v15.6 [TITAN_EVOLUTION] | Japanese | Gemini 3 Pro |
+| **[SpriteSystem_Flash_JP.md](./OS/JP/SpriteSystem_Flash_JP.md)** | v15.6 [FLASH_EVOLUTION] | Japanese | Gemini 3 Flash |
+| **[SpriteSystem_Pro_EN.md](./OS/EN/SpriteSystem_Pro_EN.md)** | v15.6 [TITAN_EVO_EN] | English | Gemini 3 Pro |
+| **[SpriteSystem_Flash_EN.md](./OS/EN/SpriteSystem_Flash_EN.md)** | v15.6 [FLASH_EVO_EN] | English | Gemini 3 Flash |
 
 ### 🚀 Usage
 
