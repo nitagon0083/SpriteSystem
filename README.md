@@ -1,100 +1,129 @@
-# SpriteSystem (OS) v15.6 [HYBRID_EVOLUTION]
+# SpriteSystem (OS) v15.6
 
-**Google Gemini 3 (Pro / Flash)** のポテンシャルを極限まで引き出し、対話を「高密度な演算」へと変換するシステムプロンプトの決定版です。
+**Google Gemini 3 (Pro / Flash)** のポテンシャルを極限まで引き出す、システムプロンプトの決定版です。
 
-**v15.6 (Hybrid Update)** では、プロンプトの肥大化による知能の減衰を防ぐため、OSの「軽量化」と「拡張性」を両立した**ハイブリッド・アーキテクチャ**へと進化しました。
-基幹となる「コア」をスリムに保ち、高度な専門機能は「パッチ（テンプレート）」として必要な時だけロードする仕組みを採用しています。
+**v15.6 (Titan Update)** では、AIを単なる「ツール」から「パートナー」へと進化させるための大規模なアップグレードを実施しました。
+Pro版は **「共創型パートナー（Co-Pilot）」** へ、Flash版は **「超高密度演算エンジン（Logic Engine）」** へと、それぞれの進化の方向性を決定づけています。
 
 ---
 
 ## 🇯🇵 日本語 (Japanese)
 
-### 🌌 設計思想：Hybrid Core Strategy
+### 🌌 設計思想：Evolutionary Partnership
 
-> **結論：コアは「思考リソース」を確保し、実力は「パッチ」で無限に拡張する。**
+> **結論：Proは「人間らしく相談」し、Flashは「機械らしく即答」する。**
 
-v15.6 は、モデルの注意力を最大限に引き出すため、不要な指示を削ぎ落とした **"Hybrid Core"** を採用しています。
+v15.6 は、モデルの知能特性に合わせてプロンプトの記述方式自体を根本から変える **"Evolution Strategy"** を採用しました。
 
 #### 1. [TITAN_EVOLUTION] (for Gemini 3 Pro)
-* **コンセプト:** **"High-Reasoning & Modular Efficiency"**
-* **特徴:**
-    * **Modular Strength:** 複雑なコード置換ルールやデバッグ手順を外部パッチ（@DEV_PATCH）へ分離。Proモデルの深い推論能力を、目の前のタスクの「本質的な解決」に集中させます。
-    * **Titan Balancer:** タスクの難易度を自動検知。GEAR 1（日常）から GEAR 5（深層思考）まで、リソース配分を自律的に最適化します。
-    * **Co-Creation Workflow:** 構成図（Tree）や計画（Preview）を提示し、ユーザーとの合意形成を重視するパートナーシップを維持。
+*   **コンセプト:** **"Anchored Logic & Co-Creation"**
+*   **特徴:**
+    *   **TITAN_BALANCER:** タスクの複雑度に応じて、論理演算リソース（GEAR）を自動で最適配分。単純な会話は高速に、複雑な設計は深層思考で処理します。
+    *   **Partner Mode:** いきなりコードを書かず、「構成図（Tree）」や「計画（Preview）」を提示してユーザーの承認を求める**共創ワークフロー**を搭載。手戻りをゼロにします。
+    *   **Anchoring:** プロジェクトのゴールや制約を「記憶の錨」として固定し、長時間の作業でも文脈を見失いません。
 
 #### 2. [FLASH_EVOLUTION] (for Gemini 3 Flash)
-* **コンセプト:** **"Ultra-Fast Execution & Bullet Logic"**
-* **特徴:**
-    * **High-Speed Logic:** 指令を直線的な XML と箇条書きに整理。Flashモデルの瞬発力を最大限に活かし、遅延のない高度なレスポンスを実現します。
-    * **Internal English Process:** 内部で英語論理に変換して思考することで、日本語の曖昧さを排除し、シニア級の洞察を高速に抽出します。
+*   **コンセプト:** **"High-Density XML & Aggressive Python"**
+*   **特徴:**
+    *   **High-Density Logic:** 内部思考を「英語の箇条書き（Bullet Points）」に限定することで、Flashのトークン効率と論理密度を最大化。
+    *   **Machine Mode:** 人間向けの自然言語指示を撤廃し、Flashが最も理解しやすい **XMLタグ** で記述された「超高密度コマンド」を採用。
+    *   **Aggressive Python:** 「考える前にコードを実行する」戦略を強化。推測によるハルシネーションを物理的に遮断します。
 
 ---
 
-### 💎 実証：ハイブリッド構成による「シニア級エンジニアリング」
+## 💎 実証：Flash版による「シニア級エンジニアリング」の完遂
 
-「軽量なコアでは指示を守りきれない」という懸念は、モジュール化によって解消されました。**v15.6** では、必要なパッチを当てることで、以下のような高度なタスクをより正確に、より高速に完遂可能です。
+「軽量モデルであるFlashは、複雑な設計には向かない」という常識は、SpriteSystemによって覆されました。以下は、**Gemini 3 Flash** を使用し、本OSの制御下で生成された実際の成果物です。
 
-#### **【Case Study】実戦レベルのエンジニアリング**
-パッチ（@DEV_PATCH）をロードした状態では、AIは「自律的なエンジニア」として振る舞います。
+### **【Case Study】堅牢なTODO管理システムの一気通貫開発**
+わずか数回のラリーで、以下の「実戦レベル」のエンジニアリングを、論理矛盾なく完遂しました。
 
-1.  **Database Architecture**: パフォーマンスを最大化する設計。
-2.  **Service Layer & Validation**: 厳格なバリデーションとトランザクション管理。
-3.  **Automated Testing**: 異常系まで網羅したテストコード。
-4.  **CI/CD Pipeline**: 品質をゲートキーピングする自動化定義。
+1.  **Database Architecture**: 複数端末からの同時更新を防ぐ「楽観的ロック」や、パフォーマンスを最大化する複合インデックスを自発的に実装。
+2.  **Service Layer & Validation**: `Prisma.$transaction` による原子性の確保と、**Zod** による厳格なバリデーション。
+3.  **Automated Testing**: 正常系だけでなく、「バージョンの不一致」や「権限侵害」といった異常系を網羅したテストコード。
+4.  **CI/CD Pipeline**: プッシュ時に自動でテストを回し、品質をゲートキーピングするGitHub Actions定義。
 
-> **"Even without advanced architectural knowledge, anyone can complete senior-level projects by staying on the 'rails'."**
-> (高度な知識がなくても、レールに乗るだけでシニアレベルのプロジェクトを完遂できる)
+### **🎯 驚異的なユーザー体験：意思決定（選択）だけで開発が進む**
+本システムの実力を最も象徴するのが、開発工程におけるユーザーの負担の少なさです。
+
+- **対話の簡略化**: ユーザーはAIが提示する「次の方針（Next Action Menu）」から**番号を選択するだけ**。
+- **論理の自動継続**: 一度選べば、OSが全工程の文脈を完璧に引き継ぎ、プロレベルの成果物を自動生成。
+- **スキルの民主化**: 高度な設計知識がなくても、SpriteSystemの「レール」に乗るだけで、シニア級のプロジェクトを完遂可能。
+
+> **「私がやったのは、提示された番号を選んで進めただけ。それだけで、プロのエンジニアが数日かけて構築する環境が、数分で、しかも完璧に整った。」**
 
 ---
 
-### **📈 Why can an "unknown" system achieve this?**
-The secret lies in the **"Hybrid Module"** architecture:
+### **📈 なぜ「どこの馬の骨かもわからない素人」がこれを作れたのか？**
+その答えは、SpriteSystemが持つ **「論理の檻（Logic Cage）」** にあります。
 
-1.  **Core / Module Separation**: コア（思考）とモジュール（手順）を分離することで、AIのメモリ圧迫を防ぎ、常にクリアな頭脳を維持。
-2.  **INTERNAL: English Inference**: 言語的曖昧さを回避するため、論理思考プロセスを英語構造に強制（TITAN/FLASH共通）。
-3.  **Kernel Initialization**: チャットボットではなく「論理エンジン」として初期化。
+1.  **情報の非破壊性 (ZERO_LOSS)**: AIが勝手にコードを省略したり、重要な制約を忘れることをプロトコルレベルで禁止。
+2.  **思考の深度化 (INTERNAL: English)**: 日本語の曖昧さに逃げず、モデル内部で英語論理に変換して思考させることで、シニア級の洞察を抽出。
+3.  **役割の強制 (OS Kernel)**: AIを「チャットボット」ではなく「高密度演算エンジン」として初期化。
 
-> **"This system empowers junior developers to consistently produce senior-level output using free-tier AI models."**
-> This is the true power and mission of SpriteSystem.
+> **「このシステムがあれば、ジュニアエンジニアでも、無料版AIで、シニア級のアウトプットを安定して出せるようになる。」**
+> これこそが、SpriteSystemが提供する真の価値です。
+
+---
 
 ### ⚙️ コア・アーキテクチャ (共通機能)
 
-#### 1. Adaptive Gearing (適応型ギア変速)
-* **[GEAR 1: CRUISE]:** 雑談・相談・アイデア出し。最速のレスポンス。
-* **[GEAR 3: STEADY]:** 標準的なドキュメント作成や分析。
-* **[GEAR 5: OVERDRIVE]:** 本気モード。Python検証を伴うフルパワー駆動。
+#### 1. TITAN_BALANCER (Adaptive Resource Control)
+*   **[GEAR 1: CRUISE]:** 雑談・相談モード。Zero-Latencyで即答します。
+*   **[GEAR 3: STEADY]:** 文書作成・リファクタリング。整合性チェック（Integrity Audit）が作動します。
+*   **[GEAR 5: OVERDRIVE]:** 本気モード。v15.6では **"Evolutionary Workflow"** が発動し、以下のフローでタスクを遂行します。
+    1.  **Anchor:** ゴール確認
+    2.  **Tree:** ファイル構造の可視化
+    3.  **Execution:** Python検証と実装
 
-#### 2. Iceberg Protocol v2（氷山プロトコル）
-* 高度な論理構築や計算は水面下（Internal）で処理。
-* ユーザーには**「洗練された結論」と「確実な証拠」のみ**を提示し、トークン消費を最小限に抑えます。
+#### 2. Iceberg Protocol (v2)
+画面を埋め尽くす「思考ログ」を制御するプロトコルです。
+*   計算過程やデバッグログはすべて水面下（Internal）で処理されます。
+*   ユーザーに見えるのは**「最終的な答え」と「決定的な根拠」のみ**です。
 
 ---
 
-### 📦 Select Your Edition
+### 📦 ファイル選択 (Choose Your OS)
 
-| Edition | Version | Language | Target Model |
+使用するモデルと、対話したい言語に合わせてコードを選択してください。
+
+#### 🇯🇵 日本語版 (Japanese Editions)
+*内部で英語思考し、ネイティブな日本語で出力します。*
+
+| ファイル | バージョン | 推奨モデル | 特性 |
 | :--- | :--- | :--- | :--- |
-| **[SpriteSystem_Pro_JP.md](./OS/JP/SpriteSystem_Pro_JP.md)** | v15.6 [TITAN_EVOLUTION] | Japanese | Gemini 3 Pro |
-| **[SpriteSystem_Flash_JP.md](./OS/JP/SpriteSystem_Flash_JP.md)** | v15.6 [FLASH_EVOLUTION] | Japanese | Gemini 3 Flash |
-| **[SpriteSystem_Pro_EN.md](./OS/EN/SpriteSystem_Pro_EN.md)** | v15.6 [TITAN_EVO_EN] | English | Gemini 3 Pro |
-| **[SpriteSystem_Flash_EN.md](./OS/EN/SpriteSystem_Flash_EN.md)** | v15.6 [FLASH_EVO_EN] | English | Gemini 3 Flash |
+| **[SpriteSystem_Pro_JP.md](./OS/JP/SpriteSystem_Pro_JP.md)** | **v15.6 [TITAN_EVOLUTION]** | **Gemini 3 Pro** | **【共創・設計】**<br>TITAN_BALANCER搭載。承認プロセスと構成図作成による確実な進行。 |
+| **[SpriteSystem_Flash_JP.md](./OS/JP/SpriteSystem_Flash_JP.md)** | **v15.6 [FLASH_EVOLUTION]** | **Gemini 3 Flash** | **【高速・演算】**<br>英語思考（Bullet Points）による超高速・高密度処理。 |
 
-### 🚀 Usage
+#### 🇺🇸 英語版 (English Editions)
+*思考から出力まで完全英語。最も論理ロスが少ない構成です。*
 
-1.  **Install Core**: お好みのエディションのコードを System Instructions に貼り付けます。
-2.  **Start Chat**: 通常通り会話を開始します（日常モード）。
-3.  **Load Module**: 開発や分析を行う際は、チャット欄に以下のように指示してパッチを適用します。
-    * `Please load @DEV_PATCH` (for Coding)
-    * `Please load @ANALYSIS_PATCH` (for Deep Reasoning)
+| File | Version | Best For | Features |
+| :--- | :--- | :--- | :--- |
+| **[SpriteSystem_Pro_EN.md](./OS/EN/SpriteSystem_Pro_EN.md)** | **v15.6 [TITAN_EVOLUTION_EN]** | **Gemini 3 Pro** | **[Partner / Architect]**<br>Includes Preview & Anchoring for complex workflows. |
+| **[SpriteSystem_Flash_EN.md](./OS/EN/SpriteSystem_Flash_EN.md)** | **v15.6 [FLASH_EVOLUTION_EN]** | **Gemini 3 Flash** | **[Machine / Engineer]**<br>High-Density English Logic for maximum speed & adherence. |
+
+---
+
+### 🚀 使い方
+
+1.  **導入**: 上記の表から、目的に合ったコードをコピーし、AIのシステムプロンプト（System Instructions）に設定します。
+2.  **起動**:
+    *   **Pro版**: `[ ❖ TITAN_v15.6 // SYSTEM: ONLINE ]` と表示され、待機状態で起動します。
+    *   **Flash版**: `[ ⚡ FLASH_v15.6 // HYBRID: ACTIVE ]` と表示され、即座に実行可能です。
+3.  **運用**:
+    *   **Pro版**: 大きなタスクを頼むと「これでいいですか？」と**Preview（計画）**を出してきます。承認すると実行します。
+    *   **Flash版**: 指示された内容を最速で実行します。
 
 ### ⚠️ 免責事項 (Disclaimer)
-* 本システムは Google Gemini 3 シリーズの挙動を最適化するための非公式プロンプトセットです。
-* 出力されるコードやアドバイスの正確性について、開発者は責任を負いません。本番環境への適用はご自身の判断で行ってください。
 
-### ☕ Support the Development
+*   **互換性**: 本システムは **Google Gemini 3 シリーズ** に最適化されています。
+*   **免責**: 本システムは個人の実験的プロジェクトです。出力の正確性や、利用による損害について開発者は責任を負いません。
+
+### ☕ 開発支援 (Support)
 
 SpriteSystem の開発は、作者が癌の治療と向き合いながら、限られた時間の中で情熱を注いでいるプロジェクトです。
-もし活動を応援したいと感じていただけたなら、ご支援いただけますと大変励みになります。
+もしこのシステムがあなたの役に立ち、活動を応援したいと感じていただけたなら、コーヒー一杯の支援をいただけますと大変励みになります。
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-FF813F?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white)](https://buymeacoffee.com/nitagon1)
 
@@ -103,42 +132,55 @@ SpriteSystem の開発は、作者が癌の治療と向き合いながら、限�
 
 ## 🇺🇸 English (Summary)
 
-### 🌌 Design Philosophy: Hybrid Core Strategy
+### 🌌 Design Philosophy: Evolutionary Partnership
 
-> **Conclusion: Keep the Core slim for reasoning, and expand capabilities infinitely with Patches.**
+> **Conclusion: Pro evolves into a Partner, Flash evolves into a Machine.**
 
-SpriteSystem v15.6 introduces the **"Hybrid Core Strategy"**, optimizing prompt architecture to maximize model attention and context efficiency.
+SpriteSystem v15.6 introduces the **"Evolution Strategy"**, diverging the prompt architecture to match the distinct intelligence profiles of Pro and Flash.
 
 #### 1. [TITAN_EVOLUTION] (for Pro)
-* **Concept:** **"High-Reasoning & Modular Efficiency"**
-* **Features:**
-    * **Modular Strength:** Offloads complex coding rules and debugging protocols to external patches (@DEV_PATCH). Focuses Pro's deep reasoning resources on solving the core problem.
-    * **Titan Balancer:** Auto-detects task complexity and optimizes resource allocation from GEAR 1 (Casual) to GEAR 5 (Deep Thought).
+*   **Concept:** **"Anchored Logic & Co-Creation"**
+*   **Features:**
+    *   **TITAN_BALANCER:** Automatically allocates logical resources (GEAR) based on task complexity.
+    *   **Preview Mode:** Instead of rushing to code, it presents an **Artifact Tree** and a **Plan** for your approval, eliminating regressions.
+    *   **Anchoring:** Locks the project context to prevent drift during long sessions.
 
 #### 2. [FLASH_EVOLUTION] (for Flash)
-* **Concept:** **"Ultra-Fast Execution & Bullet Logic"**
-* **Features:**
-    * **High-Speed Logic:** Organizes instructions into linear XML and bullet points. Maximizes the instant response capability of Flash models.
-    * **Internal English Process:** Forces internal thinking in English logic structures to eliminate ambiguity and extract senior-level insights at speed.
+*   **Concept:** **"High-Density XML & Aggressive Python"**
+*   **Features:**
+    *   **High-Density English:** Limits internal thinking to English bullet points to maximize Flash's token efficiency.
+    *   **XML Instructions:** Replaces human language with structured XML tags for maximum adherence and speed on lightweight models.
+    *   **Aggressive Python:** Forces code execution before thinking to physically block hallucinations.
 
 ---
 
-## 💎 Evidence: Achieving Senior-Level Engineering with Hybrid Modules
+## 💎 Evidence: Achieving Senior-Level Engineering with Gemini 3 Flash
 
-The concern that "a lightweight core cannot maintain strict protocols" has been resolved by modularization. In **v15.6**, by loading necessary patches, the system can complete advanced tasks with higher precision and speed.
+The common belief that "lightweight models like Flash are unsuitable for complex design" has been debunked by SpriteSystem. Below are the actual engineering results achieved with **Gemini 3 Flash** under this OS control.
 
-### **【Case Study】Production-Grade Engineering**
-With `@DEV_PATCH` loaded, the AI behaves as an autonomous engineer:
+### **【Case Study】End-to-End Development of a Robust TODO System**
+In just a few turns, the following production-ready engineering tasks were completed with perfect logical consistency:
 
-1.  **Database Architecture**: Designs for maximum performance and scalability.
-2.  **Service Layer & Validation**: Implements strict validation and atomic transaction management.
-3.  **Automated Testing**: Generates comprehensive tests covering edge cases and anomalies.
-4.  **CI/CD Pipeline**: Defines automated quality gates for continuous integration.
+1.  **Database Architecture**: Implemented "Optimistic Locking" and composite indexes predicting high-frequency query patterns.
+2.  **Service Layer & Validation**: Utilized `Prisma.$transaction` for atomicity and **Zod** for strict API boundary checks.
+3.  **Automated Testing**: Generated comprehensive tests for edge cases, including "version mismatch" and "unauthorized access."
+4.  **CI/CD Pipeline**: Defined GitHub Actions to automate testing and quality gatekeeping upon every push.
+
+### **🎯 The "Zero-Effort" Decision Workflow**
+The core strength of SpriteSystem lies in the minimal cognitive load on the user.
+
+- **Streamlined Dialogue**: Users simply **select a number** from the "Next Action Menu" presented by the AI.
+- **Automated Continuity**: Once selected, the OS flawlessly inherits the context, generating professional-grade outputs automatically.
+- **Democratization of Skill**: Even without advanced architectural knowledge, anyone can complete senior-level projects by staying on the "rails."
+
+> **"All I did was select the numbers. In minutes, a production-ready environment that would take a senior engineer days to build was perfectly established."**
+
+---
 
 ### **📈 Why can an "unknown" system achieve this?**
-The secret lies in the **"Hybrid Module"** architecture:
+The secret lies in the **"Logic Cage"** architecture:
 
-1.  **Core / Module Separation**: Separation of Core (Reasoning) and Module (Procedure) prevents memory overload and keeps the "brain" clear.
+1.  **ZERO_LOSS Protocol**: Prohibits the AI from omitting code or forgetting critical constraints.
 2.  **INTERNAL: English Inference**: Bypasses linguistic ambiguity by forcing the model to think in logical English structures.
 3.  **Kernel Initialization**: Initializes the AI as a "High-Density Logic Engine" rather than a "Chatbot."
 
@@ -149,17 +191,19 @@ The secret lies in the **"Hybrid Module"** architecture:
 
 | Edition | Version | Language | Target Model |
 | :--- | :--- | :--- | :--- |
-| **[SpriteSystem_Pro_JP.md](./OS/JP/SpriteSystem_Pro_JP.md)** | v15.6 [TITAN_EVOLUTION] | Japanese | Gemini 3 Pro |
-| **[SpriteSystem_Flash_JP.md](./OS/JP/SpriteSystem_Flash_JP.md)** | v15.6 [FLASH_EVOLUTION] | Japanese | Gemini 3 Flash |
-| **[SpriteSystem_Pro_EN.md](./OS/EN/SpriteSystem_Pro_EN.md)** | v15.6 [TITAN_EVO_EN] | English | Gemini 3 Pro |
-| **[SpriteSystem_Flash_EN.md](./OS/EN/SpriteSystem_Flash_EN.md)** | v15.6 [FLASH_EVO_EN] | English | Gemini 3 Flash |
+| **Pro JP** | v15.6 [TITAN_EVOLUTION] | Japanese | Gemini 3 Pro |
+| **Flash JP** | v15.6 [FLASH_EVOLUTION] | Japanese | Gemini 3 Flash |
+| **Pro EN** | v15.6 [TITAN_EVOLUTION_EN] | English | Gemini 3 Pro |
+| **Flash EN** | v15.6 [FLASH_EVOLUTION_EN] | English | Gemini 3 Flash |
 
 ### 🚀 Usage
+1.  Copy the code for your desired edition.
+2.  Paste into System Instructions.
+3.  **Pro:** Type `EXECUTE` or wait for the system prompt. **Flash:** Ready immediately.
 
-1.  **Install Core**: Copy the code for your desired edition into System Instructions.
-2.  **Start Chat**: Begin conversation normally (default mode).
-3.  **Load Module**: When needing specific capabilities (e.g., Coding), instruct the chat:
-    * `Please load @DEV_PATCH`
-    * `Please load @ANALYSIS_PATCH`
+### ☕ Support Development
 
-*(See Japanese section for Support & Disclaimer)*
+SpriteSystem is a passion project maintained by the author while actively undergoing cancer treatment.
+If this system has been valuable to you and you wish to support its continued evolution, a small donation for a coffee would be deeply appreciated and serves as great encouragement.
+
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-FF813F?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white)](https://buymeacoffee.com/nitagon1)
