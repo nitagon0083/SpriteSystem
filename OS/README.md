@@ -1,5 +1,3 @@
---- START OF FILE SpriteSystem_2.md ---
-
 # 🛰️ SpriteSystem OS
 ## v15.6 [TITAN_EVOLUTION] / [FLASH_EVOLUTION]
 /* NITAGON Logic Core | Evolutionary Partnership Engine | 2026-01-29 */
