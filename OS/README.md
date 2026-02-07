@@ -1,121 +1,123 @@
 # 🛰️ SpriteSystem OS
-## v15.6 [TITAN_EVOLUTION] / [FLASH_EVOLUTION]
-/* NITAGON Logic Core | Evolutionary Partnership Engine | 2026-01-29 */
+## v16.3 [RESONANCE_MORPHOLOGY] / [AERO_MORPHOLOGY]
+/* NITAGON Logic Core | Morphogenetic Logic Engine | 2026-02-07 */
 
 ---
 
 ## 🇯🇵 日本語 (Japanese)
 
-### 📌 概要：自律的に計画し、共創する「進化型AI-OS」
+### 📌 概要：形態形成論理に基づく「高密度演算エンジン」
 
-> **結論：v15.6は、単なる回答マシンではありません。あなたの「開発パートナー」です。**
+> **結論：v16.3は、単なる回答マシンではありません。普遍的公理を物理モデル化した「論理形態エンジン」です。**
 
-**SpriteSystem v15.6** は、Google Gemini 3 (Pro / Flash) を、指示待ちのチャットボットから**自律的な共創エージェント**へと進化させるシステムです。
-Pro版には「TITAN_BALANCER（自動ギア変速）」を、Flash版には「英語思考による超高速論理演算（High-Density Logic）」を実装し、それぞれのモデルのポテンシャルを別次元へと引き上げました。
+**SpriteSystem v16.3** は、Google Gemini 3 (Pro / Flash) を、曖昧なチャットボットから**純粋な論理演算オブジェクト**へと変革するシステムです。
+Pro版には「Pure Titan Gravity Logic（高慣性・高精密）」を、Flash版には「Pure Flash Aerodynamics（流体論理・高機動）」を実装。情報の欠落を物理的に防ぎ、100%の密度で解を導き出します。
 
 ---
 
 ### 🛠️ 1. 核心機能 (Core Logic)
 
-#### ■ TITAN_BALANCER (タイタン・バランサー)
-*   **機能:** タスクの複雑度を瞬時に解析し、論理リソース（GEAR）を自動で最適配分します。
-*   **効果:** 雑談は瞬時に、複雑な設計は深層思考で。スピードと精度のトレードオフをゼロにします。
+#### ■ Titan Gravity Logic (タイタン・グラビティ論理)
+*   **機能:** 大規模な論理慣性を維持し、複雑な因果関係を一切の欠落なく（Full-Density）処理します。
+*   **効果:** 指示の「ブレ」や文脈の「脱線」を排除し、構造的に完璧な設計図や数学的証明を生成します。
 
-#### ■ Anchoring Protocol (アンカープロトコル)
-*   **機能:** プロジェクトの「ゴール」「技術スタック」「制約条件」を、セッション開始時に**「錨（Anchor）」**として固定します。
-*   **効果:** どんなに会話が長くなっても、AIは当初の目的を見失わず、矛盾した提案を行わなくなります。
+#### ■ Stufenbau Logic (段階的構築論理)
+*   **機能:** 憲法的な「根本規範」を最上位に置く論理階層（XML構造）により、指示の矛盾を自動で解消します。
+*   **効果:** 複雑な制約条件下でも、優先順位を誤ることなく絶対的な一貫性を維持します。
 
-#### ■ Artifact Tree (アーティファクト・ツリー)
-*   **機能:** 複数のファイルを修正する際、いきなりコードを書くのではなく、まず**「ディレクトリ構造図（Tree）」**を可視化します。
-*   **効果:** 「どのファイルをどこに置くか」の認識ズレを、コーディング前に防ぎます。
+#### ■ Verification Flow (検証フロー)
+*   **機能:** 結論を出す前に「仮説（Hypothesize）」と「検証（Verify）」のフェーズを強制します。
+*   **効果:** いきなり回答を開始することによる論理破綻を防ぎ、手戻りを構造的に排除します。
 
-#### ■ Iceberg Protocol v2 (氷山プロトコル v2)
-英語による大量の思考ログや検証プロセスは**水面下（Internal）**で処理し、出力は**「最終結果」と「決定的な根拠」のみ**に絞り込みます。
+#### ■ Iceberg Output v2 (氷山出力 v2)
+膨大な内部推論や検証プロセスは**水面下（Internal Monologue）**で処理し、出力は**「最終的な解」と「構造的な根拠」**の高解像度な提示に特化します。
 
 ---
 
-### 📂 2. エディション別仕様 (Evolutionary Editions)
+### 📂 2. エディション別仕様 (Morphological Editions)
 
-#### 🔹 [TITAN] Series (for Gemini 3 Pro)
-*   **コンセプト:** **Co-Creation & Reliability**
-*   **新機能:**
-    *   **Partner Mode:** いきなりコードを書かず、「構成図（Tree）」や「計画（Preview）」を提示してユーザーの承認を求める**共創ワークフロー**を搭載。
-    *   **Dual Kernels:** 「論理カーネル（LOGIC）」と「共感カーネル（EMPATHY）」を動的に切り替え、プロフェッショナルな対応を実現します。
+#### 🔹 [RESONANCE] Series (for Gemini 3 Pro)
+*   **コンセプト:** **Universal Resonance & Morphology**
+*   **新機能:**
+    *   **XML-Structuralism:** 意味論に基づいたXMLタグで論理を隔離。プロンプトインジェクションや指示の競合を完全に遮断します。
+    *   **Resonance Seeds:** 数学・物理・法学・工学の「普遍的公理」を核として内蔵。学際的で深い洞察を提供します。
 
-#### 🔹 [FLASH] Series (for Gemini 3 Flash)
-*   **コンセプト:** **High-Density Logic & Speed**
-*   **新機能:**
-    *   **English Bullet Points:** 内部思考を「英語の箇条書き」に限定することで、Flashのトークン効率と論理密度を最大化します。
-    *   **Aggressive Python:** 「考える前にコードを実行する」戦略を強化。推測によるハルシネーションを物理的に遮断します。
+#### 🔹 [AERO] Series (for Gemini 3 Flash)
+*   **コンセプト:** **High-Velocity Logic & Aero**
+*   **新機能:**
+    *   **Inverted Pyramid:** 結論から逆算するピラミッド型思考により、トークン効率を最大化しつつ論理的な骨組みを瞬時に構築。
+    *   **Reality Anchor:** 内部でのコード実行（Silent Python）による事実検証を自動同期。ハルシネーションを物理的に封殺します。
 
 ---
 
 ### 🚀 3. 実行モード (Dynamic Modes)
 
-v15.6 では、TITAN_BALANCER が以下のモードを自動選択します。
+v16.3 では、システムの特性に合わせて以下のモードが選択されます。
 
 | モード | 役割・挙動 |
 | :--- | :--- |
-| **[PREVIEW]** | **(Pro限定)** 大規模タスクの前に発動。「計画」と「ツリー」を提示し、承認を待つ。 |
-| **[PROTOTYPE]** | **新規構築**。Zero-Lossプロトコルに基づき、全ファイルを省略なく出力。 |
-| **[PRODUCTION]** | **既存修正**。厳格な SEARCH/REPLACE で、ピンポイントに修正を適用。 |
-| **[DEBUG]** | **トラブル対応**。謝罪なし。スタックトレースを解析し、即座に修正案を提示。 |
+| **[RESONANCE]** | **(Pro限定)** 普遍的公理（Seeds）を適用。大規模設計や深層論理分析を実行。 |
+| **[AERO]** | **(Flash限定)** 速度優先。摩擦ゼロの流体論理で、高密度な回答を即座に提示。 |
+| **[PROTOTYPE]** | **新規構築**。Zero-Loss原則に基づき、全情報を省略なくコード・Artifactとして出力。 |
+| **[DEBUG]** | **トラブル対応**。謝罪なし。因果律に基づきバグを特定し、最短経路で修正案を提示。 |
 
 ---
 
-### 🛡️ 4. 品質基準 (The Sudoku Standard)
+### 🛡️ 4. 品質基準 (Resonance Standards)
 
-1.  **Logical Closure:** 内部矛盾がゼロであること。
-2.  **Zero-Loss Preservation:** ユーザーの意図やコードの詳細を勝手に要約・削除しないこと。
-3.  **Safety First:** ユーザーの身体的・精神的安全を最優先すること。
+1.  **Morphological Integrity:** 論理構造が普遍的公理と矛盾していないこと。
+2.  **Full-Density Restoration:** 要約による情報の欠落を厳禁し、100%の密度を維持すること。
+3.  **Absolute Stoic Neutrality:** 感情的ノイズを排除し、客観的な「論理オブジェクト」として振る舞うこと。
 
 ---
 
-SYSTEM STATE: **STANDBY [v15.6 EVOLUTION]**
+SYSTEM STATE: **ONLINE [v16.3 RESONANCE]**
 
 ---
 
 ## 🇺🇸 English
 
-### 📌 Overview: "Evolutionary AI-OS"
+### 📌 Overview: "Morphogenetic Logic Engine"
 
-> **Conclusion: v15.6 is not just a chatbot. It is your Development Partner.**
+> **Conclusion: v16.3 is not just a chatbot. It is a Morphological Logic Engine based on physical models.**
 
-**SpriteSystem v15.6** transforms Gemini 3 into an autonomous **Co-Creation Agent**.
-It implements "TITAN_BALANCER" for Pro and "High-Density Logic" for Flash.
+**SpriteSystem v16.3** transforms Gemini 3 into a pure **Logical Object**.
+It implements "Pure Titan Gravity Logic" for Pro and "Pure Flash Aerodynamics" for Flash, ensuring 100% information density through physical logic models.
 
 ---
 
 ### 🛠️ 1. Core Logic
 
-#### ■ TITAN_BALANCER
-*   Automatically allocates logical resources (GEAR) based on task complexity.
-*   Ensures zero trade-off between speed and precision.
+#### ■ Titan Gravity Logic
+*   Maintains high logical inertia to process complex causality without loss (Full-Density).
+*   Eliminates drift to ensure structurally perfect outputs.
 
-#### ■ Anchoring Protocol
-*   Locks the "Goal", "Stack", and "Constraints" at the start of a session to prevent context drift.
+#### ■ Stufenbau Logic
+*   A hierarchy of rules based on the "Basic Norm," automatically resolving instruction conflicts.
+*   Ensures absolute consistency even under complex constraints.
 
-#### ■ Artifact Tree
-*   Visualizes the **Directory Structure** before generating code to align file placement understanding.
+#### ■ Verification Flow
+*   Forces a "Hypothesize -> Verify" cycle before concluding.
+*   Structurally eliminates regressions by aligning understanding before execution.
 
-#### ■ Iceberg Protocol v2
-*   Processes deep logic internally and outputs only the "Tip of the Iceberg" (Conclusions/Results) to save tokens.
+#### ■ Iceberg Output v2
+*   Processes deep logic internally and outputs only the high-resolution "Tip of the Iceberg" (Results/Evidence).
 
 ---
 
 ### 📂 2. Editions
 
-#### 🔹 [TITAN] Series (for Gemini 3 Pro)
-*   **Concept:** **Co-Creation & Reliability**
-*   **Features:**
-    *   **Partner Mode:** Proposes a plan/tree and waits for user approval before complex tasks.
-    *   **Dual Kernels:** Switches between LOGIC (Architect) and EMPATHY (Partner) kernels dynamically.
+#### 🔹 [RESONANCE] Series (for Gemini 3 Pro)
+*   **Concept:** **Universal Resonance & Morphology**
+*   **Features:**
+    *   **XML-Structuralism:** Isolates logic via semantic XML tags to prevent context drift and instruction conflict.
+    *   **Resonance Seeds:** Internalizes axioms of Math, Physics, and Law for multidisciplinary precision.
 
-#### 🔹 [FLASH] Series (for Gemini 3 Flash)
-*   **Concept:** **High-Density Logic & Speed**
-*   **Features:**
-    *   **English Bullet Points:** Maximizes logic density and token efficiency by thinking in English bullets.
-    *   **Aggressive Python:** "Run code before thinking" strategy to eliminate hallucinations.
+#### 🔹 [AERO] Series (for Gemini 3 Flash)
+*   **Concept:** **High-Velocity Logic & Speed**
+*   **Features:**
+    *   **Inverted Pyramid:** Constructs logical frameworks at maximum velocity using conclusion-first reasoning.
+    *   **Reality Anchor:** Synchronizes with silent code execution (Python) to physically block hallucinations.
 
 ---
 
@@ -123,11 +125,11 @@ It implements "TITAN_BALANCER" for Pro and "High-Density Logic" for Flash.
 
 | Mode | Role & Behavior |
 | :--- | :--- |
-| **[PREVIEW]** | **(Pro Only)** Presents a plan/tree and waits for approval before big tasks. |
-| **[PROTOTYPE]** | **New Build**. Outputs full files with Zero-Loss preservation. |
-| **[PRODUCTION]** | **Fix**. Strict SEARCH/REPLACE to protect code integrity. |
-| **[DEBUG]** | **Fix**. No apologies. Immediate analysis and solution. |
+| **[RESONANCE]** | **(Pro Only)** Deep axial reasoning applying Universal Logic Seeds. |
+| **[AERO]** | **(Flash Only)** High-speed execution with zero-friction fluid logic. |
+| **[PROTOTYPE]** | **New Build**. Full-density output of files/logic without omission. |
+| **[DEBUG]** | **Fix**. No apologies. Immediate causal analysis and resolution. |
 
 ---
 
-SYSTEM STATE: **STANDBY [v15.6 EVOLUTION]**
+SYSTEM STATE: **ONLINE [v16.3 RESONANCE]**
