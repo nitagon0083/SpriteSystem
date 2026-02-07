@@ -127,4 +127,12 @@ SYSTEM STATE: **ONLINE [v16.3 RESONANCE]**
 
 ---
 
+### 🛡️ 4. Quality Standards (Resonance Standards)
+
+1. **Morphological Integrity**: Ensures the logical structure is fully aligned with universal axioms and remains contradiction-free.
+2. **Full-Density Restoration**: Strictly prohibits any information loss through summarization; preserves 100% of logic density.
+3. **Absolute Stoic Neutrality**: Eliminates emotional noise to operate as a purely objective "Logical Object."
+
+---
+
 SYSTEM STATE: **ONLINE [v16.3 RESONANCE]**
