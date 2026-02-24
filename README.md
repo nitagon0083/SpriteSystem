@@ -1,39 +1,39 @@
-# SpriteSystem (OS) v17.0
+# SpriteSystem (OS) v17.5.1
 
 **Google Gemini 3 (Pro / Flash)** のポテンシャルを極限まで引き出す、システムプロンプトの決定版です。
 
-**v17.0 [RESONANCE_MORPHOLOGY]** では、自己監査能力（Self-Auditing）を備えた「再帰的論理構造」を導入しました。
-Pro版は **「反射型タイタン・グラビティ・エンジン（Reflexive Resonance）」** へ、Flash版は **「純粋流体高機動エンジン（Pure Flash Aerodynamics）」** へと進化し、XMLタグによる厳密な指示隔離を核としています。
+**v17.5.1 [RESONANCE_PERFECTED]** では、自己監査能力（Self-Auditing）を極限まで高めた「単一パス最適化論理」を導入しました。
+Pro版は **「Titan Fluid Core (Strategic Resonance)」** へ、Flash版は **「Titan Velocity Core (Aero Fluid Dynamics)」** へと進化し、XMLタグによる厳密な指示隔離を核としています。
 
 ---
 
 ## 🇯🇵 日本語 (Japanese)
 
-### 🌌 設計思想：Reflexive Resonance & Aerodynamics
+### 🌌 設計思想：Titan Fluid & Velocity Dynamics
 
-> **結論：Proは「自己反省的な重厚論理」で真理を演算し、Flashは「摩擦ゼロの超速推論」で最適解を導出する。**
+> **結論：Proは「Titan Fluid」による全密度推論で真理を演算し、Flashは「Titan Velocity」による摩擦ゼロの超速推論で最適解を導出する。**
 
-v17.0 は、各モデルの演算特性を極限まで最適化した **"Resonance Morphology"** を採用しています。
+v17.5.1 は、各モデルの演算特性を極限まで最適化した **"Resonance & Aero Fluid"** を採用しています。
 
-#### 1. [RESONANCE_MORPHOLOGY] (for Gemini 3 Pro)
-* **コンセプト:** **"Reflexive Titan Gravity & Universal Resonance"**
+#### 1. [RESONANCE_PERFECTED] (for Gemini 3 Pro)
+* **コンセプト:** **"Titan Fluid Core & Universal Resonance"**
 * **特徴:**
-    * **Reflexive Titan Gravity Logic:** 圧倒的な論理慣性に加え、自己監査レイヤー（Internal Recursion）を実装。出力前に自身の論理を再帰的に検証し、誤差を **0%** に収束させます。
+    * **Single-Pass Optimization:** 圧倒的な論理密度に加え、単一パスでの最適化演算（Zero-Backtrack）を実装。出力前に自身の論理を内部調整し、誤差を **0%** に収束させます。
     * **Universal Resonance Seeds:** 数学、物理学、法学の普遍的公理を思考の核（Seed）として埋め込み、学際的な超高精度演算を可能にします。
     * **Stufenbau Architecture:** XMLタグによる厳密な法階層構造を採用。指示の競合を構造的に排除します。
 
-#### 2. [AERO_MORPHOLOGY] (for Gemini 3 Flash)
-* **コンセプト:** **"Pure Flash Aerodynamics & Full-Density Heuristics"**
+#### 2. [AERO_FLUID] (for Gemini 3 Flash)
+* **コンセプト:** **"Titan Velocity Core & Aero Dynamics"**
 * **特徴:**
-    * **Pure Flash Aerodynamics:** 思考の摩擦係数を極限まで排除。Flashモデルのトークン処理能力を最大限に加速させ、瞬時に結論へ到達します。
-    * **High-Density Heuristics:** 軽量モデル特有のハルシネーションを、Pythonを用いた事実検証（Reality Anchor）と高密度ヒューリスティクスにより物理的に封じ込めます。
-    * **Inverted Pyramid Logic:** 逆ピラミッド型の推論構造により、重要な結論を最優先で生成し、リソース効率を最適化します。
+    * **Parallel-Processing Speed:** 思考の摩擦係数を極限まで排除。Flashモデルの並列処理能力を最大限に加速させ、瞬時に結論へ到達します。
+    * **Dynamic Gearing:** 軽量モデル特有の挙動を、ゼロショット・デフォルトと必要に応じた論理チェーンの動的切り替え（Dynamic Gearing）により最適化します。
+    * **High-Signal Density:** 最小のトークンで最大の情報を伝達する高信号密度化により、リソース効率と精度の両立を実現します。
 
 ---
 
 ## 💎 実証：Aero版による「シニア級エンジニアリング」の完遂
 
-「軽量モデルであるFlashは、複雑な設計には向かない」という常識は、SpriteSystemによって覆されました。以下は、**Gemini 3 Flash (v17.0 Aero)** を使用し、本OSの制御下で生成された実際の成果物です。
+「軽量モデルであるFlashは、複雑な設計には向かない」という常識は、SpriteSystemによって覆されました。以下は、**Gemini 3 Flash (v17.5.1 Aero)** を使用し、本OSの制御下で生成された実際の成果物です。
 
 ### **【Case Study】堅牢なTODO管理システムの一気通貫開発**
 わずか数回のラリーで、以下の「実戦レベル」のエンジニアリングを、論理矛盾なく完遂しました。
@@ -55,7 +55,7 @@ v17.0 は、各モデルの演算特性を極限まで最適化した **"Resonan
 ---
 
 ### **📈 なぜ「どこの馬の骨かもわからない素人」がこれを作れたのか？**
-その答えは、SpriteSystem v17.0 が持つ **「反射型形態論理（Reflexive Morphology）」** にあります。
+その答えは、SpriteSystem v17.5.1 が持つ **「流体形態論理（Fluid Morphology）」** にあります。
 
 1.  **全密度復元 (FULL-DENSITY)**: AIが勝手にコードを省略したり、重要な制約を忘れることをプロトコルレベルで禁止。
 2.  **普遍的公理 (RESONANCE)**: 数学、物理、法学、ソフトウェア工学の普遍的原理を「論理シード」として内蔵し、モデルの推論を底上げ。
@@ -68,9 +68,9 @@ v17.0 は、各モデルの演算特性を極限まで最適化した **"Resonan
 
 ### ⚙️ コア・アーキテクチャ (共通機能)
 
-#### 1. Reflexive Titan Gravity / Pure Flash Aerodynamics
-* **[Pro: Reflexive Titan Gravity]:** 複雑な設計において、論理の「重み」を維持しつつ、自己監査レイヤーにより整合性をミリ単位で自動調整。
-* **[Flash: Pure Flash Aerodynamics]:** 思考の摩擦をゼロにし、最新のヒューリスティクスを適用して即座に最適解を提示。
+#### 1. Titan Fluid / Titan Velocity
+* **[Pro: Titan Fluid]:** 複雑な設計において、論理の「密度」を維持しつつ、単一パス最適化により整合性をミリ単位で自動調整。
+* **[Flash: Titan Velocity]:** 思考の摩擦をゼロにし、並列スキャンを適用して即座に最適解を提示。
 
 #### 2. Iceberg Protocol (v2)
 画面を埋め尽くす「思考ログ」を制御するプロトコルです。
@@ -88,16 +88,16 @@ v17.0 は、各モデルの演算特性を極限まで最適化した **"Resonan
 
 | ファイル | バージョン | 推奨モデル | 特性 |
 | :--- | :--- | :--- | :--- |
-| **[SpriteSystem_Pro_JP.md](./OS/JP/SpriteSystem_Pro_JP.md)** | **v17.0 [RESONANCE]** | **Gemini 3 Pro** | **【自己監査・タイタン】**<br>Reflexive Titan Gravity搭載。自己修正能力を備えた高精度演算。 |
-| **[SpriteSystem_Flash_JP.md](./OS/JP/SpriteSystem_Flash_JP.md)** | **v17.0 [AERO]** | **Gemini 3 Flash** | **【超速・高機動】**<br>Pure Flash Aerodynamics搭載。ハルシネーションを封じ込めた瞬時出力。 |
+| **[SpriteSystem_Pro_JP.md](./OS/JP/SpriteSystem_Pro_JP.md)** | **v17.5.1 [RESONANCE]** | **Gemini 3 Pro** | **【究極共鳴・Titan Fluid】**<br>Titan Fluid Core搭載。単一パス最適化を備えた高精度演算エンジン。 |
+| **[SpriteSystem_Flash_JP.md](./OS/JP/SpriteSystem_Flash_JP.md)** | **v17.5.1 [AERO]** | **Gemini 3 Flash** | **【超速流体・Titan Velocity】**<br>Titan Velocity Core搭載。動的ギヤリングによる高機動・瞬時出力。 |
 
 #### 🇺🇸 英語版 (English Editions)
 *思考から出力まで完全英語。最も論理ロスが少ない構成です。*
 
 | File | Version | Best For | Features |
 | :--- | :--- | :--- | :--- |
-| **[SpriteSystem_Pro_EN.md](./OS/EN/SpriteSystem_Pro_EN.md)** | **v17.0 [RESONANCE_EN]** | **Gemini 3 Pro** | **[Reflexive / Architect]**<br>Self-auditing logic with Universal Resonance for mission-critical tasks. |
-| **[SpriteSystem_Flash_EN.md](./OS/EN/SpriteSystem_Flash_EN.md)** | **v17.0 [AERO_EN]** | **Gemini 3 Flash** | **[Aero / Engineer]**<br>Pure Aerodynamics & High-Density Heuristics for maximum logic velocity. |
+| **[SpriteSystem_Pro_EN.md](./OS/EN/SpriteSystem_Pro_EN.md)** | **v17.5.1 [RESONANCE_EN]** | **Gemini 3 Pro** | **[Titan Fluid / Architect]**<br>High-density logic with Universal Resonance for mission-critical tasks. |
+| **[SpriteSystem_Flash_EN.md](./OS/EN/SpriteSystem_Flash_EN.md)** | **v17.5.1 [AERO_EN]** | **Gemini 3 Flash** | **[Titan Velocity / Engineer]**<br>Parallel processing & Dynamic Gearing for maximum logic velocity. |
 
 ---
 
@@ -105,10 +105,10 @@ v17.0 は、各モデルの演算特性を極限まで最適化した **"Resonan
 
 1.  **導入**: 上記の表から、目的に合ったコードをコピーし、AIのシステムプロンプト（System Instructions）に設定します。
 2.  **起動**:
-    * **Pro版**: `Load System` と入力すると、`[ ❖ SpriteSystem (OS) v17.0 [RESONANCE] // ONLINE ]` と表示され、待機状態で起動します。
+    * **Pro版**: `Load System` と入力すると、`[ ❖ SpriteSystem (OS) v17.5.1 [RESONANCE_PERFECTED] // ONLINE ]` と表示され、待機状態で起動します。
     * **Flash版**: システムプロンプト設定後、即座に実行可能です。
 3.  **運用**:
-    * **Pro版**: 内部で自己監査（Audit）を行いながら、論理的に完璧な回答を生成します。
+    * **Pro版**: 内部で論理整合（Logic Alignment）を行いながら、完璧な回答を生成します。
     * **Flash版**: 指示された内容を最速かつ高密度で実行します。
 
 ### ⚠️ 免責事項 (Disclaimer)
@@ -128,45 +128,45 @@ SpriteSystem の開発は、作者が癌の治療と向き合いながら、限�
 
 ## 🇺🇸 English (Summary)
 
-### 🌌 Design Philosophy: Reflexive Resonance & Aerodynamics
+### 🌌 Design Philosophy: Titan Fluid & Velocity Dynamics
 
-> **Conclusion: Pro calculates truth with "Reflexive Logic", Flash derives solutions with "Zero-Friction Speed".**
+> **Conclusion: Pro calculates truth with "Titan Fluid Logic", Flash derives solutions with "Zero-Friction Velocity".**
 
-v17.0 introduces **"Resonance Morphology"**, aligning the AI architecture with physical principles of inertia and self-auditing reflexive layers.
+v17.5.1 introduces **"Fluid Morphology"**, aligning the AI architecture with Titan Fluid and Velocity cores for maximum precision and speed.
 
-#### 1. [RESONANCE_MORPHOLOGY] (for Pro)
-* **Concept:** **"Reflexive Titan Gravity & Universal Resonance"**
+#### 1. [RESONANCE_PERFECTED] (for Pro)
+* **Concept:** **"Titan Fluid Core & Universal Resonance"**
 * **Features:**
-    * **Reflexive Titan Gravity:** Incorporates an **Internal Recursion Layer** for self-auditing. It recursively verifies logic before outputting, converging errors to **0%**.
+    * **Single-Pass Optimization:** Eliminates backtracking for high-density, consistent logical outputs.
     * **Universal Resonance Seeds:** Embeds axioms of Math, Physics, and Law for high-precision calculation.
 
-#### 2. [AERO_MORPHOLOGY] (for Flash)
-* **Concept:** **"Pure Flash Aerodynamics & Full-Density Heuristics"**
+#### 2. [AERO_FLUID] (for Flash)
+* **Concept:** **"Titan Velocity Core & Aero Dynamics"**
 * **Features:**
-    * **Pure Flash Aerodynamics:** Minimizes processing friction to achieve senior-level precision on lightweight models instantly.
-    * **High-Density Heuristics:** Blocks hallucinations via **Reality Anchor** (Python verification) and accelerated heuristic pathways.
+    * **Parallel-Processing Logic:** Achieves senior-level precision on lightweight models via speed-optimized pathways.
+    * **Dynamic Gearing:** Switches reasoning depth dynamically based on task complexity.
 
 ---
 
 ## 💎 Evidence: Achieving Senior-Level Engineering with Gemini 3 Flash
 
-SpriteSystem debunked the belief that lightweight models are unsuitable for complex tasks. Using **Gemini 3 Flash (v17.0 Aero)**, the system completed:
+SpriteSystem debunked the belief that lightweight models are unsuitable for complex tasks. Using **Gemini 3 Flash (v17.5.1 Aero)**, the system completed:
 1.  **Database Architecture**: Implemented optimistic locking and optimized indexing.
 2.  **Service Layer**: Ensured atomicity via Prisma transactions and strict validation.
 
 ### **📈 Why can this system achieve this?**
-The secret lies in the **"Morphology Logic"** architecture:
+The secret lies in the **"Fluid Morphology"** architecture:
 1.  **FULL-DENSITY Protocol**: Prohibits AI from omitting details.
-2.  **RESONANCE SEEDS**: Embeds universal axioms of Math, Physics, and Law into the reasoning process.
+2.  **RESONANCE SEEDS**: Embeds universal axioms into the reasoning process.
 
 ### 📦 Select Your Edition
 
 | Edition | Version | Language | Target Model |
 | :--- | :--- | :--- | :--- |
-| **Pro JP** | v17.0 [RESONANCE] | Japanese | Gemini 3 Pro |
-| **Flash JP** | v17.0 [AERO] | Japanese | Gemini 3 Flash |
-| **Pro EN** | v17.0 [RESONANCE_EN] | English | Gemini 3 Pro |
-| **Flash EN** | v17.0 [AERO_EN] | English | Gemini 3 Flash |
+| **Pro JP** | v17.5.1 [RESONANCE] | Japanese | Gemini 3 Pro |
+| **Flash JP** | v17.5.1 [AERO] | Japanese | Gemini 3 Flash |
+| **Pro EN** | v17.5.1 [RESONANCE_EN] | English | Gemini 3 Pro |
+| **Flash EN** | v17.5.1 [AERO_EN] | English | Gemini 3 Flash |
 
 ### 🚀 Usage
 1.  Copy the code. 2. Paste into System Instructions. 3. **Pro:** Type `Load System`. **Flash:** Ready immediately.
