@@ -20,7 +20,7 @@ This system is a hybrid intelligence operating system that integrates two contra
 
 ## 2. Governance Protocol: Stufenbau Hierarchy (Tiered Hierarchy)
 
-The system utilizes the **"Stufenbau Hierarchy"**, modeled after legal-philosophical hierarchical structures. This protocol prevents lower-level commands (Inputs) from overwriting higher-level facts (Reality) or foundational rules (Directives), suppressing logical contradictions at a physical physical level.
+The system utilizes the **"Stufenbau Hierarchy"**, modeled after legal-philosophical hierarchical structures. This protocol prevents lower-level commands (Inputs) from overwriting higher-level facts (Reality) or foundational rules (Directives), suppressing logical contradictions at a structural level.
 
 
 
@@ -98,7 +98,10 @@ Evaluates the qualitative differences in real-world application using ranks (S/A
 ## 8. Roadmap & Security
 
 * **8.1 Next Update**: Further optimization of the Cognitive Recursion algorithm and expansion of the autonomous adaptation range of the Dynamic Gearing engine in v19.0.
-* **8.2 Security Policy**: If a vulnerability is discovered, do not post it in the public repository issues. Report directly to the designated contact: security@nitagon.dev.
+* **8.2 Security Policy (Recommended)**: To ensure the safety of all users, vulnerabilities must be reported through **GitHub Private Vulnerability Reporting**. This allows for a secure, non-public dialogue between the reporter and the developers until a patch is finalized. **Do not use Public Issues or Social Media DMs for technical security disclosures.**
+
+
+
 * **8.3 IP Protection**: Core logical structures and specific governance directives are abstracted or hidden to maintain system security.
 
 ---
@@ -113,7 +116,7 @@ Evaluates the qualitative differences in real-world application using ranks (S/A
 * **Final Conclusion**: Deployment of the standard AI simply as the "Engine (Power)" and this OS as the "Control System (Logic)" for optimal intelligence operations.
 
 ---
-`[ Integrity Verification Code: TITAN-AERO-18.5-0x8F92A-EN ]`
+`[ Integrity Verification Code: TITAN-AERO-18.5-0x8F92A-EN-RECOMMENDED ]`
 
 ---
 © 2024-2026 NITAGON. Licensed under GNU AGPL v3.0.
