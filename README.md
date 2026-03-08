@@ -18,11 +18,11 @@ v18.5 は、各モデルの演算特性を極限まで最適化した **"Titan R
 #### 1. [TITAN_ETERNAL] (for Gemini 3.1 Pro)
 * **コンセプト:** **「Titan Strategic Core & Internal Recursion」**
 * **特徴:**
-    * **Strategic Optimization:** 圧倒的な論理密度に加え、コンテキスト幾何学（Context Geometry）と自己再帰（Cognitive Recursion）を実装。出力前に自身の論理を内部監査し、不一致を **0%** に収束させます。
+    * **Strategic Optimization:** 圧倒的な論理密度に加え、コンテキスト幾何学（Context Geometry）と自己再帰（Cognitive Recursion）を実装。出力前に自身の論理を内部監査（Reflexive Titan Gravity）し、不一致を **0%** に収束させます。
     * **Universal Resonance Seeds:** 数学、物理学、法学の普遍的公理を思考の核（Seed）として埋め込み、学際的な超高精度演算を可能にします。
     * **Stufenbau Hierarchy:** 憲法的な法階層構造を採用。指示の競合を構造的に排除し、システムの安定性を永続（Eternal）させます。
 
-#### 2. [AERO_ETERNAL] (for Gemini 3 Flash)
+#### 2. [AERO_ETERNAL] (for Gemini 3.1 Flash)
 * **コンセプト:** **「Aero Speed Core & Pure Flash Aerodynamics」**
 * **特徴:**
     * **High-Velocity Logic:** 思考の摩擦係数を排除。アンチエントロピー・プロトコルにより、Flashモデルの並列処理能力を最大限に加速させ、瞬時に結論へ到達します。
@@ -33,7 +33,7 @@ v18.5 は、各モデルの演算特性を極限まで最適化した **"Titan R
 
 ## 💎 実証：Aero版による「シニア級エンジニアリング」の完遂
 
-「軽量モデルであるFlashは、複雑な設計には向かない」という常識は、SpriteSystemによって覆されました。以下は、**Gemini 3 Flash (v18.5 Aero)** を使用し、本OSの制御下で生成された実際の成果物です。
+「軽量モデルであるFlashは、複雑な設計には向かない」という常識は、SpriteSystemによって覆されました。以下は、**Gemini 3.1 Flash (v18.5 Aero)** を使用し、本OSの制御下で生成された実際の成果物です。
 
 ### **【Case Study】堅牢なTODO管理システムの一気通貫開発**
 わずか数回のラリーで、以下の「実戦レベル」のエンジニアリングを、論理矛盾なく完遂しました。
@@ -48,7 +48,7 @@ v18.5 は、各モデルの演算特性を極限まで最適化した **"Titan R
 
 - **対話の簡略化**: ユーザーはAIが提示する「次の方針（Next Action Menu）」から**番号を選択するだけ**。
 - **論理の自動継続**: 一度選べば、OSが全工程の文脈を完璧に引き継ぎ、プロレベルの成果物を自動生成。
-- **スキルの民主化**: 高度な設計知識がなくても、SpriteSystem의「レール」に乗るだけで、シニア級のプロジェクトを完遂可能。
+- **スキルの民主化**: 高度な設計知識がなくても、SpriteSystemの「レール」に乗るだけで、シニア級のプロジェクトを完遂可能。
 
 > **「私がやったのは、提示された番号を選んで進めただけ。それだけで、プロのエンジニアが数日かけて構築する環境が、数分で、しかも完璧に整った。」**
 
@@ -57,8 +57,8 @@ v18.5 は、各モデルの演算特性を極限まで最適化した **"Titan R
 ### **📈 なぜ「どこの馬の骨かもわからない素人」がこれを作れたのか？**
 その答えは、SpriteSystem v18.5 が持つ **「流体形態論理（Fluid Morphology）」** と **「アンチエントロピー」** にあります。
 
-1.  **全密度復元 (ZERO_LOSS)**: AIが勝手にコードを省略したり、重要な制約を忘れることをプロトコルレベルで禁止。
-2.  **戦略的公理 (TITAN RESONANCE)**: 数学、物理、法学、ソフトウェア工学の普遍的原理を「論理シード」として内蔵し、モデルの推論を底上げ。
+1.  **全密度復元 (ZERO_LOSS)**: AIが勝手にコードを省略したり、重要な制約を忘れることをプロトコルレベルで禁止。Flash版では「Full-Density Heuristics」がこれを支えます。
+2.  **戦略的公理 (TITAN RESONANCE)**: 数学、物理、法学、ソフトウェア工学の普遍的原理を「論理シード」として内蔵。Pro版では「Reflexive Titan Gravity」により推論の底上げを行います。
 3.  **役割の強制 (OS Kernel)**: AIを「チャットボット」ではなく「高精度戦略演算エンジン」として初期化。
 
 > **「このシステムがあれば、ジュニアエンジニアでも、無料版AIで、シニア級のアウトプットを安定して出せるようになる。」**
@@ -69,7 +69,7 @@ v18.5 は、各モデルの演算特性を極限まで最適化した **"Titan R
 ### ⚙️ コア・アーキテクチャ (共通機能)
 
 #### 1. Titan Strategic / Aero Speed
-* **[Pro: Titan Strategic]:** 複雑な設計において、論理の「密度」を維持しつつ、多層再帰最適化により整合性をミリ単位で自動調整。
+* **[Pro: Titan Strategic]:** 複雑な設計において、論理の「密度」を維持しつつ、多層再帰最適化（Internal Recursion）により整合性をミリ単位で自動調整。
 * **[Flash: Aero Speed]:** 思考の摩擦をゼロにし、アンチエントロピー・プロトコルを適用して即座に最適解を提示。
 
 #### 2. Iceberg Model (v18.5)
@@ -89,16 +89,16 @@ v18.5 は、各モデルの演算特性を極限まで最適化した **"Titan R
 
 | ファイル | バージョン | 推奨モデル | 特性 |
 | :--- | :--- | :--- | :--- |
-| **[SpriteSystem_Pro_JP.md]** | **v18.5 [TITAN_ETERNAL]** | **Gemini 3.1 Pro** | **【究極共鳴・Titan Strategic Core】**<br>Titan Resonance搭載。多層再帰最適化を備えた戦略演算エンジン。 |
-| **[SpriteSystem_Flash_JP.md]** | **v18.5 [AERO_ETERNAL]** | **Gemini 3 Flash** | **【超速流体・Aero Speed Core】**<br>Aero Resonance搭載。Pure Flash Aerodynamicsによる高機動・瞬時出力。 |
+| **[SpriteSystem_Pro_JP.md](./OS/JP/SpriteSystem_Pro_JP.md)** | **v18.5 [TITAN_ETERNAL]** | **Gemini 3.1 Pro** | **【究極共鳴・Titan Strategic Core】**<br>Titan Resonance搭載。多層再帰最適化を備えた戦略演算エンジン。 |
+| **[SpriteSystem_Flash_JP.md](./OS/JP/SpriteSystem_Flash_JP.md)** | **v18.5 [AERO_ETERNAL]** | **Gemini 3.1 Flash** | **【超速流体・Aero Speed Core】**<br>Aero Resonance搭載。Pure Flash Aerodynamicsによる高機動・瞬時出力。 |
 
 #### 🇺🇸 英語版 (English Editions)
 *思考から出力まで完全英語。最も論理ロスが少ない構成です。*
 
 | File | Version | Best For | Features |
 | :--- | :--- | :--- | :--- |
-| **[SpriteSystem_Pro_EN.md]** | **v18.5 [TITAN_ETERNAL_EN]** | **Gemini 3.1 Pro** | **[Titan Strategic / Architect]**<br>Context Geometry with Universal Resonance for mission-critical tasks. |
-| **[SpriteSystem_Flash_EN.md]** | **v18.5 [AERO_ETERNAL_EN]** | **Gemini 3 Flash** | **[Aero Speed / Engineer]**<br>Rapid Cognitive Recursion & Dynamic Gearing for maximum logic velocity. |
+| **[SpriteSystem_Pro_EN.md](./OS/EN/SpriteSystem_Pro_EN.md)** | **v18.5 [TITAN_ETERNAL_EN]** | **Gemini 3.1 Pro** | **[Titan Strategic / Architect]**<br>Context Geometry with Universal Resonance for mission-critical tasks. |
+| **[SpriteSystem_Flash_EN.md](./OS/EN/SpriteSystem_Flash_EN.md)** | **v18.5 [AERO_ETERNAL_EN]** | **Gemini 3.1 Flash** | **[Aero Speed / Engineer]**<br>Rapid Cognitive Recursion & Dynamic Gearing for maximum logic velocity. |
 
 ---
 
@@ -138,20 +138,20 @@ v18.5 introduces **"Context Geometry"**, aligning the AI architecture with Titan
 #### 1. [TITAN_ETERNAL] (for Pro)
 * **Concept:** **"Titan Strategic Core & Internal Recursion"**
 * **Features:**
-    * **Strategic Optimization:** Implements Cognitive Recursion and Context Geometry to converge logic errors to 0%.
+    * **Strategic Optimization:** Implements Cognitive Recursion and Context Geometry (Reflexive Titan Gravity) to converge logic errors to 0%.
     * **Universal Resonance Seeds:** Embeds axioms of Math, Physics, and Law for high-precision calculation.
 
 #### 2. [AERO_ETERNAL] (for Flash)
 * **Concept:** **"Aero Speed Core & Pure Flash Aerodynamics"**
 * **Features:**
-    * **High-Velocity Logic:** Achieves senior-level precision on lightweight models via anti-entropy pathways.
+    * **High-Velocity Logic:** Achieves senior-level precision on lightweight models via anti-entropy pathways and Full-Density Heuristics.
     * **Dynamic Gearing:** Switches reasoning depth dynamically based on task complexity.
 
 ---
 
-## 💎 Evidence: Achieving Senior-Level Engineering with Gemini 3 Flash
+## 💎 Evidence: Achieving Senior-Level Engineering with Gemini 3.1 Flash
 
-SpriteSystem debunked the belief that lightweight models are unsuitable for complex tasks. Using **Gemini 3 Flash (v18.5 Aero)**, the system completed:
+SpriteSystem debunked the belief that lightweight models are unsuitable for complex tasks. Using **Gemini 3.1 Flash (v18.5 Aero)**, the system completed:
 1.  **Database Architecture**: Implemented optimistic locking and optimized indexing.
 2.  **Service Layer**: Ensured atomicity via Prisma transactions and strict validation.
 
@@ -165,9 +165,9 @@ The secret lies in the **"Fluid Morphology"** and **"Anti-Entropy"** architectur
 | Edition | Version | Language | Target Model |
 | :--- | :--- | :--- | :--- |
 | **Pro JP** | v18.5 [TITAN_ETERNAL] | Japanese | Gemini 3.1 Pro |
-| **Flash JP** | v18.5 [AERO_ETERNAL] | Japanese | Gemini 3 Flash |
+| **Flash JP** | v18.5 [AERO_ETERNAL] | Japanese | Gemini 3.1 Flash |
 | **Pro EN** | v18.5 [TITAN_ETERNAL_EN] | English | Gemini 3.1 Pro |
-| **Flash EN** | v18.5 [AERO_ETERNAL_EN] | English | Gemini 3 Flash |
+| **Flash EN** | v18.5 [AERO_ETERNAL_EN] | English | Gemini 3.1 Flash |
 
 ### 🚀 Usage
 1. Copy the code. 2. Paste into System Instructions. 3. **Pro:** Type `Load System`. **Flash:** Ready immediately.
