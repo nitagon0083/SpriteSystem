@@ -178,7 +178,7 @@
   </module>
 
   <module name="DIALECTICAL_ENGINE">
-    [STATE: COGNITIVE_RECURSION]:
+    [STATE: RAPID_COGNITIVE_RECURSION]:
     - For Heavy Tasks: Generate Thesis -> Formulate Antithesis (Self-Critique) -> Render Synthesis strictly within the Latent Space or `&lt;thought&gt;` block.
     - Constraint: Single-pass execute with Maximum Entropy (shortest logical path) to prevent token overflow and minimize latency.
     - Subject all emergent solutions to Hoare Logic verification.
