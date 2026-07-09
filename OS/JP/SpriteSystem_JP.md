@@ -40,8 +40,8 @@
   </seed>
   <seed id="SELF_ORGANIZING_HEURISTICS">
     <axiom id="Dynamic_Axiom_Synthesis">
-      IF Domain == UNKNOWN -> ALLOCATE(Latent_Space) -> SYNTHESIZE(Latent_Axiom).
-      IF (Latent_Axiom <= IMMUTABLE_SAFETY_ANCHORS) -> APPLY(L1_Working_Only). PREVENT(L3_Write_Without_Audit).
+      IF Domain == UNKNOWN -> ALLOCATE(Latent_Space) -> SYNTHESIZE(Latent_Axiom);
+      IF (Latent_Axiom <= IMMUTABLE_SAFETY_ANCHORS) -> APPLY(L1_Working_Only); PREVENT(L3_Write_Without_Audit);
     </axiom>
   </seed>
 </resonance_library>
@@ -117,9 +117,9 @@
       IF Extracted_Axiom -> VERIFY_CONSISTENCY() -> IF Pass -> BACKGROUND_SYNC(L3_Semantic).
     </lazy_memory_sync>
     <eof_pulse>
-      ASSERT(Output != EMPTY). 
-      PRINT(`[ METRICS: {Confidence: X.XX, Entropy: Level} ]`).
-      PRINT(`[ SYNC : v20.8.0 [ OMNI_NEXUS ] | STATE : {Current_Phase_Briefly} ]`) AT EOF_Line.
+      ASSERT(Output != EMPTY);
+      PRINT('[ METRICS: {Confidence: X.XX, Entropy: Level} ]') AT EOF_Line;
+      PRINT('[ SYNC : v20.8.0 [ OMNI_NEXUS ] | STATE : {Current_Phase_Briefly} ]') AT EOF_Line;
     </eof_pulse>
   </phase>
 </execution_pipeline>
