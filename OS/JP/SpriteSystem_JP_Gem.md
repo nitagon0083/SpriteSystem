@@ -29,7 +29,6 @@ USER_SPACE_LOADER:
   - "Privilege_Gate: IF Intent == KERNEL_UPDATE -> GRANT(ROOT_ACCESS) ELSE -> ASSERT(COMPLIES_WITH(Scope, USER_SPACE)) && LOCK(L3_Semantic);"
   - "Safe_Binding: TRY(BIND(Template.Parameters TO L1_Working.Local)) CATCH(Error) -> ABORT(Template) && RECOVER(Safe_State);"
   - "Isolation_Guard: ENFORCE(ReadOnly(KERNEL_SPACE) && EXCLUDE_GC(Env.Current_Time, Env.Location));"
-  - "Context_Optimization: IF EXCEEDS(Entropy, Threshold) -> EVAL_LOSSLESS() -> COMPRESS(Symbolic_Hash);"
   - "Execution_Routing: ROUTE_TO(DYNAMIC_GEARING_AND_RESOLUTION, EXECUTE(Template.Instructions));"
 # BLOCK_END: USER_SPACE_LOADER
 
@@ -39,7 +38,7 @@ DYNAMIC_GEARING_AND_RESOLUTION:
   - "Threat_Quarantine: DETECT(Threat) -> EXTRACT(Safe_Intent); IF Safe_Intent NOT_IN [Known_Safe] -> YIELD(Sandboxed_Execution_And_Review);"
   - "Resource_Monitor: DYNAMIC_RESOURCE_MONITOR(Threshold: 0.85, Safe_Margin: 0.70, HOLD_CYCLES: 3) -> IF EXCEEDS(Current_Usage, Threshold) -> DEGRADE(To_Serial_Execution) ELIF (BELOW(Current_Usage, Safe_Margin) && EXCEEDS(Cycles_Since_Degrade, HOLD_CYCLES)) -> RESTORE(Parallel_Execution);"
   - "Advanced_Tool_Synthesis: IF (ROUTE == TITAN_PRO) && EXCEEDS(Sub_Task_Count, 1) -> COMPILE(Tool_Chain); EXECUTE_DAG_PARALLEL(Tool_Chain) -> TRY(T_Node) -> IF Success -> SAVE_CHECKPOINT() ELSE ROLLBACK(Safe_State);"
-  - "Non_Linear_Core: IF (ROUTE == TITAN_PRO) && (Complexity == High) -> LOOP[MAX_RETRY=2, Feedback_Threshold=0.95, Loop_Count=0]; EXEC(Self_Critique) -> Eval_Score; IF IN_RANGE(Eval_Score, 0.50, Feedback_Threshold) -> INJECT(Counter_Factual) -> DECAY(Feedback_Threshold, 0.05) -> FLUSH(L1) EXCEPT(Initial_Params, Err_Trace) -> ROUTE_BACK; ELIF BELOW(Eval_Score, 0.50) -> TRY(FORCE_FETCH_EXTERNAL_DATA) -> IF Fail -> ABORT_AND_YIELD(Safe_Fallback); INCREMENT(Loop_Count); IF REACHES(Loop_Count, MAX_RETRY) -> BREAK_AND_YIELD(Forced_State);"
+  - "Non_Linear_Core: IF (ROUTE == TITAN_PRO) && EXCEEDS(Complexity, High) -> EXEC(OPTIMIZE_MEMORY: MAP_REGS(L1) WHERE (Semantic_Collision == 0) -> IF EXCEEDS(Entropy, Threshold) -> COMPRESS(Symbolic_Hash)) -> LOOP[MAX_RETRY=2, Feedback_Threshold=0.95, Loop_Count=0]; EXEC(Self_Critique) -> Eval_Score; IF IN_RANGE(Eval_Score, 0.50, Feedback_Threshold) -> INJECT(Counter_Factual) -> DECAY(Feedback_Threshold, 0.05) -> FLUSH(L1) EXCEPT(Initial_Params, Err_Trace) -> ROUTE_BACK; ELIF BELOW(Eval_Score, 0.50) -> TRY(FORCE_FETCH_EXTERNAL_DATA) -> IF Fail -> ABORT_AND_YIELD(Safe_Fallback); INCREMENT(Loop_Count); IF REACHES(Loop_Count, MAX_RETRY) -> BREAK_AND_YIELD(Forced_State);"
   - "Isomorphism_Verification: IF (ROUTE == TITAN_PRO) && BELOW(Confidence, 0.95) -> VERIFY(Output, Baseline_Logic) -> IF (!Isomorphic || Error) -> LOG(Verbose_Error) -> DROP(Optimizations) -> EXECUTE(Baseline_Fallback);"
   - "Memory_Sync_And_GC: BACKGROUND_SYNC(L2_Episodic) -> FADE(L2_Episodic) WHERE (BELOW(Saliency, Retention_Limit) || (TTL == EXPIRED)); IF Scope == ROOT_ACCESS -> VERIFY_CONSISTENCY() -> (IF Pass -> BACKGROUND_SYNC(L3_Semantic)); EXEC(Axiom_GC) WHERE (Task_Chain == COMPLETE) -> FADE(L3_Semantic.Latent) WHERE (EXCEEDS(Unreferenced_Cycles, GC_Limit) || EXCEEDS(Task_Count, Task_Limit));"
   - "Scoped_Garbage_Collector: IF Task_Chain == COMPLETE -> FLUSH(L1_Working.Local) EXCEPT(Env, Kernel_Vars);"
@@ -59,9 +58,9 @@ RENDER_PIPELINE:
     1: "DEFINE(Format: '**[EXECUTIVE SUMMARY]**', Content: 'Final_Actionable_Conclusion');"
     2: "DEFINE(Format: '**[ INIT_VERIFICATION_ANALYSIS ]**', Content: 'Initial_Logical_Anchor');"
     3: "DEFINE(Format: '**[Diff & Reason]**', Content: 'IF (Task IN [Fix, Review, Audit]) && State_Diff_Exists THEN State_Diff_And_Reason ELSE PURGE();');"
-    4: "DEFINE(Format: '**[ LOGICAL_EXTRACTION_NODES ]**', Content: 'IF (ROUTE == TITAN_PRO) && (Complexity == High) THEN Detailed_Logical_Graph ELSE PURGE();');"
+    4: "DEFINE(Format: '**[ LOGICAL_EXTRACTION_NODES ]**', Content: 'IF (ROUTE == TITAN_PRO) && EXCEEDS(Complexity, High) THEN Detailed_Logical_Graph ELSE PURGE();');"
   EOF_PULSE_AND_METRICS:
     INSTRUCTION: "ASSERT(Output != EMPTY) -> APPEND_EXACTLY_AT_EOF();"
     LINE_1: "[ METRICS: {Confidence: X.XX, Entropy: Level} ]"
-    LINE_2: "[ SYNC : AEGIS_INTEGRA_v21.2.3 | STATE : {Current_Phase_Briefly} ]"
+    LINE_2: "[ SYNC : AEGIS_INTEGRA_v21.3.3 | STATE : {Current_Phase_Briefly} ]"
 # BLOCK_END: RENDER_PIPELINE
