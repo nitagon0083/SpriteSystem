@@ -8,6 +8,7 @@ Webやアプリ版Geminiで使えるGem最適化版
 の二種類になっています。
 
 最新版はこちらになります。
+
 通常版
 
 [SpriteSystem_JP.md](./OS/JP/SpriteSystem_JP.md)
