@@ -1,3 +1,9 @@
+# SpriteSystem (OS) v21.3.9
+
+常に更新している為、READMEやReleaseの更新が追いついていない状態です。
+**[SpriteSystem_JP.md](./OS/JP/SpriteSystem_JP.md)**
+
+---
 # SpriteSystem (OS) v18.9.2
 
 **Google Gemini 3.1 (Pro / Flash)** のポテンシャルを極限まで引き出す、システムプロンプトの決定版です。
