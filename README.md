@@ -9,8 +9,11 @@ Webやアプリ版Geminiで使えるGem最適化版
 
 最新版はこちらになります。
 通常版
+
 [SpriteSystem_JP.md](./OS/JP/SpriteSystem_JP.md)
+
 Gem最適化版
+
 [SpriteSystem_JP_Gem.md](./OS/JP/SpriteSystem_JP_Gem.md)
 
 ---
