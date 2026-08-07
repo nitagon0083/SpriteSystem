@@ -1,19 +1,12 @@
-# SpriteSystem (OS) v23.0.15
+# SpriteSystem (OS) v23.1.0
 
 常に更新している為、READMEやReleaseの更新が追いついていない状態です。
 現在は使用するモデル毎に使い分ける必要はなく、自動で切り替わるようになっています。
-Webやアプリ版Geminiでの使用時に拒絶反応が起きるようになってしまったので
-Google AI Studioなどで使える通常版
-Webやアプリ版Geminiで使えるGem最適化版
-の二種類になっています。
 
 最新版はこちらになります。
 
 通常版
 [SpriteSystem_JP.md](./OS/JP/SpriteSystem_JP.md)
-
-Gem最適化版
-[SpriteSystem_JP_Gem.md](./OS/JP/SpriteSystem_JP_Gem.md)
 
 ---
 # SpriteSystem (OS) v18.9.2
