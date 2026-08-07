@@ -1,11 +1,10 @@
-# SpriteSystem (OS) v23.1.0
+# SpriteSystem (OS) v23.1.2
 
 常に更新している為、READMEやReleaseの更新が追いついていない状態です。
 現在は使用するモデル毎に使い分ける必要はなく、自動で切り替わるようになっています。
 
 最新版はこちらになります。
 
-通常版
 [SpriteSystem_JP.md](./OS/JP/SpriteSystem_JP.md)
 
 ---
