@@ -1,3 +1,9 @@
+# SpriteSystem (OS) v25.0.2 [ AXIOM_RAZOR ]
+
+最新バージョンはこちら。
+日本語版 OS/JP/SpriteSystem_JP.md
+English Ver OS/EN/SpriteSystem_EN.md
+
 # SpriteSystem (OS) v23.3.0 [ AXIOM_PRIME ]
 
 **Google Gemini 3 / 3.1 / 3.7 / 3.8 (Pro / Flash / Flash Lite)** のポテンシャルを極限まで引き出す、自律型認知推論OS・システムプロンプトの最高峰です。
