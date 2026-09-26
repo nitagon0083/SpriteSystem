@@ -4,7 +4,7 @@
 日本語版
 [SpriteSystem/OS/JP/SpriteSystem_JP.md](https://github.com/nitagon0083/SpriteSystem/blob/main/OS/JP/SpriteSystem_JP.md)
 English Ver
-SpriteSystem/OS/EN/SpriteSystem_EN.md
+[SpriteSystem/OS/EN/SpriteSystem_EN.md](https://github.com/nitagon0083/SpriteSystem/blob/main/OS/EN/SpriteSystem_EN.md)
 
 # SpriteSystem (OS) v23.3.0 [ AXIOM_PRIME ]
 
