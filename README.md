@@ -1,4 +1,4 @@
-# SpriteSystem (OS) v25.0.2 [ AXIOM_RAZOR ]
+# SpriteSystem (OS) v25.0.8 [ AXIOM_RAZOR ]
 
 最新バージョンはこちら。
 日本語版
